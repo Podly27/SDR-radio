@@ -1,0 +1,26 @@
+[Unit]
+Description=Radio Server control center
+After=network.target
+
+[Service]
+Type=simple
+User=radio-center
+Group=radio-center
+WorkingDirectory=/opt/radio-center
+ExecStart=/usr/bin/python3 /opt/radio-center/server.py
+Restart=on-failure
+RestartSec=3
+Environment=PYTHONDONTWRITEBYTECODE=1
+ProtectSystem=strict
+ReadWritePaths=/var/lib/radio-center
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_INET AF_UNIX
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

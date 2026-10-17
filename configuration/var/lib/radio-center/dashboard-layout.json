@@ -1,0 +1,20 @@
+{
+  "order": [
+    "openwebrx",
+    "ft",
+    "weak",
+    "meteo",
+    "iss",
+    "msk",
+    "ism",
+    "adsb",
+    "sonde",
+    "aprs",
+    "vdl2",
+    "lora"
+  ],
+  "hidden": [
+    "vdl2",
+    "lora"
+  ]
+}

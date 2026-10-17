@@ -1,0 +1,13 @@
+{
+  "source": "https://hearham.com/api/repeaters/v1",
+  "imported_at": "20261015-095206",
+  "repeaters": {
+    "OK": 38,
+    "OM": 11,
+    "OE": 129,
+    "SP": 127,
+    "DL": 526
+  },
+  "channels": 163,
+  "bookmarks": 9
+}

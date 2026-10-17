@@ -1,0 +1,6 @@
+{
+  "minimum_elevation": 10.0,
+  "profile": "packet-vhf",
+  "frequency": 145825000,
+  "doppler": true
+}

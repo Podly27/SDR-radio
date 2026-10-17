@@ -1,0 +1,184 @@
+{
+  "version": 8,
+  "receiver_name": "OK2IKT",
+  "receiver_location": "Lichnov",
+  "receiver_asl": 350,
+  "receiver_admin": "",
+  "bandplan_region": 0,
+  "receiver_country": "",
+  "receiver_gps": {
+    "lat": 49.5625,
+    "lon": 18.125
+  },
+  "gps_updates": false,
+  "photo_title": "Panorama of Budapest from Schönherz Zoltán Dormitory",
+  "photo_desc": "",
+  "max_clients": 20,
+  "max_clients_per_ip": 20,
+  "keep_files": 20,
+  "session_timeout": 0,
+  "usage_policy_url": "policy",
+  "bot_ban_enabled": true,
+  "allow_remote_config": true,
+  "allow_chat": true,
+  "allow_audio_recording": true,
+  "allow_center_freq_changes": false,
+  "magic_key": "",
+  "receiver_keys": [],
+  "waterfall_scheme": "GoogleTurboWaterfall",
+  "fft_fps": 9,
+  "fft_size": 4096,
+  "fft_voverlap_factor": 0.3,
+  "waterfall_levels": {
+    "min": -88.0,
+    "max": -20.0
+  },
+  "waterfall_auto_levels": {
+    "min": 3.0,
+    "max": 10.0
+  },
+  "waterfall_auto_level_default_mode": false,
+  "waterfall_auto_min_range": 50,
+  "audio_compression": "adpcm",
+  "fft_compression": "adpcm",
+  "ui_theme": "default",
+  "tuning_precision": 2,
+  "eibi_bookmarks_range": 0,
+  "repeater_range": 0,
+  "map_type": "google",
+  "google_maps_api_key": "",
+  "openweathermap_api_key": "",
+  "map_position_retention_time": 7200,
+  "map_call_retention_time": 300,
+  "map_max_calls": 5,
+  "map_ignore_indirect_reports": false,
+  "map_prefer_recent_reports": true,
+  "callsign_url": "https://www.qrzcq.com/call/{}",
+  "vessel_url": "https://www.vesselfinder.com/vessels/details/{}",
+  "flight_url": "https://flightaware.com/live/flight/{}",
+  "modes_url": "https://flightaware.com/live/modes/{}/redirect",
+  "sonde_url": "https://sondehub.org/{}",
+  "geoip_url": "https://www.geolocation.com/?ip={}#ipresult",
+  "sdrs": {
+    "rtlsdr": {
+      "name": "RTL-SDR",
+      "type": "rtl_sdr",
+      "rf_gain": 40.2,
+      "direct_sampling": 0,
+      "profiles": {
+        "2m": {
+          "name": "2 m | 144–146 MHz",
+          "center_freq": 145000000,
+          "samp_rate": 2048000,
+          "start_freq": 145500000,
+          "start_mod": "nfm",
+          "tuning_step": "12500",
+          "rf_gain": 40.2,
+          "direct_sampling": 0
+        },
+        "70cm_430_432": {
+          "name": "70 cm | 430–432 MHz",
+          "center_freq": 431000000,
+          "samp_rate": 2048000,
+          "start_freq": 431000000,
+          "start_mod": "nfm",
+          "tuning_step": "12500",
+          "rf_gain": 40.2,
+          "direct_sampling": 0
+        },
+        "70cm_432_434": {
+          "name": "70 cm | 432–434 MHz",
+          "center_freq": 433000000,
+          "samp_rate": 2048000,
+          "start_freq": 433000000,
+          "start_mod": "nfm",
+          "tuning_step": "12500",
+          "rf_gain": 40.2,
+          "direct_sampling": 0
+        },
+        "70cm_434_436": {
+          "name": "70 cm | 434–436 MHz",
+          "center_freq": 435000000,
+          "samp_rate": 2048000,
+          "start_freq": 435000000,
+          "start_mod": "nfm",
+          "tuning_step": "12500",
+          "rf_gain": 40.2,
+          "direct_sampling": 0
+        },
+        "70cm_436_438": {
+          "name": "70 cm | 436–438 MHz",
+          "center_freq": 437000000,
+          "samp_rate": 2048000,
+          "start_freq": 437000000,
+          "start_mod": "nfm",
+          "tuning_step": "12500",
+          "rf_gain": 40.2,
+          "direct_sampling": 0
+        },
+        "70cm_438_440": {
+          "name": "70 cm | 438–440 MHz",
+          "center_freq": 439000000,
+          "samp_rate": 2048000,
+          "start_freq": 439275000,
+          "start_mod": "nfm",
+          "tuning_step": "12500",
+          "rf_gain": 40.2,
+          "direct_sampling": 0
+        },
+        "80m": {
+          "name": "80 m | 3,5–3,8 MHz",
+          "center_freq": 3650000,
+          "samp_rate": 1024000,
+          "start_freq": 3700000,
+          "start_mod": "lsb",
+          "tuning_step": "100",
+          "rf_gain": 40.2,
+          "direct_sampling": 2
+        },
+        "40m": {
+          "name": "40 m | 7,0–7,2 MHz",
+          "center_freq": 7100000,
+          "samp_rate": 1024000,
+          "start_freq": 7100000,
+          "start_mod": "lsb",
+          "tuning_step": "100",
+          "rf_gain": 40.2,
+          "direct_sampling": 2
+        },
+        "20m": {
+          "name": "20 m | 14,0–14,35 MHz",
+          "center_freq": 14175000,
+          "samp_rate": 1024000,
+          "start_freq": 14200000,
+          "start_mod": "usb",
+          "tuning_step": "100",
+          "rf_gain": 40.2,
+          "direct_sampling": 2
+        },
+        "15m": {
+          "name": "15 m | 21,0–21,45 MHz",
+          "center_freq": 21225000,
+          "samp_rate": 1024000,
+          "start_freq": 21200000,
+          "start_mod": "usb",
+          "tuning_step": "100",
+          "rf_gain": 40.2,
+          "direct_sampling": 2
+        },
+        "10m": {
+          "name": "10 m | 28,0–29,7 MHz",
+          "center_freq": 28850000,
+          "samp_rate": 2048000,
+          "start_freq": 28500000,
+          "start_mod": "usb",
+          "tuning_step": "100",
+          "rf_gain": 40.2,
+          "direct_sampling": 0
+        }
+      },
+      "ppm": -7,
+      "device": "00000001"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+[Unit]
+Description=ISM 433.92 MHz decoder and history
+Conflicts=openwebrx.service radio-iss.service radio-meteo-rx.service
+After=openwebrx.service radio-iss.service radio-meteo-rx.service
+
+[Service]
+Type=simple
+User=radio-center
+Group=radio-center
+SupplementaryGroups=plugdev
+WorkingDirectory=/opt/radio-center
+ExecStart=/usr/bin/python3 /opt/radio-center/ism_worker.py
+StateDirectory=radio-center
+Environment=PYTHONDONTWRITEBYTECODE=1
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+NoNewPrivileges=true
+Restart=no
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target

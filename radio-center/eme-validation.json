@@ -1,0 +1,104 @@
+{
+  "system_verified_utc": "2026-10-16",
+  "platform": "Raspberry Pi 3 Model B Plus Rev 1.3",
+  "os": "Debian 13.7 arm64",
+  "cpu": "4 x Cortex-A53, up to 1.4 GHz",
+  "memory_mib": 905,
+  "usb": {
+    "id": "0bda:2838",
+    "serial": "00000001",
+    "tuner": "R820T",
+    "bus_mbps": 480
+  },
+  "receiver_test": "Finite 240 kS/s IQ capture at 432.050 MHz succeeded; no EME reception claimed",
+  "tests": "10 offline regression checks and temporary HTTP/API tests passed",
+  "synthetic_q65_modes": [
+    "60A",
+    "60B",
+    "60C"
+  ],
+  "synthetic_jt65_modes": [
+    "B",
+    "C"
+  ],
+  "deployment": "pending administrator authentication; not installed or boot-tested yet",
+  "mixed_initial": {
+    "seconds": 98.12010554100561,
+    "peak_rss_kib": 386708,
+    "returncode": 0,
+    "stdout": " EME_PASS_START BA\n! 45           1200  \n<QuickDecodeDone>   1   1   1   302  8.97\n@005   -1   0 1200   -21  CQ K1ABC FN42          :  0\n&005 K1ABC  0\n&            \n&            \n<DecodeFinished>   1   1   1   302  8.41    1\n EME_PASS_DONE BA   40.9046249    \n EME_PASS_START CB\n! 45           1200  \n<QuickDecodeDone>   1   2   1   302  8.71\n@005   -1   0 1200   -21  CQ K1ABC FN42          :  0\n@025    0   0 1200   -21  CQ W9XYZ EN37          :  0\n&005 K1ABC  0\n&025 W9XYZ  0\n&            \n&            \n<DecodeFinished>   1   2   1   302  6.01    1\n EME_PASS_DONE CB   27.3117142    \n EME_PASS_START 0C\n!045   -1   0  1200  2.5  -21 : CQ N0CALL                  q0    0\n! 45           1200  \n<QuickDecodeDone>   0   2   1   302  0.69\n@005   -1   0 1200   -21  CQ K1ABC FN42          :  0\n@025    0   0 1200   -21  CQ W9XYZ EN37          :  0\n@045   -1   0 1200   -21  CQ N0CALL              :  0\n&005 K1ABC  0\n&025 W9XYZ  0\n&045 N0CALL 0\n&            \n&            \n<DecodeFinished>   0   2   1   302  5.04    1\n EME_PASS_DONE 0C   18.9617920    \n",
+    "stderr": ""
+  },
+  "q65_and_jt65_sequential": {
+    "seconds": 80.59,
+    "peak_rss_kib": 327016,
+    "q65": [
+      {
+        "frequency": 432025000,
+        "snr": -21,
+        "dt": 2.5,
+        "mode": "Q65",
+        "submode": "60B",
+        "message": "CQ W9XYZ EN37",
+        "raw": " 432.025    0  2.5   0 -21 1200  CQ W9XYZ EN37               : B  q0 "
+      }
+    ],
+    "jt65": [
+      {
+        "snr": -24,
+        "dt": 2.5,
+        "offset": 1504,
+        "message": "CQ W1AAA FN31",
+        "raw": "1200 -24  2.5 1504 #  CQ W1AAA FN31             "
+      }
+    ],
+    "candidates": [
+      432086267.578125,
+      432066266.6091919
+    ]
+  },
+  "jt65_phase": {
+    "seconds": 37.42,
+    "peak_rss_kib": 255376,
+    "q65": [],
+    "jt65": [
+      {
+        "snr": -24,
+        "dt": 2.5,
+        "offset": 1504,
+        "message": "CQ W1AAA FN31",
+        "raw": "1200 -24  2.5 1504 #  CQ W1AAA FN31             "
+      }
+    ],
+    "candidates": [
+      432086267.578125,
+      432066266.6091919
+    ]
+  },
+  "jt65_c": {
+    "seconds": 18.77,
+    "messages": [
+      {
+        "snr": -25,
+        "dt": 2.5,
+        "offset": 1503,
+        "message": "CQ K2BBB FN32",
+        "raw": "1200 -25  2.5 1503 #  CQ K2BBB FN32             "
+      }
+    ]
+  },
+  "final_q65_phase": {
+    "seconds": 46.59,
+    "messages": [
+      {
+        "frequency": 432025000,
+        "snr": -21,
+        "dt": 2.5,
+        "mode": "Q65",
+        "submode": "60B",
+        "message": "CQ W9XYZ EN37",
+        "raw": " 432.025    0  2.5   0 -21 1200  CQ W9XYZ EN37               : B  q0 "
+      }
+    ]
+  }
+}

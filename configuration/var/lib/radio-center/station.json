@@ -1,0 +1,13 @@
+{
+  "latitude": 49.5625,
+  "longitude": 18.125,
+  "place": "Lichnov",
+  "callsign": "OK2IKT",
+  "height": 380.0,
+  "device": "00000001",
+  "gain": 40.2,
+  "ppm": -7,
+  "timezone": "Europe/Prague",
+  "moon_minimum_elevation": 10.0,
+  "satellite_minimum_elevation": 10.0
+}

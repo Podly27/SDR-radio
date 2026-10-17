@@ -1,0 +1,23 @@
+[Unit]
+Description=APRS 144.800 MHz receiver and history
+Conflicts=openwebrx.service radio-ism.service radio-iss.service radio-meteo-rx.service
+After=openwebrx.service radio-ism.service radio-iss.service radio-meteo-rx.service
+
+[Service]
+Type=simple
+User=radio-center
+Group=radio-center
+SupplementaryGroups=plugdev
+WorkingDirectory=/opt/radio-center
+ExecStart=/usr/bin/python3 /opt/radio-center/aprs_worker.py
+StateDirectory=radio-center
+Environment=PYTHONDONTWRITEBYTECODE=1
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+NoNewPrivileges=true
+Restart=no
+TimeoutStopSec=10
+
+[Install]
+WantedBy=multi-user.target

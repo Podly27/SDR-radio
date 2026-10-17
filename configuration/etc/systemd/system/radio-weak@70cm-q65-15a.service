@@ -1,0 +1,26 @@
+[Unit]
+Description=Q65/JT65 receiver (70cm-q65-15a)
+Conflicts=openwebrx.service radio-aprs.service radio-ft@10m-ft4.service radio-ft@10m-ft8.service radio-ft@12m-ft4.service radio-ft@12m-ft8.service radio-ft@15m-ft4.service radio-ft@15m-ft8.service radio-ft@160m-ft4.service radio-ft@160m-ft8.service radio-ft@17m-ft4.service radio-ft@17m-ft8.service radio-ft@20m-ft4.service radio-ft@20m-ft8.service radio-ft@2m-ft4.service radio-ft@2m-ft8.service radio-ft@30m-ft4.service radio-ft@30m-ft8.service radio-ft@40m-ft4.service radio-ft@40m-ft8.service radio-ft@60m-ft4.service radio-ft@60m-ft8.service radio-ft@70cm-ft4.service radio-ft@70cm-ft8.service radio-ft@80m-ft4.service radio-ft@80m-ft8.service radio-ism.service radio-lora.service radio-msk@2m-msk144.service radio-msk@70cm-msk144.service radio-sonde.service radio-vdl2.service radio-weak@10m-jt65a.service radio-weak@12m-jt65a.service radio-weak@15m-jt65a.service radio-weak@160m-jt65a.service radio-weak@17m-jt65a.service radio-weak@20m-jt65a.service radio-weak@2m-jt65a.service radio-weak@2m-jt65b.service radio-weak@2m-q65-120a.service radio-weak@2m-q65-120b.service radio-weak@2m-q65-15a.service radio-weak@2m-q65-15b.service radio-weak@2m-q65-300a.service radio-weak@2m-q65-300b.service radio-weak@2m-q65-30a.service radio-weak@2m-q65-30b.service radio-weak@2m-q65-60a.service radio-weak@2m-q65-60b.service radio-weak@30m-jt65a.service radio-weak@40m-jt65a.service radio-weak@70cm-jt65b.service radio-weak@70cm-jt65c.service radio-weak@70cm-q65-120a.service radio-weak@70cm-q65-120b.service radio-weak@70cm-q65-15b.service radio-weak@70cm-q65-300a.service radio-weak@70cm-q65-300b.service radio-weak@70cm-q65-30a.service radio-weak@70cm-q65-30b.service radio-weak@70cm-q65-60a.service radio-weak@70cm-q65-60b.service radio-weak@80m-jt65a.service radio-iss.service radio-meteo-rx.service
+After=openwebrx.service radio-aprs.service radio-ft@10m-ft4.service radio-ft@10m-ft8.service radio-ft@12m-ft4.service radio-ft@12m-ft8.service radio-ft@15m-ft4.service radio-ft@15m-ft8.service radio-ft@160m-ft4.service radio-ft@160m-ft8.service radio-ft@17m-ft4.service radio-ft@17m-ft8.service radio-ft@20m-ft4.service radio-ft@20m-ft8.service radio-ft@2m-ft4.service radio-ft@2m-ft8.service radio-ft@30m-ft4.service radio-ft@30m-ft8.service radio-ft@40m-ft4.service radio-ft@40m-ft8.service radio-ft@60m-ft4.service radio-ft@60m-ft8.service radio-ft@70cm-ft4.service radio-ft@70cm-ft8.service radio-ft@80m-ft4.service radio-ft@80m-ft8.service radio-ism.service radio-lora.service radio-msk@2m-msk144.service radio-msk@70cm-msk144.service radio-sonde.service radio-vdl2.service radio-weak@10m-jt65a.service radio-weak@12m-jt65a.service radio-weak@15m-jt65a.service radio-weak@160m-jt65a.service radio-weak@17m-jt65a.service radio-weak@20m-jt65a.service radio-weak@2m-jt65a.service radio-weak@2m-jt65b.service radio-weak@2m-q65-120a.service radio-weak@2m-q65-120b.service radio-weak@2m-q65-15a.service radio-weak@2m-q65-15b.service radio-weak@2m-q65-300a.service radio-weak@2m-q65-300b.service radio-weak@2m-q65-30a.service radio-weak@2m-q65-30b.service radio-weak@2m-q65-60a.service radio-weak@2m-q65-60b.service radio-weak@30m-jt65a.service radio-weak@40m-jt65a.service radio-weak@70cm-jt65b.service radio-weak@70cm-jt65c.service radio-weak@70cm-q65-120a.service radio-weak@70cm-q65-120b.service radio-iss.service radio-meteo-rx.service
+
+[Service]
+Type=simple
+User=radio-center
+Group=radio-center
+SupplementaryGroups=plugdev
+WorkingDirectory=/opt/radio-center
+ExecStart=/usr/bin/python3 /opt/radio-center/ft_worker.py 70cm-q65-15a
+StateDirectory=radio-center
+Environment=PYTHONDONTWRITEBYTECODE=1
+Environment=OMP_NUM_THREADS=1
+Environment=RADIO_DECODER_KIND=weak
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+NoNewPrivileges=true
+Restart=no
+TimeoutStopSec=60
+Nice=5
+
+[Install]
+WantedBy=multi-user.target

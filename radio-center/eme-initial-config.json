@@ -1,0 +1,27 @@
+{
+  "latitude": 49.5622,
+  "longitude": 18.1746,
+  "callsign": "OK2IKT",
+  "band": "70cm",
+  "starts": {
+    "70cm": 432000000,
+    "2m": 144100000
+  },
+  "minimum_elevation": 15.0,
+  "hysteresis": 2.0,
+  "mode": "auto",
+  "device": "00000001",
+  "gain": 40.2,
+  "ppm": -7,
+  "q65": [
+    "A",
+    "B",
+    "C"
+  ],
+  "jt65": [
+    "B",
+    "C"
+  ],
+  "strategy": "rotate",
+  "jt65_candidates": 3
+}

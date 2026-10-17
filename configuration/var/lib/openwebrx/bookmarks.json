@@ -1,0 +1,1047 @@
+[
+  {
+    "name": "OE OE7XOT (DMR, 601 km)",
+    "frequency": 145300000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE7XOT | Tarrenz, Austria, Tirol | DMR | 601 km | TX 145.300000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9DX (DMR, 103 km), OE OE3XDA (DMR, 290 km), OE OE3XDA (D-STAR, 321 km) +5",
+    "frequency": 145575000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9DX | Bytom, Poland | DMR | 103 km | TX 145.575000 MHz | CTCSS/CC CC1\nOE OE3XDA | Hochkogelberg, Oesterreich/Austria, Niederoesterreich | DMR | 290 km | TX 145.575000 MHz | CTCSS/CC CC1\nOE OE3XDA | Hochkogel | D-STAR | 321 km | TX 145.575000 MHz | CTCSS/CC \nDL DB0MMR | Halsbach, Germany, Bayern | DMR | 432 km | TX 145.575000 MHz | CTCSS/CC CC8\nDL DB0MGH | Bad Mergentheim, Germany, Baden-Wuerttemberg | DMR | 605 km | TX 145.575000 MHz | CTCSS/CC CC1\nOE OE1XDS | Stadt/AKH | D-STAR | 659 km | TX 145.575000 MHz | CTCSS/CC \nDL DB0DW | Boenen, Germany, Nordrhein-Westfalen | DMR | 768 km | TX 145.575000 MHz | CTCSS/CC CC1\nDL DM0DOS | Trier, Germany, Rheinland-Pfalz | DMR | 829 km | TX 145.575000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE3XLU (FM, 161 km), DL DM0GER (DMR, 522 km), DL DB0DVR (DMR, 614 km) +2",
+    "frequency": 145587500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XLU | Gießhübel | FM | 161 km | TX 145.587500 MHz | CTCSS/CC \nDL DM0GER | Germering, Germany, Bayern | DMR | 522 km | TX 145.587500 MHz | CTCSS/CC CC1\nDL DB0DVR | Braunschweig, Germany, Niedersachsen | DMR | 614 km | TX 145.587500 MHz | CTCSS/CC CC1\nDL DB0ROB | Rossburg, Germany | FM | 670 km | TX 145.587500 MHz | CTCSS/CC 123.0\nDL DB0AL | Langwedel, Germany, Niedersachsen | DMR | 730 km | TX 145.587500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR6R (FM, 190 km), DL DB0NHM (DMR, 623 km), DL DM0KB (DMR, 693 km)",
+    "frequency": 145600000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR6R | Wrocław, Lower Silesia | FM | 190 km | TX 145.600000 MHz | CTCSS/CC 103.5\nDL DB0NHM | Northeim, Germany, Niedersachsen | DMR | 623 km | TX 145.600000 MHz | CTCSS/CC CC1\nDL DM0KB | Konstanz, Germany, Baden-Wuerttemberg | DMR | 693 km | TX 145.600000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE2XNL (FM, 438 km), DL DB0HHO (DMR, 710 km)",
+    "frequency": 145612500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE2XNL | Speiereck | FM | 438 km | TX 145.612500 MHz | CTCSS/CC \nDL DB0HHO | Grosshansdorf, Germany, Schleswig-Holstein | DMR | 710 km | TX 145.612500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE1XFW (FM, 202 km), DL DB0SP (DMR, 472 km), DL DO0JG (DMR, 541 km)",
+    "frequency": 145625000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE1XFW | Laaerberg Turm | FM | 202 km | TX 145.625000 MHz | CTCSS/CC \nDL DB0SP | Berlin, Germany, Berlin | DMR | 472 km | TX 145.625000 MHz | CTCSS/CC CC6\nDL DO0JG | Moorenweis, Germany, Bayern | DMR | 541 km | TX 145.625000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE3XNR (FM, 265 km), SP SR5DMRC (DMR, 1515 km)",
+    "frequency": 145637500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XNR | Nebelstein | FM | 265 km | TX 145.637500 MHz | CTCSS/CC 88.5\nSP SR5DMRC | Ciechanow, Poland, mazowieckie | DMR | 1515 km | TX 145.637500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE3XPA (FM, 254 km), SP SR3P (FM, 329 km), OE OE2XHL (FM, 482 km) +1",
+    "frequency": 145650000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XPA | St. Poelten | FM | 254 km | TX 145.650000 MHz | CTCSS/CC \nSP SR3P | Poznań | FM | 329 km | TX 145.650000 MHz | CTCSS/CC 110.9\nOE OE2XHL | Kitzsteinhorn | FM | 482 km | TX 145.650000 MHz | CTCSS/CC \nDL DB0TEK | Kirchheim, Germany | FM | 598 km | TX 145.650000 MHz | CTCSS/CC "
+  },
+  {
+    "name": "SP SR6W (FM, 194 km), DL DB0FHA (DMR, 592 km), DL DB0CW (DMR, 770 km)",
+    "frequency": 145662500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR6W | Chełmiec, Wałbrzych | FM | 194 km | TX 145.662500 MHz | CTCSS/CC 94.8\nDL DB0FHA | Aalen/Onatsfeld, Germany, Baden-Wuerttemberg | DMR | 592 km | TX 145.662500 MHz | CTCSS/CC CC1\nDL DB0CW | Gummersbach, Germany, Nordrhein-Westfalen | DMR | 770 km | TX 145.662500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR6J (FM, 233 km), SP SR5O (DMR, 458 km), DL DB0FS (DMR, 717 km) +2",
+    "frequency": 145675000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR6J |  | FM | 233 km | TX 145.675000 MHz | CTCSS/CC 67.0\nSP SR5O | Ostroleka, Poland, mazowieckie | DMR | 458 km | TX 145.675000 MHz | CTCSS/CC CC5\nDL DB0FS | Hamburg, Germany | DMR | 717 km | TX 145.675000 MHz | CTCSS/CC CC1\nDL DB0YH | Höchenschwand | FM | 761 km | TX 145.675000 MHz | CTCSS/CC \nDL DB0VR | Marl, Germany, Nordrhein-Westfalen | DMR | 815 km | TX 145.675000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE2XZR (FM, 420 km), DL DB0TGM (DMR, 545 km), DL DM0DOS (DMR, 766 km) +1",
+    "frequency": 145687500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE2XZR | Gaisberg | FM | 420 km | TX 145.687500 MHz | CTCSS/CC 88.5\nDL DB0TGM | Tangermuende, Germany, Saxony-Anhalt | DMR | 545 km | TX 145.687500 MHz | CTCSS/CC CC1\nDL DM0DOS | Doerenberg, Germany, Niedersachsen | DMR | 766 km | TX 145.687500 MHz | CTCSS/CC CC1\nDL DB0UKD | Duesseldorf, Germany, Nordrhein-Westfalen | DMR | 827 km | TX 145.687500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE3XSA (FM, 279 km), DL DB0XK (FM, 729 km)",
+    "frequency": 145700000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XSA | Sandl | FM | 279 km | TX 145.700000 MHz | CTCSS/CC \nDL DB0XK | Maikammer | FM | 729 km | TX 145.700000 MHz | CTCSS/CC "
+  },
+  {
+    "name": "SP SR7LL (DMR, 266 km), DL DB0EFW (DMR, 531 km), DL DB0YY-1 (FM, 654 km) +3",
+    "frequency": 145712500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR7LL | Lodz, Poland, łódzkie | DMR | 266 km | TX 145.712500 MHz | CTCSS/CC CC1\nDL DB0EFW | Erfurt, Germany, Thuringia | DMR | 531 km | TX 145.712500 MHz | CTCSS/CC CC1\nDL DB0YY-1 | Ludwigsburg, Germany | FM | 654 km | TX 145.712500 MHz | CTCSS/CC 88.5\nDL DB0YY | Ludwigsburg | FM | 656 km | TX 145.712500 MHz | CTCSS/CC 88.5\nDL DM0DOS | Doerenberg, Germany, Nordrhein-Westfalen | DMR | 763 km | TX 145.712500 MHz | CTCSS/CC CC2\nDL DB0XR | Hornberg | FM | 779 km | TX 145.712500 MHz | CTCSS/CC "
+  },
+  {
+    "name": "OE OE3XHW (FM, 247 km), DL DB0DDO (DMR, 786 km)",
+    "frequency": 145725000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XHW | Hohe Wand | FM | 247 km | TX 145.725000 MHz | CTCSS/CC \nDL DB0DDO | Dortmund, Germany, Nordrhein-Westfalen | DMR | 786 km | TX 145.725000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0YK (FM, 787 km), SP SR5OMZ (DMR, 1515 km)",
+    "frequency": 145737500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0YK | Homburg | FM | 787 km | TX 145.737500 MHz | CTCSS/CC \nSP SR5OMZ | Ciechanow, Poland, mazowieckie | DMR | 1515 km | TX 145.737500 MHz | CTCSS/CC CC13"
+  },
+  {
+    "name": "OE OE3XQA (FM, 202 km), SP SR9K (FM, 272 km), DL DB0ZF (FM, 785 km)",
+    "frequency": 145750000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XQA | Exelberg | FM | 202 km | TX 145.750000 MHz | CTCSS/CC \nSP SR9K |  | FM | 272 km | TX 145.750000 MHz | CTCSS/CC 103.5\nDL DB0ZF | Bickensohl | FM | 785 km | TX 145.750000 MHz | CTCSS/CC "
+  },
+  {
+    "name": "OE OE3XWW (D-STAR, 276 km), OE OE2XGR (FM, 372 km), DL DB0BHN (DMR, 797 km)",
+    "frequency": 145762500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XWW | Mönichkirchen Schwaig | D-STAR | 276 km | TX 145.762500 MHz | CTCSS/CC 162.2\nOE OE2XGR | Gernkogel | FM | 372 km | TX 145.762500 MHz | CTCSS/CC \nDL DB0BHN | Bremerhaven-Zentrum, Germany, Bremen | DMR | 797 km | TX 145.762500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE4XUB (FM, 248 km), DL DB0LHR (FM, 763 km)",
+    "frequency": 145775000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE4XUB | Brenntenriegel | FM | 248 km | TX 145.775000 MHz | CTCSS/CC \nDL DB0LHR | Lahr | FM | 763 km | TX 145.775000 MHz | CTCSS/CC "
+  },
+  {
+    "name": "SP SR6S (FM, 173 km), OE OE3XMC (DMR, 200 km), OE OE3XES (FM, 222 km) +2",
+    "frequency": 145787500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR6S | Wielka Sowa | FM | 173 km | TX 145.787500 MHz | CTCSS/CC 94.8\nOE OE3XMC | Schwechat, Oesterreich/Austria, Niederoesterreich | DMR | 200 km | TX 145.787500 MHz | CTCSS/CC CC1\nOE OE3XES | Frauenstaffel | FM | 222 km | TX 145.787500 MHz | CTCSS/CC \nDL DB0GK | Heilbronn/Odw | FM | 665 km | TX 145.787500 MHz | CTCSS/CC 123.0\nDL DB0WX | Triberg, Germany | FM | 742 km | TX 145.787500 MHz | CTCSS/CC "
+  },
+  {
+    "name": "DL DM0SVX (DMR, 490 km)",
+    "frequency": 430375000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DM0SVX | Halle/Saale, Germany, Sachsen-Anhalt | DMR | 490 km | TX 430.375000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0AFU (DMR, 815 km)",
+    "frequency": 430387500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0AFU | Silberstedt, Germany, Schleswig-Holstein | DMR | 815 km | TX 430.387500 MHz | CTCSS/CC CC0"
+  },
+  {
+    "name": "DL DB0RAB (DMR, 684 km)",
+    "frequency": 431112500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0RAB | Albstadt Raichberg, Germany, Baden-Wuerttemberg | DMR | 684 km | TX 431.112500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OK OK0Q (DMR, 182 km)",
+    "frequency": 431775000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0Q | Zandov, Czech Republic, Liberec Region | DMR | 182 km | TX 431.775000 MHz | CTCSS/CC CC0"
+  },
+  {
+    "name": "OK OK0DZO (DMR, 138 km)",
+    "frequency": 431900000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0DZO | Svaty Kopecek, Czech Republic, cnty | DMR | 138 km | TX 431.900000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0HYT (DMR, 677 km)",
+    "frequency": 434837500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0HYT | Bad Muender, Germany, Niedersachsen | DMR | 677 km | TX 434.837500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE6XAG (DMR, 277 km)",
+    "frequency": 437975000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE6XAG | Schoeckl, Oesterreich/Austria, Steiermark | DMR | 277 km | TX 437.975000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DO0KPB (DMR, 533 km)",
+    "frequency": 438000000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DO0KPB | Stresow  JO62AG, Germany | DMR | 533 km | TX 438.000000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE2XWR (FM, 482 km), DL DO0KB (DMR, 828 km)",
+    "frequency": 438025000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE2XWR | Kitzsteinhorn | FM | 482 km | TX 438.025000 MHz | CTCSS/CC \nDL DO0KB | Kerpen, Germany, Nordrhein-Westfalen | DMR | 828 km | TX 438.025000 MHz | CTCSS/CC CC15"
+  },
+  {
+    "name": "OE OE3XTC (DMR, 188 km), OE OE6XAR (DMR, 308 km), DL DB0DE (DMR, 838 km)",
+    "frequency": 438075000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XTC | Hollabrunn Stadt | DMR | 188 km | TX 438.075000 MHz | CTCSS/CC CC\nOE OE6XAR | Zeltweg, Oesterreich/Austria, Steiermark | DMR | 308 km | TX 438.075000 MHz | CTCSS/CC CC1\nDL DB0DE | Kaarst, Germany, Nordrhein-Westfalen | DMR | 838 km | TX 438.075000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR4L (DMR, 485 km), DL DB0DQ (DMR, 764 km)",
+    "frequency": 438100000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR4L | Lomza, Poland, Podlaskie Voivodeship | DMR | 485 km | TX 438.100000 MHz | CTCSS/CC CC1\nDL DB0DQ | Ahlen, Germany, Nordrhein-Westfalen | DMR | 764 km | TX 438.100000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9US (DMR, 49 km), OE OE1XUR (FM, 202 km), OE OE2XZR (FM, 420 km) +1",
+    "frequency": 438125000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9US | UstroŃ, Poland, śląskie | DMR | 49 km | TX 438.125000 MHz | CTCSS/CC CC9\nOE OE1XUR | Laaerberg Schule | FM | 202 km | TX 438.125000 MHz | CTCSS/CC \nOE OE2XZR | Gaisberg | FM | 420 km | TX 438.125000 MHz | CTCSS/CC \nDL DO0DMR | Ratingen, Germany, Nordrhein-Westfalen | DMR | 824 km | TX 438.125000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE5XFK (FM, 379 km), SP SR4MWO (DMR, 526 km)",
+    "frequency": 438150000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE5XFK | Feuerkogel | FM | 379 km | TX 438.150000 MHz | CTCSS/CC 123\nSP SR4MWO | Mragowo, Poland | DMR | 526 km | TX 438.150000 MHz | CTCSS/CC CC4"
+  },
+  {
+    "name": "DL DB0VA (DMR, 721 km)",
+    "frequency": 438187500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0VA | Hohe Wurzel / Ts., Germany, Hessen | DMR | 721 km | TX 438.187500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR6BR (DMR, 153 km), SP SR6RWS (DMR, 173 km), OE OE1XQU (DMR, 202 km) +5",
+    "frequency": 438200000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR6BR | Brzeg, Poland, opolskie | DMR | 153 km | TX 438.200000 MHz | CTCSS/CC CC1\nSP SR6RWS | Wielka Sowa, Poland, dolnośląskie | DMR | 173 km | TX 438.200000 MHz | CTCSS/CC CC1\nOE OE1XQU | Laaerberg, Austria, Wien | DMR | 202 km | TX 438.200000 MHz | CTCSS/CC CC1\nSP SR9VDM | Tarnow, Poland, Lesser Poland | DMR | 202 km | TX 438.200000 MHz | CTCSS/CC CC1\nOE OE3XKV | Hochkar, Oesterreich/Austria, Niederoesterreich | DMR | 315 km | TX 438.200000 MHz | CTCSS/CC CC1\nDL DB0SMU | Grossaitingen, Germany, Bayern | DMR | 559 km | TX 438.200000 MHz | CTCSS/CC CC1\nDL DF0MOT | Gr.Feldberg/Ts., Germany | DMR | 699 km | TX 438.200000 MHz | CTCSS/CC CC1\nDL DB0DY | Lengerich, Germany, Nordrhein-Westfalen | DMR | 780 km | TX 438.200000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE1XFV (DMR, 199 km), DL DB0MMR (DMR, 432 km), DL DB0OA (DMR, 616 km) +2",
+    "frequency": 438212500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE1XFV | Wien/1160, Oesterreich/Austria, Wien | DMR | 199 km | TX 438.212500 MHz | CTCSS/CC CC1\nDL DB0MMR | Halsbach, Germany, Bayern | DMR | 432 km | TX 438.212500 MHz | CTCSS/CC CC1\nDL DB0OA | Buchenberg, Germany, Bayern | DMR | 616 km | TX 438.212500 MHz | CTCSS/CC CC1\nDL DB0PBS | Paderborn, Germany, Germany, Nordrhein-Westfalen | DMR | 702 km | TX 438.212500 MHz | CTCSS/CC CC1\nSP SR5DMR | Ciechanow, Poland, mazowieckie | DMR | 1515 km | TX 438.212500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OM OM0OAC (DMR, 49 km), OE OE3XVJ (D-STAR, 237 km), OM OM0ODM (DMR, 243 km) +8",
+    "frequency": 438225000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOM OM0OAC | Cadca Drahosanka, Slovakia, ilina Region | DMR | 49 km | TX 438.225000 MHz | CTCSS/CC CC1\nOE OE3XVJ | FH Wr Neustadt | D-STAR | 237 km | TX 438.225000 MHz | CTCSS/CC 162.2\nOM OM0ODM | Kosice, Slovakia | DMR | 243 km | TX 438.225000 MHz | CTCSS/CC CC1\nSP SR7LDD | Lodz, Poland, lodzkie | DMR | 260 km | TX 438.225000 MHz | CTCSS/CC CC1\nOE OE3XNR | Nebelstein | FM | 265 km | TX 438.225000 MHz | CTCSS/CC \nSP SR8DRL | Lublin, Poland, lubelskie | DMR | 362 km | TX 438.225000 MHz | CTCSS/CC CC1\nDL DB0LS | Lauchhammer, Germany, cnty | DMR | 379 km | TX 438.225000 MHz | CTCSS/CC CC1\nSP SR4MID | Milki, Poland, Maine | DMR | 550 km | TX 438.225000 MHz | CTCSS/CC CC1\nDL DB0VW | Wolfsburg, Germany, Niedersachsen | DMR | 606 km | TX 438.225000 MHz | CTCSS/CC CC1\nDL DB0ROB | Reutlingen, Germany | DMR | 663 km | TX 438.225000 MHz | CTCSS/CC \nDL DO0OLG | Oldenburg, Germany | DMR | 797 km | TX 438.225000 MHz | CTCSS/CC CC2"
+  },
+  {
+    "name": "SP SR2IN (DMR, 359 km), DL DB0KR (DMR, 561 km), DL DB0MOT (DMR, 699 km)",
+    "frequency": 438237500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR2IN | Inowroclaw, Poland, kujawsko-pomorskie | DMR | 359 km | TX 438.237500 MHz | CTCSS/CC CC2\nDL DB0KR | Gresshausen, Germany, Bayern | DMR | 561 km | TX 438.237500 MHz | CTCSS/CC CC1\nDL DB0MOT | Kl.Feldberg / Taunus, Germany, Hessen | DMR | 699 km | TX 438.237500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OM OM0ODK (DMR, 223 km), OE OE5XIM (DMR, 305 km), DL DB0AF (DMR, 373 km) +6",
+    "frequency": 438250000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOM OM0ODK | Kojsovska hola, Slovakia, Kosicky | DMR | 223 km | TX 438.250000 MHz | CTCSS/CC CC1\nOE OE5XIM | Sternstein, Oesterreich/Austria, Oberoesterreich | DMR | 305 km | TX 438.250000 MHz | CTCSS/CC CC1\nDL DB0AF | Altdoebern, Germany, Brandenburg | DMR | 373 km | TX 438.250000 MHz | CTCSS/CC CC1\nDL DB0BAY | Schwandorf, Germany, Bayern | DMR | 444 km | TX 438.250000 MHz | CTCSS/CC CC1\nSP SR4DGD | Gora Dylewska, Poland, warmińsko-mazurskie | DMR | 461 km | TX 438.250000 MHz | CTCSS/CC CC1\nOE OE7XFJ | St. Johann i. Tirol, Austria, Tirol | DMR | 481 km | TX 438.250000 MHz | CTCSS/CC CC1\nDL DO0BT | Buehlertann, Germany, Baden-Wuerttemberg | DMR | 600 km | TX 438.250000 MHz | CTCSS/CC CC1\nDL DB0FTC | Quirnheim/Pfalz, Germany, Rheinland-Pfalz | DMR | 721 km | TX 438.250000 MHz | CTCSS/CC CC1\nDL DB0IUZ | Bochum/Sundern, Germany, NRW | DMR | 802 km | TX 438.250000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR6DKB (D-STAR, 105 km), DL DB0OCH (DMR, 580 km), DL DB0LIN (DMR, 675 km) +1",
+    "frequency": 438262500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR6DKB | Krapkowice, Opolskie | D-STAR | 105 km | TX 438.262500 MHz | CTCSS/CC \nDL DB0OCH | Frickenhausen/Main -, Germany, Bayern | DMR | 580 km | TX 438.262500 MHz | CTCSS/CC CC1\nDL DB0LIN | Fuerth, Germany, Hessen | DMR | 675 km | TX 438.262500 MHz | CTCSS/CC CC1\nDL DB0HE | Herten, Germany, Nordrhein-Westfalen | DMR | 810 km | TX 438.262500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OM OM0ODP (DMR, 151 km), SP SR7DMR (DMR, 204 km), OE OE7XLI (DMR, 330 km) +4",
+    "frequency": 438275000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOM OM0ODP | Strbske Pleso, Slovakia, Preiov Region | DMR | 151 km | TX 438.275000 MHz | CTCSS/CC CC1\nSP SR7DMR | Kamiensk Mountain, Poland, lodzkie | DMR | 204 km | TX 438.275000 MHz | CTCSS/CC CC1\nOE OE7XLI | Hochstein, Oesterreich/Austria, Tirol | DMR | 330 km | TX 438.275000 MHz | CTCSS/CC CC1\nSP SR4OND | Olsztyn, Poland, warmińsko-mazurskie | DMR | 495 km | TX 438.275000 MHz | CTCSS/CC CC1\nDL DM0KF | Kaufbeuren, Germany, Bayern | DMR | 583 km | TX 438.275000 MHz | CTCSS/CC CC1\nDL DB0SKF | Freudenstadt, Germany, Baden-Wuerttemberg | DMR | 723 km | TX 438.275000 MHz | CTCSS/CC CC1\nDL DB0CHV | Cuxhaven, Germany | DMR | 808 km | TX 438.275000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR3DOS (DMR, 235 km), SP SR2GR (DMR, 437 km), SP SR2GDD (DMR, 535 km) +4",
+    "frequency": 438287500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR3DOS | Ostrow Wielkopolski, Poland, wielkopolskie | DMR | 235 km | TX 438.287500 MHz | CTCSS/CC CC1\nSP SR2GR | Grudziadz, Poland, Kuyavian-Pomeranian | DMR | 437 km | TX 438.287500 MHz | CTCSS/CC CC2\nSP SR2GDD | Gdansk, Poland, pomorskie | DMR | 535 km | TX 438.287500 MHz | CTCSS/CC CC2\nDL DB0TEK | Kirchheim, Germany | YSF/FM | 642 km | TX 438.287500 MHz | CTCSS/CC \nOE OE9XVI | Frastanz, Oesterreich/Austria, Vorarlberg | DMR | 684 km | TX 438.287500 MHz | CTCSS/CC CC1\nDL DB0PR | Armstedt, Germany, Schleswig-Holstein | DMR | 753 km | TX 438.287500 MHz | CTCSS/CC CC1\nDL DB0VEL | Velbert, Germany, Nordrhein-Westfalen | DMR | 811 km | TX 438.287500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OK OK0DAS (DMR, 157 km), OE OE3XOR (FM, 246 km), DL DB0TUD (DMR, 355 km) +11",
+    "frequency": 438300000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0DAS | Snezka, Czech Republic, Kralovehradecki | DMR | 157 km | TX 438.300000 MHz | CTCSS/CC CC1\nOE OE3XOR | Hainfeld, Lower Austria | FM | 246 km | TX 438.300000 MHz | CTCSS/CC 162.2\nDL DB0TUD | Dresden, Germany, Saxony | DMR | 355 km | TX 438.300000 MHz | CTCSS/CC CC1\nDL DB0GER | Gera, Germany, Thuringia | DMR | 457 km | TX 438.300000 MHz | CTCSS/CC CC1\nDL DB0HKN | Holzkirchen, Germany, Bayern | DMR | 509 km | TX 438.300000 MHz | CTCSS/CC CC1\nDL DB0HGW | Greifswald, Germany, Mecklenburg-Vorpommern | DMR | 602 km | TX 438.300000 MHz | CTCSS/CC CC1\nDL DB0SAQ | Cleebronn, Germany, Baden-Wuerttemberg | DMR | 663 km | TX 438.300000 MHz | CTCSS/CC CC1\nDL DB0DIF | Offenbach, Germany, Hessen | DMR | 677 km | TX 438.300000 MHz | CTCSS/CC CC1\nDL DB0PC | Schoenwalde, Germany, Schleswig-Holstein | DMR | 723 km | TX 438.300000 MHz | CTCSS/CC CC1\nDL DB0VS | Moenchweiler, Germany, Baden-Wuerttemberg | DMR | 730 km | TX 438.300000 MHz | CTCSS/CC CC1\nDL DB0XR | Herrischried, Germany, Baden-Wuerttemberg | DMR | 775 km | TX 438.300000 MHz | CTCSS/CC CC1\nDL DB0MYK | Mayen/Koblenz, Germany, Rheinland-Pfalz | DMR | 776 km | TX 438.300000 MHz | CTCSS/CC CC1\nDL DB0DUX | Duesseldorf, Germany, Nordrhein-Westfalen | DMR | 826 km | TX 438.300000 MHz | CTCSS/CC CC1\nDL DB0WO | Leer, Germany, Niedersachsen | DMR | 847 km | TX 438.300000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9VJK (DMR, 203 km), OE OE1XBA (FM, 203 km), DL DB0UFO (DMR, 505 km) +3",
+    "frequency": 438312500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9VJK | Krynica-Zdroj, Poland | DMR | 203 km | TX 438.312500 MHz | CTCSS/CC CC1\nOE OE1XBA | Favoriten | FM | 203 km | TX 438.312500 MHz | CTCSS/CC 162.2\nDL DB0UFO | Neubiberg, Germany, Bayern | DMR | 505 km | TX 438.312500 MHz | CTCSS/CC CC1\nDL DB0WAB | Waldenburg, Germany, Baden-Wuerttemberg | DMR | 618 km | TX 438.312500 MHz | CTCSS/CC CC1\nDL DO0NO | Nieder-Olm, Germany, Rheinland-Pfalz | DMR | 716 km | TX 438.312500 MHz | CTCSS/CC CC1\nDL DB0VEL | Velbert, Germany, Nordrhein-Westfalen | DMR | 810 km | TX 438.312500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9DV (DMR, 58 km), OE OE3XNR (D-STAR, 265 km), SP SR7DVK (DMR, 310 km) +9",
+    "frequency": 438325000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9DV | Koniakow-Ochodzita, Poland | DMR | 58 km | TX 438.325000 MHz | CTCSS/CC CC1\nOE OE3XNR | Nebelstein | D-STAR | 265 km | TX 438.325000 MHz | CTCSS/CC \nSP SR7DVK | Kutno, Poland, lodzkie | DMR | 310 km | TX 438.325000 MHz | CTCSS/CC CC1\nOE OE2XGR | Gernkogel | FM | 372 km | TX 438.325000 MHz | CTCSS/CC \nDL DB0FBG | Freiberg, Germany, Sachsen | DMR | 375 km | TX 438.325000 MHz | CTCSS/CC CC1\nDL DB0MAK | Marktredwitz, Germany, Bayern | DMR | 435 km | TX 438.325000 MHz | CTCSS/CC CC1\nDL DB0TX | Berlin, Germany, Berlin | DMR | 469 km | TX 438.325000 MHz | CTCSS/CC CC1\nDL DO0DXE | Kassel, Germany, Hessen | DMR | 644 km | TX 438.325000 MHz | CTCSS/CC CC1\nDL DM0HRO | Rostock, Germany, Sachsen-Anhalt / Mecklenburg-Vorpommen | DMR | 651 km | TX 438.325000 MHz | CTCSS/CC CC1\nDL DB0HER | Herrenberg, Germany, Baden-Wuerttemberg | DMR | 694 km | TX 438.325000 MHz | CTCSS/CC CC1\nDL DB0HRH | Kuessaburg, Germany, Baden-Wuerttemberg | DMR | 754 km | TX 438.325000 MHz | CTCSS/CC CC1\nDL DB0OZ | Bremen, Germany, Bremen | DMR | 758 km | TX 438.325000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR3DRW (DMR, 246 km), SP SR5WAD (DMR, 366 km), DL DB0NOT (DMR, 507 km) +3",
+    "frequency": 438337500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR3DRW | Rawicz, Poland, wielkopolskie | DMR | 246 km | TX 438.337500 MHz | CTCSS/CC CC1\nSP SR5WAD | Warszawa, Poland, mazowieckie | DMR | 366 km | TX 438.337500 MHz | CTCSS/CC CC5\nDL DB0NOT | Unterhaching, Germany, Bayern | DMR | 507 km | TX 438.337500 MHz | CTCSS/CC CC1\nDL DB0LBG | Esslingen, Germany, Baden-Wuerttemberg | DMR | 650 km | TX 438.337500 MHz | CTCSS/CC CC1\nDL DB0IUK | Heppenheim, Germany, Hessen | DMR | 687 km | TX 438.337500 MHz | CTCSS/CC CC1\nDL DB0HEI | Heide, Germany, Schleswig-Holstein | DMR | 808 km | TX 438.337500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE1XKW (DMR, 199 km), SP SR7CKD (DMR, 264 km), OE OE3XSA (DMR, 279 km) +8",
+    "frequency": 438350000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE1XKW | Wien, Oesterreich/Austria, Wien | DMR | 199 km | TX 438.350000 MHz | CTCSS/CC CC1\nSP SR7CKD | Lodz, Poland, lodzkie | DMR | 264 km | TX 438.350000 MHz | CTCSS/CC CC1\nOE OE3XSA | Sandl, Oesterreich/Austria, Niederoesterreich | DMR | 279 km | TX 438.350000 MHz | CTCSS/CC CC1\nOE OE6XIG | Oberaich, Oesterreich/Austria, Steiermark | DMR | 368 km | TX 438.350000 MHz | CTCSS/CC CC1\nDL DM0QN | Munich East Vaterstetten, Germany, Bayern | DMR | 494 km | TX 438.350000 MHz | CTCSS/CC CC1\nDL DB0INS | Grosser Inselsberg, Germany, Thueringen | DMR | 566 km | TX 438.350000 MHz | CTCSS/CC CC1\nDL DM0MGN | Mengen, Germany, Baden-Wuerttemberg | DMR | 667 km | TX 438.350000 MHz | CTCSS/CC CC1\nDL DB0SHG | Bad Muender, Germany, Niedersachsen | DMR | 677 km | TX 438.350000 MHz | CTCSS/CC CC1\nDL DB0HAT | Hamm, Germany, Nordrhein-Westfalen | DMR | 766 km | TX 438.350000 MHz | CTCSS/CC CC1\nDL DB0BOH | Bocholt, Germany, Nordrhein-Westfalen | DMR | 851 km | TX 438.350000 MHz | CTCSS/CC CC1\nOE OE5XBR | Froschberg | FM | 880 km | TX 438.350000 MHz | CTCSS/CC "
+  },
+  {
+    "name": "OE OE4XSB (D-STAR, 366 km), SP SR3ZBZ (DMR, 393 km), DL DB0XTK (DMR, 426 km) +3",
+    "frequency": 438362500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE4XSB | Sonnenberg im Leithagebirge | D-STAR | 366 km | TX 438.362500 MHz | CTCSS/CC \nSP SR3ZBZ | Chodziez, Poland, wielkopolskie | DMR | 393 km | TX 438.362500 MHz | CTCSS/CC CC1\nDL DB0XTK | Neuoetting, Germany, Bayern | DMR | 426 km | TX 438.362500 MHz | CTCSS/CC CC1\nSP SR4BAU | Augustow, Poland | DMR | 581 km | TX 438.362500 MHz | CTCSS/CC CC4\nDL DB0LT | Stadtlohn, Germany, Nordrhein-Westfalen | DMR | 836 km | TX 438.362500 MHz | CTCSS/CC CC1\nDL DB0MY | Juelich, Germany, Nordrhein-Westfalen | DMR | 852 km | TX 438.362500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE1XIK (DMR, 199 km), OE OE3XYR (DMR, 247 km), DL DB0SWR (DMR, 626 km) +3",
+    "frequency": 438375000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE1XIK | Wien 22, Oesterreich/Austria, Wien | DMR | 199 km | TX 438.375000 MHz | CTCSS/CC CC1\nOE OE3XYR | St. Poelten, Oesterreich/Austria, Niederoesterreich | DMR | 247 km | TX 438.375000 MHz | CTCSS/CC CC1\nDL DB0SWR | Wertheim/Main, Germany, Baden-Wuerttemberg | DMR | 626 km | TX 438.375000 MHz | CTCSS/CC CC1\nDL DB0GIS | Fernwald-Steinbach, Germany, Hessen | DMR | 678 km | TX 438.375000 MHz | CTCSS/CC CC1\nDL DO0PZ | Nickenich, Germany, Rheinland-Pfalz | DMR | 780 km | TX 438.375000 MHz | CTCSS/CC CC1\nDL DO0SRE | Recklinghausen, Germany, NRW | DMR | 806 km | TX 438.375000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR2DCH (DMR, 460 km), DL DB0KRE (DMR, 631 km), DL DB0ROE (DMR, 655 km) +2",
+    "frequency": 438387500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR2DCH | Czluchow, Poland, Pomorskie,Kujawsko-Pomorskie | DMR | 460 km | TX 438.387500 MHz | CTCSS/CC CC2\nDL DB0KRE | Kreiensen, Germany, Lower Saxony | DMR | 631 km | TX 438.387500 MHz | CTCSS/CC CC1\nDL DB0ROE | Roeddensen, Germany, Niedersachsen | DMR | 655 km | TX 438.387500 MHz | CTCSS/CC CC1\nDL DB0VC | Bungsberg, Germany, Hamburg / Schleswig-Holstein | DMR | 726 km | TX 438.387500 MHz | CTCSS/CC CC1\nDL DB0DBN | Oelberg/Bonn, Germany, Nordrhein-Westfalen | DMR | 787 km | TX 438.387500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9ZEA (DMR, 53 km), OM OM0ODZ (DMR, 129 km), OE OE3XKQ (DMR, 228 km) +13",
+    "frequency": 438400000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9ZEA | Syrynia, Poland | DMR | 53 km | TX 438.400000 MHz | CTCSS/CC CC1\nOM OM0ODZ | Zvolen, Slovakia | DMR | 129 km | TX 438.400000 MHz | CTCSS/CC CC1\nOE OE3XKQ | Egelsee, Oesterreich/Austria, Niederoesterreich | DMR | 228 km | TX 438.400000 MHz | CTCSS/CC CC1\nOE OE3XTR | Hohe Wand | DMR | 247 km | TX 438.400000 MHz | CTCSS/CC CC1\nOE OE3XDA | Hochkogel | D-STAR | 321 km | TX 438.400000 MHz | CTCSS/CC \nSP SR5WD | Moszna  Parcela, Poland, Mazowieckie | DMR | 343 km | TX 438.400000 MHz | CTCSS/CC CC1\nDL DB0SL | Greising-Deggendorf, Germany, Bayern | DMR | 381 km | TX 438.400000 MHz | CTCSS/CC CC1\nOE OE7XKT | Kaltenbach, Oesterreich/Austria, Tirol | DMR | 393 km | TX 438.400000 MHz | CTCSS/CC CC1\nOE OE2XZR | Gaisberg | FM | 420 km | TX 438.400000 MHz | CTCSS/CC \nDL DB0ZKA | Augsburg, Germany, Bayern | DMR | 546 km | TX 438.400000 MHz | CTCSS/CC CC1\nOE OE7XCJ | Innsbruck, Oesterreich/Austria, Tirol | DMR | 554 km | TX 438.400000 MHz | CTCSS/CC CC1\nDL DB0AWI | Wiegleben, Germany, Thueringen | DMR | 560 km | TX 438.400000 MHz | CTCSS/CC CC1\nDL DB0BVO | Steinau a.d.Strasse, Germany, Hessen | DMR | 628 km | TX 438.400000 MHz | CTCSS/CC CC1\nDL DB0EAT | Ellerhoop, Germany | DMR | 741 km | TX 438.400000 MHz | CTCSS/CC CC1\nDL DB0DAM | Doerenberg, Germany, Nordrhein-Westfalen | DMR | 763 km | TX 438.400000 MHz | CTCSS/CC CC1\nDL DO0WIL | Greimerath, Germany, Rheinland-Pfalz | DMR | 809 km | TX 438.400000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9EC (DMR, 140 km), DL DB0SON (DMR, 507 km), DL DB0ROB (YSF/FM, 670 km) +2",
+    "frequency": 438412500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9EC | Krakow Powstancow 26, Poland, Malopolskie | DMR | 140 km | TX 438.412500 MHz | CTCSS/CC CC1\nDL DB0SON | Sonneberg, Germany, Thuringia | DMR | 507 km | TX 438.412500 MHz | CTCSS/CC CC1\nDL DB0ROB | Rossburg, Germany | YSF/FM | 670 km | TX 438.412500 MHz | CTCSS/CC \nDL DB0WMB | Wald-Michelbach, Germany, Hessen | DMR | 672 km | TX 438.412500 MHz | CTCSS/CC CC1\nDL DO0HA | Hagen/NRW, Germany, Nordrhein-Westfalen | DMR | 782 km | TX 438.412500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR6UKR (DMR, 105 km), OE OE1XAR (YSF, 189 km), OE OE1XIK (DMR, 199 km) +11",
+    "frequency": 438425000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR6UKR | Krapkowice, Poland, dolnośląskie | DMR | 105 km | TX 438.425000 MHz | CTCSS/CC CC1\nOE OE1XAR | Bisamberg | YSF | 189 km | TX 438.425000 MHz | CTCSS/CC \nOE OE1XIK | Wien 22, Austria, Wien | DMR | 199 km | TX 438.425000 MHz | CTCSS/CC CC1\nOE OE3XWJ | Jauerling, Oesterreich/Austria, All Regions | DMR | 247 km | TX 438.425000 MHz | CTCSS/CC CC1\nOE OE3XHB | Jauerling, Austria, Niederoesterreich | DMR | 247 km | TX 438.425000 MHz | CTCSS/CC CC1\nOE OE5XDN | Senftenbach/Wolfau | D-STAR | 375 km | TX 438.425000 MHz | CTCSS/CC 123\nSP SR4BPN | Barwik, Poland, Warminsko-Mazurskie,Podlaskie | DMR | 523 km | TX 438.425000 MHz | CTCSS/CC CC4\nDL DB0HDH | Heidenheim, Germany, Baden-Wuerttemberg | DMR | 591 km | TX 438.425000 MHz | CTCSS/CC CC1\nDL DK0WUE | Wuerzburg, Germany, Bayern | DMR | 592 km | TX 438.425000 MHz | CTCSS/CC CC1\nDL DB0OHA | Herzberg am Harz, Germany, Niedersachsen | DMR | 599 km | TX 438.425000 MHz | CTCSS/CC CC1\nDL DB0FDA | Hochschule Darmstadt, Germany, Hessen | DMR | 685 km | TX 438.425000 MHz | CTCSS/CC CC1\nDL DB0BI | Bielefeld, Germany, Nordrhein-Westfalen | DMR | 730 km | TX 438.425000 MHz | CTCSS/CC CC1\nDL DB0IL | Kiel, Germany, Schleswig-Holstein | DMR | 761 km | TX 438.425000 MHz | CTCSS/CC CC1\nDL DB0RES | Rees, Germany, Nordrhein-Westfalen | DMR | 864 km | TX 438.425000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0LBY (FM, 638 km), DL DB0DRI (DMR, 685 km), DL DB0CFM (DMR, 845 km)",
+    "frequency": 438437500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0LBY | Loewenstein, Germany | FM | 638 km | TX 438.437500 MHz | CTCSS/CC 123.0\nDL DB0DRI | Bad Driburg Germany, Germany, Nordrhein-Westfalen | DMR | 685 km | TX 438.437500 MHz | CTCSS/CC CC1\nDL DB0CFM | Korschenbroich, Germany, Nordrhein-Westfalen | DMR | 845 km | TX 438.437500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9DMR (DMR, 99 km), OK OK0DHD (DMR, 103 km), OE OE1XUR (DMR, 202 km) +10",
+    "frequency": 438450000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9DMR | Katowice, Poland, Silesian Voivodeship | DMR | 99 km | TX 438.450000 MHz | CTCSS/CC CC1\nOK OK0DHD | Sosuvka, Czech Republic, Jihomoravsky | DMR | 103 km | TX 438.450000 MHz | CTCSS/CC CC1\nOE OE1XUR | Wien/Laaerberg, Oesterreich/Austria, All Regions | DMR | 202 km | TX 438.450000 MHz | CTCSS/CC CC1\nOE OE1XQU | Wienerberg, Austria, Wien | DMR | 203 km | TX 438.450000 MHz | CTCSS/CC CC1\nOE OE3XPA | Kaiserkogel | D-STAR | 291 km | TX 438.450000 MHz | CTCSS/CC \nSP SR8DVP | Kazimierz Dolny, Poland, lubelskie | DMR | 334 km | TX 438.450000 MHz | CTCSS/CC CC1\nOE OE3XPA | Kaiserkogel, Oesterreich/Austria, Niederoesterreich | DMR | 354 km | TX 438.450000 MHz | CTCSS/CC CC1\nDL DO0GUF | Bad Duerrenberg, Germany, Saxony-Anhalt | DMR | 473 km | TX 438.450000 MHz | CTCSS/CC CC1\nDL DB0ASE | Erfurt, Germany, Thueringen | DMR | 531 km | TX 438.450000 MHz | CTCSS/CC CC1\nDL DB0WIZ | Witzenhausen, Germany, Hessen | DMR | 620 km | TX 438.450000 MHz | CTCSS/CC CC1\nDL DM0HMB | Hamburg, Germany, Hamburg | DMR | 717 km | TX 438.450000 MHz | CTCSS/CC CC1\nDL DB0NLH | Borgholzhausen, Germany, Nordrhein-Westfalen | DMR | 747 km | TX 438.450000 MHz | CTCSS/CC CC1\nDL DB0ACC | Haltern am See, Germany, Nordrhein-Westfalen | DMR | 5776 km | TX 438.450000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0PE (DMR, 477 km), SP SR4BI (DMR, 517 km), DL DB0WUS (YSF/FM, 647 km) +3",
+    "frequency": 438462500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0PE | Jn58ut, Germany, Bayern | DMR | 477 km | TX 438.462500 MHz | CTCSS/CC CC1\nSP SR4BI | Bialystok, Poland, Warminsko-Mazurskie,Podlaskie | DMR | 517 km | TX 438.462500 MHz | CTCSS/CC CC4\nDL DB0WUS | Wunnenstein, Germany | YSF/FM | 647 km | TX 438.462500 MHz | CTCSS/CC \nDL DB0BRV | Bremervoerde, Germany, Niedersachsen | DMR | 761 km | TX 438.462500 MHz | CTCSS/CC CC1\nDL DB0SYS | Dormagen, Germany, Nordrhein-Westfalen | DMR | 821 km | TX 438.462500 MHz | CTCSS/CC CC1\nDL DO0LL | Legden, Germany, Nordrhein-Westfalen | DMR | 824 km | TX 438.462500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9DBN (DMR, 110 km), OE OE1XAT (FM, 198 km), OE OE3XDB (DMR, 228 km) +11",
+    "frequency": 438475000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9DBN | Bedzin, Poland, Silesian Voivodeship | DMR | 110 km | TX 438.475000 MHz | CTCSS/CC CC9\nOE OE1XAT | Hermannskogel | FM | 198 km | TX 438.475000 MHz | CTCSS/CC 162.2\nOE OE3XDB | Bad Voeslau/Harzberg, Austria, Niederoesterreich | DMR | 228 km | TX 438.475000 MHz | CTCSS/CC CC1\nOE OE5XLL | Lichtenberg, Oesterreich/Austria | DMR | 315 km | TX 438.475000 MHz | CTCSS/CC CC1\nOE OE5XAR | St. Johann am Walde | FM | 391 km | TX 438.475000 MHz | CTCSS/CC \nDL DB0LOS | Rauen, Germany, Brandenburg | DMR | 423 km | TX 438.475000 MHz | CTCSS/CC CC1\nOE OE7XWT | Weinbergerhaus KU, Austria, Tirol | DMR | 490 km | TX 438.475000 MHz | CTCSS/CC CC1\nDL DB0WEI | Weimar, Germany, Thueringen | DMR | 511 km | TX 438.475000 MHz | CTCSS/CC CC1\nDL DF0ANN | Nuernberg, Germany | DMR | 512 km | TX 438.475000 MHz | CTCSS/CC CC1\nDL DB0SAA | Oberkochen, Germany, Baden-Wuerttemberg | DMR | 593 km | TX 438.475000 MHz | CTCSS/CC CC1\nDL DB0YC | Haibach, Germany, Bayern | DMR | 645 km | TX 438.475000 MHz | CTCSS/CC CC1\nDL DB0LDK | Wetzlar, Germany, Hessen | DMR | 698 km | TX 438.475000 MHz | CTCSS/CC CC1\nDL DB0BHV | Bremerhaven, Germany, Bremen | DMR | 796 km | TX 438.475000 MHz | CTCSS/CC CC1\nDL DB0NIS | DB0NIS Nideggen, Germany, Nordrhein-Westfalen | DMR | 847 km | TX 438.475000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR6DMR (DMR, 190 km), DL DM0MHD (DMR, 497 km), SP SR4BSK (DMR, 565 km) +5",
+    "frequency": 438487500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR6DMR | Wroclaw, Poland, dolnośląskie | DMR | 190 km | TX 438.487500 MHz | CTCSS/CC CC1\nDL DM0MHD | Pfaffenhofen, Germany, Bayern | DMR | 497 km | TX 438.487500 MHz | CTCSS/CC CC1\nSP SR4BSK | Sokolka, Poland | DMR | 565 km | TX 438.487500 MHz | CTCSS/CC CC4\nDL DB0NQ | Steinau, Germany, Hessen | DMR | 674 km | TX 438.487500 MHz | CTCSS/CC CC1\nDL DB0WL | Winsen, Germany, Niedersachsen | DMR | 695 km | TX 438.487500 MHz | CTCSS/CC CC1\nDL DB0ETL | Karlsruhe, Germany, Baden-Wuerttemberg | DMR | 710 km | TX 438.487500 MHz | CTCSS/CC CC1\nDL DB0SAT | Hamburg, Germany, Schleswig-Holstein | DMR | 714 km | TX 438.487500 MHz | CTCSS/CC CC1\nDL DM0KIL | Silberstedt, Germany, Hessen | DMR | 762 km | TX 438.487500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9DMR (DMR, 68 km), SP SR9DRB (DMR, 68 km), SP SR9DKA (DMR, 104 km) +14",
+    "frequency": 438500000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9DMR | Rybnik, Poland, Silesian Voivodeship | DMR | 68 km | TX 438.500000 MHz | CTCSS/CC CC1\nSP SR9DRB | Rybnik, Poland, Silesian Voivodeship | DMR | 68 km | TX 438.500000 MHz | CTCSS/CC CC9\nSP SR9DKA | Siemianowice Slaskie, Poland | DMR | 104 km | TX 438.500000 MHz | CTCSS/CC CC1\nOE OE1XAR | Wien/Bisamberg, Oesterreich/Austria, All Regions | DMR | 190 km | TX 438.500000 MHz | CTCSS/CC CC1\nOE OE0XMP | Wien, Oesterreich/Austria, - exterritorial - | DMR | 198 km | TX 438.500000 MHz | CTCSS/CC CC1\nOE OE1XIK | Wien 22, Oesterreich/Austria, Wien | DMR | 199 km | TX 438.500000 MHz | CTCSS/CC CC1\nOE OE3XKC | Kirchberg/Pielach, Austria, Niederoesterreich | DMR | 262 km | TX 438.500000 MHz | CTCSS/CC CC1\nOE OE7XWJ | Mayrhofen, Oesterreich/Austria, Tirol | DMR | 287 km | TX 438.500000 MHz | CTCSS/CC CC1\nOE OE5XKL | Krippenstein, Oesterreich/Austria, Oberoesterreich | DMR | 399 km | TX 438.500000 MHz | CTCSS/CC CC1\nOE OE8XPK | Petzen, Austria, Kaernten | DMR | 419 km | TX 438.500000 MHz | CTCSS/CC CC1\nDL DB0PN | Klosterberg, Germany, Bayern | DMR | 552 km | TX 438.500000 MHz | CTCSS/CC CC1\nDL DB0MGN | Meiningen, Germany, Thuringia | DMR | 563 km | TX 438.500000 MHz | CTCSS/CC CC1\nOE OE7XKH | Zams, Austria, Tirol | DMR | 617 km | TX 438.500000 MHz | CTCSS/CC CC1\nDL DB0TST | Leinfelden Echterd., Germany, Baden-Wuerttemberg | DMR | 665 km | TX 438.500000 MHz | CTCSS/CC CC1\nDL DB0AGM | Lueneburg, Germany, Niedersachsen | DMR | 671 km | TX 438.500000 MHz | CTCSS/CC CC1\nDL DB0TOD | Todtmoos/Hochkopf, Germany, Baden-Wuerttemberg | DMR | 773 km | TX 438.500000 MHz | CTCSS/CC CC1\nDL DB0EIF | Dreis-Brueck, Germany | DMR | 817 km | TX 438.500000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9TM (DMR, 136 km), SP SR8UWD (DMR, 441 km), DL DB0THM (DMR, 442 km) +5",
+    "frequency": 438512500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9TM | Pcim-Kudlacze, Poland | DMR | 136 km | TX 438.512500 MHz | CTCSS/CC CC9\nSP SR8UWD | Wlodawa, Poland, lubelskie | DMR | 441 km | TX 438.512500 MHz | CTCSS/CC CC1\nDL DB0THM | Thalmaessing, Germany, Bayern | DMR | 442 km | TX 438.512500 MHz | CTCSS/CC CC1\nDL DB0HAL | Petersberg, Germany, Saxony-Anhalt | DMR | 493 km | TX 438.512500 MHz | CTCSS/CC CC1\nDL DB0EB | Einbeck, Germany, Niedersachsen | DMR | 636 km | TX 438.512500 MHz | CTCSS/CC CC1\nDL DB0BNL | Bremen, Germany, Bremen | DMR | 758 km | TX 438.512500 MHz | CTCSS/CC CC1\nDL DB0BNV | Bremen, Germany, Bremen | DMR | 758 km | TX 438.512500 MHz | CTCSS/CC CC1\nDL DB0RTV | Rheine, Germany, Nordrhein-Westfalen | DMR | 810 km | TX 438.512500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9DSK (DMR, 168 km), SP SR5DVR (DMR, 293 km), OE OE6XME (DMR, 303 km) +12",
+    "frequency": 438525000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9DSK | Szczawnica, Poland | DMR | 168 km | TX 438.525000 MHz | CTCSS/CC CC1\nSP SR5DVR | Radom, Poland, mazowieckie | DMR | 293 km | TX 438.525000 MHz | CTCSS/CC CC1\nOE OE6XME | Kindberg, Austria, Steiermark | DMR | 303 km | TX 438.525000 MHz | CTCSS/CC CC1\nOE OE2XGR | Gernkogel | D-STAR | 372 km | TX 438.525000 MHz | CTCSS/CC \nSP SR5QDMR | Siedlce, Poland, mazowieckie | DMR | 409 km | TX 438.525000 MHz | CTCSS/CC CC5\nDL DB0BES | Bestensee, Germany, Brandenburg | DMR | 436 km | TX 438.525000 MHz | CTCSS/CC CC1\nDL DB0SRB | Unterwellenborn, Germany, Thueringen | DMR | 495 km | TX 438.525000 MHz | CTCSS/CC CC1\nDL DM0NBG | Nuernberg, Germany, Bayern | DMR | 506 km | TX 438.525000 MHz | CTCSS/CC CC1\nDL DB0PV | Muenchen, Germany, Bayern | DMR | 507 km | TX 438.525000 MHz | CTCSS/CC CC7\nDL DB0SLF | Saalfeld, Germany, Thueringen | DMR | 573 km | TX 438.525000 MHz | CTCSS/CC CC1\nOE OE1XDS | Stadt/AKH | D-STAR | 659 km | TX 438.525000 MHz | CTCSS/CC \nDL DB0KUA | Luetjensee, Germany, Schleswig-Holstein | DMR | 704 km | TX 438.525000 MHz | CTCSS/CC CC1\nDL DB0SEN | Senden, Germany, Nordrhein-Westfalen | DMR | 793 km | TX 438.525000 MHz | CTCSS/CC CC1\nDL DB0WTV | Wilhelmshaven, Germany, Lower Saxony | DMR | 823 km | TX 438.525000 MHz | CTCSS/CC CC1\nDL DB0WHV | Wilhelmshaven, Germany, Lower Saxony | DMR | 823 km | TX 438.525000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9GR (DMR, 216 km), DL DB0ERB (DMR, 444 km), DL DB0FTS (DMR, 542 km) +2",
+    "frequency": 438537500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9GR | Gorlice, Poland, małopolskie | DMR | 216 km | TX 438.537500 MHz | CTCSS/CC CC1\nDL DB0ERB | Ergoldsbach, Germany, Bayern | DMR | 444 km | TX 438.537500 MHz | CTCSS/CC CC1\nDL DB0FTS | Suhl JO50 IO, Germany | DMR | 542 km | TX 438.537500 MHz | CTCSS/CC CC1\nDL DB0CRA | Crailsheim, Germany, Baden-Wuerttemberg | DMR | 588 km | TX 438.537500 MHz | CTCSS/CC CC1\nDL DM0SL | Schleswig, Germany, Schleswig-Holstein | DMR | 808 km | TX 438.537500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OM OM0OAD (DMR, 85 km), OE OE4XUB (FM, 248 km), DL DB0OLL (DMR, 301 km) +9",
+    "frequency": 438550000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOM OM0OAD | Dolny Kubin, Slovakia, Banskobystricky / Zilinsky | DMR | 85 km | TX 438.550000 MHz | CTCSS/CC CC1\nOE OE4XUB | Brenntenriegel | FM | 248 km | TX 438.550000 MHz | CTCSS/CC \nDL DB0OLL | Loebau, Germany, Sachsen | DMR | 301 km | TX 438.550000 MHz | CTCSS/CC CC1\nOE OE3XRB | Sonntagberg, Oesterreich/Austria | DMR | 302 km | TX 438.550000 MHz | CTCSS/CC CC1\nSP SR5WB | Warszawa / Pruszkow, Poland, Mazowieckie | DMR | 361 km | TX 438.550000 MHz | CTCSS/CC CC5\nSP SR3DGW | Gorzow, Poland, wielkopolskie | DMR | 407 km | TX 438.550000 MHz | CTCSS/CC CC1\nDL DB0SOB | Schrobenhausen, Germany, Bayern | DMR | 514 km | TX 438.550000 MHz | CTCSS/CC CC1\nDL DB0WUR | Schierke | FM | 585 km | TX 438.550000 MHz | CTCSS/CC \nDL DB0EEE | Erkheim, Germany, Bayern | DMR | 597 km | TX 438.550000 MHz | CTCSS/CC CC1\nDL DB0HEW | Geesthacht, Germany, Schleswig-Holstein | DMR | 690 km | TX 438.550000 MHz | CTCSS/CC CC1\nDL DB0LHR | Lahr, Germany, Baden-Wuerttemberg | DMR | 763 km | TX 438.550000 MHz | CTCSS/CC CC1\nDL DB0XN | Stollberg Bredstedt, Germany | DMR | 845 km | TX 438.550000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0PDM (DMR, 477 km), DL DM0ESS (DMR, 623 km), DL DB0LBG (FM, 650 km) +1",
+    "frequency": 438562500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0PDM | Potsdam, Germany | DMR | 477 km | TX 438.562500 MHz | CTCSS/CC CC1\nDL DM0ESS | Sonthofen, Germany, Bayern | DMR | 623 km | TX 438.562500 MHz | CTCSS/CC CC1\nDL DB0LBG | Esslingen, Germany | FM | 650 km | TX 438.562500 MHz | CTCSS/CC \nDL DO0HWI | Wismar, Germany, Mecklenburg-Vorpommern | DMR | 667 km | TX 438.562500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9TRZ (DMR, 115 km), OE OE1XUF (FM, 203 km), OE OE3XWW (D-STAR, 276 km) +5",
+    "frequency": 438575000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9TRZ | Trzebinia, Poland | DMR | 115 km | TX 438.575000 MHz | CTCSS/CC CC1\nOE OE1XUF | Favoriten Wasserturm | FM | 203 km | TX 438.575000 MHz | CTCSS/CC \nOE OE3XWW | Mönichkirchen Schwaig | D-STAR | 276 km | TX 438.575000 MHz | CTCSS/CC 162.2\nDL DB0DON | Donauwoerth, Germany, Bayern | DMR | 544 km | TX 438.575000 MHz | CTCSS/CC CC1\nDL DB0DVR | Braunschweig, Germany | DMR | 614 km | TX 438.575000 MHz | CTCSS/CC CC1\nDL DB0HCC | Neuhaus, Oste, Germany, Schleswig-Holstein | DMR | 744 km | TX 438.575000 MHz | CTCSS/CC CC1\nDL DB0NG | Marl, Germany | DMR | 815 km | TX 438.575000 MHz | CTCSS/CC CC1\nDL DB0ROS | Schechen, Germany, Bayern | DMR | 1515 km | TX 438.575000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9VJP (DMR, 203 km), SP SR9UPZ (DMR, 220 km), DL DB0WRT (DMR, 443 km) +3",
+    "frequency": 438587500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9VJP | Powroznik, Poland | DMR | 203 km | TX 438.587500 MHz | CTCSS/CC CC9\nSP SR9UPZ | Kleczany, Poland | DMR | 220 km | TX 438.587500 MHz | CTCSS/CC CC1\nDL DB0WRT | Jessen, Germany, Saxony-Anhalt | DMR | 443 km | TX 438.587500 MHz | CTCSS/CC CC1\nDL DB0TMH | Trautmannshofen, Germany, Bayern | DMR | 477 km | TX 438.587500 MHz | CTCSS/CC CC1\nDL DB0HZG | Holzgerlingen, Germany, Baden-Wuerttemberg | DMR | 674 km | TX 438.587500 MHz | CTCSS/CC CC1\nDL DB0BUX | Buxtehude, Germany, Schleswig-Holstein | DMR | 729 km | TX 438.587500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE3XWJ (FM, 247 km), OK OK0DRO (DMR, 329 km), OE OE6XAG (DMR, 329 km) +9",
+    "frequency": 438600000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XWJ | Jauerling | FM | 247 km | TX 438.600000 MHz | CTCSS/CC 162.2\nOK OK0DRO | Rokycany, Czech Republic, Plzee Region | DMR | 329 km | TX 438.600000 MHz | CTCSS/CC CC1\nOE OE6XAG | Schoeckl, Austria, Steiermark | DMR | 329 km | TX 438.600000 MHz | CTCSS/CC CC1\nOE OE2XAP | Tannberg, Oesterreich/Austria, Salzburg | DMR | 345 km | TX 438.600000 MHz | CTCSS/CC CC1\nOE OE8XKK | Pyramidenkogel, Oesterreich/Austria, Kaernten | DMR | 367 km | TX 438.600000 MHz | CTCSS/CC CC1\nOE OE2XZR | Gaisberg | DMR | 420 km | TX 438.600000 MHz | CTCSS/CC CC1\nOE OE8XIK | Saurachberg, Austria, Kaernten | DMR | 439 km | TX 438.600000 MHz | CTCSS/CC CC1\nSP SR4UVE | Paslek, Poland, Warmian-Masurian Voi | DMR | 512 km | TX 438.600000 MHz | CTCSS/CC CC1\nDL DB0LBB | Murnau Staffelsee, Germany, Bayern | DMR | 553 km | TX 438.600000 MHz | CTCSS/CC CC1\nDL DB00PN | Klosterberg, Germany, Bayern | DMR | 569 km | TX 438.600000 MHz | CTCSS/CC CC1\nDL DB0SR | Heusweiler, Germany, Saarland | DMR | 806 km | TX 438.600000 MHz | CTCSS/CC CC1\nDL DB0SIM | Simmerath, Germany, Nordrhein-Westfalen | DMR | 853 km | TX 438.600000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9DXK (DMR, 103 km), SP SR7FUS (DMR, 230 km), OE OE3XNR (DMR, 255 km) +2",
+    "frequency": 438612500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9DXK | Bytom, Poland | DMR | 103 km | TX 438.612500 MHz | CTCSS/CC CC1\nSP SR7FUS | Kamiensk, Poland, lodzkie | DMR | 230 km | TX 438.612500 MHz | CTCSS/CC CC1\nOE OE3XNR | Nebelstein, Oesterreich/Austria, Niederoesterreich | DMR | 255 km | TX 438.612500 MHz | CTCSS/CC CC1\nSP SR4DLM | Lomza, Poland, Warminsko-Mazurskie,Podlaskie | DMR | 481 km | TX 438.612500 MHz | CTCSS/CC CC4\nDL DB0ESS | Gruenten/Allgaeu, Germany, Bayern | DMR | 618 km | TX 438.612500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OM OM0OAA (DMR, 50 km), OK OK0DPA (DMR, 163 km), SP SR6DMO (DMR, 165 km) +7",
+    "frequency": 438625000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOM OM0OAA | Zilina, Hradisko, Slovakia, Zilinsky | DMR | 50 km | TX 438.625000 MHz | CTCSS/CC CC1\nOK OK0DPA | Pavlov, Czech Republic, Vysocina | DMR | 163 km | TX 438.625000 MHz | CTCSS/CC CC1\nSP SR6DMO | Olawa, Poland, dolnośląskie | DMR | 165 km | TX 438.625000 MHz | CTCSS/CC CC1\nOE OE3XVA | St. Valentin, Austria, Niederoesterreich | DMR | 307 km | TX 438.625000 MHz | CTCSS/CC CC1\nDL DM0BGH | Burghausen, Germany, Bayern | DMR | 419 km | TX 438.625000 MHz | CTCSS/CC CC1\nDL DB0OUD | Berlin/City-West, Germany, Berlin | DMR | 470 km | TX 438.625000 MHz | CTCSS/CC CC1\nOE OE7XUT | St.Ulrich am Pillers, Oesterreich/Austria, All Regions | DMR | 470 km | TX 438.625000 MHz | CTCSS/CC CC1\nDL DB0MCG | Murnau, Germany, Bayern | DMR | 552 km | TX 438.625000 MHz | CTCSS/CC CC1\nDL DO0TPB | Basedow, Germany, Schleswig-Holstein | DMR | 677 km | TX 438.625000 MHz | CTCSS/CC CC1\nDL DB0HHH | HH-Lohbruegge, Germany, Hamburg | DMR | 705 km | TX 438.625000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OK OK0DIT (DMR, 138 km), DL DB0BUC (DMR, 699 km)",
+    "frequency": 438637500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0DIT | Lesni Hluboke, Czech Republic | DMR | 138 km | TX 438.637500 MHz | CTCSS/CC CC1\nDL DB0BUC | Buchholz, Germany, Lower Saxony | DMR | 699 km | TX 438.637500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE1XFW (FM, 202 km), SP SR1WAD (DMR, 430 km), DL DB0SRB (DMR, 495 km) +5",
+    "frequency": 438650000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE1XFW | Laaerberg Turm | FM | 202 km | TX 438.650000 MHz | CTCSS/CC \nSP SR1WAD | Walcz, Poland, zachodniopomorskie | DMR | 430 km | TX 438.650000 MHz | CTCSS/CC CC1\nDL DB0SRB | Unterwellenborn, Germany, Thueringen | DMR | 495 km | TX 438.650000 MHz | CTCSS/CC CC1\nDL DB0SLF | Saalfeld JO50QP, Germany | DMR | 501 km | TX 438.650000 MHz | CTCSS/CC CC1\nDL DB0ZEA | Zerbst/Anhalt, Germany, Saxony-Anhalt | DMR | 504 km | TX 438.650000 MHz | CTCSS/CC CC1\nDL DB0NDS | Zernien, Germany, cnty | DMR | 639 km | TX 438.650000 MHz | CTCSS/CC CC1\nDL DB0NDS | Zernien, Germany, Niedersachsen | DMR | 639 km | TX 438.650000 MHz | CTCSS/CC CC1\nDL DB0VKS | Überherrn | FM | 829 km | TX 438.650000 MHz | CTCSS/CC "
+  },
+  {
+    "name": "DL DB0SC (DMR, 609 km), DL DB0STH (DMR, 691 km), DL DB0KLI (DMR, 707 km)",
+    "frequency": 438662500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0SC | Lauda-Koenigshofen, Germany, Baden-Wuerttemberg | DMR | 609 km | TX 438.662500 MHz | CTCSS/CC CC1\nDL DB0STH | Klein Heidorn, Germany, Niedersachsen | DMR | 691 km | TX 438.662500 MHz | CTCSS/CC CC1\nDL DB0KLI | Klippeneck, Germany, Baden-Wuerttemberg | DMR | 707 km | TX 438.662500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE3XQA (DMR, 202 km)",
+    "frequency": 438675000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XQA | Wien/Exelberg, Oesterreich/Austria, All Regions | DMR | 202 km | TX 438.675000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR3KRZ (DMR, 273 km), DL DM0ING (DMR, 496 km), DL DB0WV (DMR, 671 km) +2",
+    "frequency": 438687500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR3KRZ | Krzemieniewo, Poland | DMR | 273 km | TX 438.687500 MHz | CTCSS/CC CC3\nDL DM0ING | Ingolstadt, Germany, Bayern | DMR | 496 km | TX 438.687500 MHz | CTCSS/CC CC1\nDL DB0WV | Illmensee, Germany, Baden-Wuerttemberg | DMR | 671 km | TX 438.687500 MHz | CTCSS/CC CC1\nDL DB0ROD | Rodenberg Deister, Germany, Niedersachsen / Bremen | DMR | 685 km | TX 438.687500 MHz | CTCSS/CC CC1\nDL DB0WA | Aachen, Germany, Nordrhein-Westfalen | DMR | 870 km | TX 438.687500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE3XPC (DMR, 257 km), DL DB0TA (DMR, 467 km), DL DB0TR (FM, 478 km) +3",
+    "frequency": 438700000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XPC | Hinteralm, Oesterreich/Austria, Niederoesterreich | DMR | 257 km | TX 438.700000 MHz | CTCSS/CC CC1\nDL DB0TA | Birkholzaue, Germany, Brandenburg | DMR | 467 km | TX 438.700000 MHz | CTCSS/CC CC1\nDL DB0TR | Hochries | FM | 478 km | TX 438.700000 MHz | CTCSS/CC \nDL DB0MIO | Michelau, Germany, Bayern | DMR | 510 km | TX 438.700000 MHz | CTCSS/CC CC1\nDL DB0GOE | Bovenden, Germany, Lower Saxony | DMR | 621 km | TX 438.700000 MHz | CTCSS/CC CC1\nDL DB0FRG | Freiburg/Schauinsland | FM | 774 km | TX 438.700000 MHz | CTCSS/CC "
+  },
+  {
+    "name": "SP SR9VRJ (DMR, 131 km), DL DM0TMH (DMR, 412 km), DL DB0FA (DMR, 669 km) +1",
+    "frequency": 438712500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9VRJ | Zakopane, Poland, Malopolskie | DMR | 131 km | TX 438.712500 MHz | CTCSS/CC CC1\nDL DM0TMH | Haunberg, Germany, Bayern | DMR | 412 km | TX 438.712500 MHz | CTCSS/CC CC1\nDL DB0FA | Fassberg, Germany | DMR | 669 km | TX 438.712500 MHz | CTCSS/CC CC1\nDL DB0RAB | Albstadt, Germany | DMR | 685 km | TX 438.712500 MHz | CTCSS/CC "
+  },
+  {
+    "name": "OK OK0OZL (DMR, 52 km), OE OE3XAV (DMR, 151 km), SP SR6MA (FM, 179 km) +4",
+    "frequency": 438725000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0OZL | Zlin, Czech Republic, Zlinsky | DMR | 52 km | TX 438.725000 MHz | CTCSS/CC CC1\nOE OE3XAV | Kleinhadersdorf, Oesterreich/Austria, Niederoesterreich | DMR | 151 km | TX 438.725000 MHz | CTCSS/CC CC1\nSP SR6MA |  | FM | 179 km | TX 438.725000 MHz | CTCSS/CC 67.0\nOE OE4XSB | Sonnenberg, Oesterreich/Austria, Burgenland | DMR | 249 km | TX 438.725000 MHz | CTCSS/CC CC1\nOE OE4XSB | Sonnenberg im Leithagebirge | FM | 366 km | TX 438.725000 MHz | CTCSS/CC \nOE OE5XDM | Hunerkogel | FM | 407 km | TX 438.725000 MHz | CTCSS/CC \nDL DB0YS | Kreuztal-Kindelsberg, Germany, Nordrhein-Westfalen | DMR | 739 km | TX 438.725000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR3DSE (DMR, 293 km), DL DB0MIR (DMR, 537 km)",
+    "frequency": 438737500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR3DSE | Srem, Poland, wielkopolskie | DMR | 293 km | TX 438.737500 MHz | CTCSS/CC CC1\nDL DB0MIR | Martinsberg Ammersee, Germany, Bayern | DMR | 537 km | TX 438.737500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OK OK0BS (DMR, 179 km), SP SR6TW (DMR, 205 km), OE OE3XHW (FM, 247 km) +1",
+    "frequency": 438750000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0BS | Pardubice, Czech Republic, Pardubice Region | DMR | 179 km | TX 438.750000 MHz | CTCSS/CC CC1\nSP SR6TW | Chelstow, Poland, dolnośląskie | DMR | 205 km | TX 438.750000 MHz | CTCSS/CC CC1\nOE OE3XHW | Hohe Wand | FM | 247 km | TX 438.750000 MHz | CTCSS/CC \nDL DB0ZV | Hagen, Germany, Nordrhein-Westfalen | DMR | 782 km | TX 438.750000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0BMW (DMR, 447 km), DL DM0JL (DMR, 624 km), DL DB0MUE (DMR, 824 km)",
+    "frequency": 438762500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0BMW | Pentling, Germany, Bayern | DMR | 447 km | TX 438.762500 MHz | CTCSS/CC CC1\nDL DM0JL | Lengede, Germany, Niedersachsen | DMR | 624 km | TX 438.762500 MHz | CTCSS/CC CC1\nDL DB0MUE | Muelheim/Ruhr, Germany, Nordrhein-Westfalen | DMR | 824 km | TX 438.762500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DM0RLB (DMR, 416 km)",
+    "frequency": 438762600,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DM0RLB | Rochlitzer Berg, Germany, Saxony | DMR | 416 km | TX 438.762600 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR5WU (DMR, 352 km), SP SR2TO (DMR, 386 km), DL DB0EBA (DMR, 516 km) +4",
+    "frequency": 438775000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR5WU | Warszawa, Poland, mazowieckie | DMR | 352 km | TX 438.775000 MHz | CTCSS/CC CC1\nSP SR2TO | Torun, Poland | DMR | 386 km | TX 438.775000 MHz | CTCSS/CC CC1\nDL DB0EBA | Erlangen, Germany, Bayern | DMR | 516 km | TX 438.775000 MHz | CTCSS/CC CC1\nDL DB0SLK | Biere, Germany, Sachsen-Anhalt | DMR | 531 km | TX 438.775000 MHz | CTCSS/CC CC1\nDL DB0FHS | Stralsund, Germany, Mecklenburg-Vorpommern | DMR | 633 km | TX 438.775000 MHz | CTCSS/CC CC1\nOE OE5XBR | Stadt/Froschberg | FM | 729 km | TX 438.775000 MHz | CTCSS/CC \nDL DB0HWR | Weiskirchen, Germany, Saarland | DMR | 818 km | TX 438.775000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0CGN (DMR, 810 km)",
+    "frequency": 438787500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0CGN | Koeln, Germany, Nordrhein-Westfalen | DMR | 810 km | TX 438.787500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE3XNS (FM, 169 km), OK OK0BTA (DMR, 270 km), OK OK0T (DMR, 332 km) +5",
+    "frequency": 438800000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XNS | Buschberg | FM | 169 km | TX 438.800000 MHz | CTCSS/CC \nOK OK0BTA | Hury, Czech Republic | DMR | 270 km | TX 438.800000 MHz | CTCSS/CC CC1\nOK OK0T | Hrad Doubravka, Czech Republic, Ustecky | DMR | 332 km | TX 438.800000 MHz | CTCSS/CC CC1\nOE OE5XGL | Gmunden, Oesterreich/Austria, Oberoesterreich | DMR | 392 km | TX 438.800000 MHz | CTCSS/CC CC1\nDL DB0CRA | Crailsheim, Germany | FM | 588 km | TX 438.800000 MHz | CTCSS/CC \nDL DO0RDG | Ribnitz-Damgarten, Germany, Mecklenburg-Vorpommern | DMR | 652 km | TX 438.800000 MHz | CTCSS/CC CC1\nDL DB0RVH | Ribnitz-Damgarten, Germany, Mecklenburg-Vorpommern | DMR | 652 km | TX 438.800000 MHz | CTCSS/CC CC1\nDL DB0XJ | 21682 Stade, Germany, Niedersachsen / Bremen | DMR | 751 km | TX 438.800000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR5MS (FM, 367 km), DL DB0HSK (DMR, 727 km), DL DM0RS (DMR, 798 km)",
+    "frequency": 438812500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR5MS | Nowy Dwór Mazowiecki | FM | 367 km | TX 438.812500 MHz | CTCSS/CC \nDL DB0HSK | Meschede Fernmeldet, Germany, Nordrhein-Westfalen | DMR | 727 km | TX 438.812500 MHz | CTCSS/CC CC1\nDL DM0RS | Remscheid, Germany, Nordrhein-Westfalen | DMR | 798 km | TX 438.812500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9AE (FM, 139 km), OE OE1XQU (D-STAR, 203 km), SP SR8UVL (DMR, 362 km) +4",
+    "frequency": 438825000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9AE |  | FM | 139 km | TX 438.825000 MHz | CTCSS/CC 103.5\nOE OE1XQU | Wienerberg | D-STAR | 203 km | TX 438.825000 MHz | CTCSS/CC \nSP SR8UVL | Lublin, Poland | DMR | 362 km | TX 438.825000 MHz | CTCSS/CC CC1\nSP SR5VW | Różan | FM | 433 km | TX 438.825000 MHz | CTCSS/CC 67.0\nDL DM0TZN | Mittenwalde, Germany, Brandenburg | DMR | 442 km | TX 438.825000 MHz | CTCSS/CC CC1\nOE OE2XHM | Hochkönig Matrashaus | FM | 444 km | TX 438.825000 MHz | CTCSS/CC \nDL DO0RM | Roebel/Mueritz, Germany, Mecklenburg-Vorpommern | DMR | 573 km | TX 438.825000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE3XCR (FM, 273 km), DL DB0FLW (DMR, 455 km), SP SR2UVG (DMR, 545 km) +5",
+    "frequency": 438837500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XCR | Hutwisch | FM | 273 km | TX 438.837500 MHz | CTCSS/CC \nDL DB0FLW | Leipzig, Germany, Sachsen | DMR | 455 km | TX 438.837500 MHz | CTCSS/CC CC1\nSP SR2UVG | RTCN Chwaszczyno, Poland, pomorskie | DMR | 545 km | TX 438.837500 MHz | CTCSS/CC CC2\nDL DB0PLZ | Pliezhausen, Germany, Baden-Wuerttemberg | DMR | 662 km | TX 438.837500 MHz | CTCSS/CC CC1\nDL DB0GK | Sachsenheim/Hohenhas, Germany, Baden-Wuerttemberg | DMR | 665 km | TX 438.837500 MHz | CTCSS/CC CC1\nDL DO0TPB | Basedow, Germany, Schleswig-Holstein | DMR | 677 km | TX 438.837500 MHz | CTCSS/CC CC1\nDL DB0UG | Paderborn, Germany, Nordrhein-Westfalen | DMR | 696 km | TX 438.837500 MHz | CTCSS/CC CC1\nDL DB0LU | Ludwigshafen, Germany, Rhineland-Palatinate | DMR | 702 km | TX 438.837500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE3XCR (DMR, 273 km), OE OE3XDA (FM, 321 km), OE OE8XMK (DMR, 426 km) +4",
+    "frequency": 438850000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XCR | Hutwisch, Oesterreich/Austria, Niederoesterreich | DMR | 273 km | TX 438.850000 MHz | CTCSS/CC CC1\nOE OE3XDA | Hochkogel | FM | 321 km | TX 438.850000 MHz | CTCSS/CC \nOE OE8XMK | Magdalensberg, Austria, Kaernten | DMR | 426 km | TX 438.850000 MHz | CTCSS/CC CC1\nDL DB0OVP | Loissin, Germany, Mecklenburg-Vorpommern | DMR | 598 km | TX 438.850000 MHz | CTCSS/CC CC1\nDL DM0RUG | Sagard/Ruegen, Germany, Brandenburg | DMR | 636 km | TX 438.850000 MHz | CTCSS/CC CC1\nDL DO0LEE | Leeheim, Germany, Hessen | DMR | 699 km | TX 438.850000 MHz | CTCSS/CC CC1\nDL DB0VV | Idar-Oberstein, Germany, Rheinland-Pfalz | DMR | 780 km | TX 438.850000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OK OK0BCA (DMR, 216 km), OE OE3XNR (FM, 265 km), OE OE7XLI (DMR, 330 km) +4",
+    "frequency": 438875000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0BCA | Lisci Hora, Czech Republic, Kralovehradecki | DMR | 216 km | TX 438.875000 MHz | CTCSS/CC CC1\nOE OE3XNR | Nebelstein | FM | 265 km | TX 438.875000 MHz | CTCSS/CC 88.5\nOE OE7XLI | Hochstein, Oesterreich/Austria, Tirol | DMR | 330 km | TX 438.875000 MHz | CTCSS/CC CC1\nSP SR4SN | Szczytno, Poland | DMR | 487 km | TX 438.875000 MHz | CTCSS/CC CC4\nOE OE7XLH | Lienz/Osttirol, Oesterreich/Austria, Tirol | DMR | 518 km | TX 438.875000 MHz | CTCSS/CC CC1\nDL DB0GL | Bergisch Gladbach, Germany, Nordrhein-Westfalen | DMR | 799 km | TX 438.875000 MHz | CTCSS/CC CC1\nSP SR7T | Zlota, Poland, świętokrzyskie | DMR | 1515 km | TX 438.875000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DM0DB (DMR, 617 km), DL DB0ZD (DMR, 625 km), DL DB0SUN (FM, 676 km) +1",
+    "frequency": 438887500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DM0DB | Dillberg, Germany, Bayern | DMR | 617 km | TX 438.887500 MHz | CTCSS/CC CC1\nDL DB0ZD | Immenstadt, Germany, Bayern | DMR | 625 km | TX 438.887500 MHz | CTCSS/CC CC1\nDL DB0SUN | Springe | FM | 676 km | TX 438.887500 MHz | CTCSS/CC \nDL DB0OW | Hattingen, Germany, Nordrhein-Westfalen | DMR | 802 km | TX 438.887500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9KS (FM, 143 km), OE OE3XRB (FM, 302 km), SP SR5WI (YSF, 368 km) +1",
+    "frequency": 438900000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9KS |  | FM | 143 km | TX 438.900000 MHz | CTCSS/CC 103.5\nOE OE3XRB | Sonntagberg | FM | 302 km | TX 438.900000 MHz | CTCSS/CC \nSP SR5WI | Warsaw Poland | YSF | 368 km | TX 438.900000 MHz | CTCSS/CC \nOE OE8XFK | Dobratsch, Austria, Kaernten | DMR | 468 km | TX 438.900000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE6XBF (DMR, 344 km), OK OK0DAN (DMR, 344 km), SP SR5UOS (DMR, 458 km) +2",
+    "frequency": 438912500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE6XBF | Stradner Kogel, Austria, Steiermark | DMR | 344 km | TX 438.912500 MHz | CTCSS/CC CC1\nOK OK0DAN | Zatec, Czech Republic, Usti nad Labem Region | DMR | 344 km | TX 438.912500 MHz | CTCSS/CC CC1\nSP SR5UOS | Ostroleka, Poland, Mazowieckie | DMR | 458 km | TX 438.912500 MHz | CTCSS/CC CC5\nDL DB0HOL | Ottenstein, Germany, Niedersachsen | DMR | 670 km | TX 438.912500 MHz | CTCSS/CC CC1\nDL DB0CF | Halver, Germany, Nordrhein-Westfalen | DMR | 777 km | TX 438.912500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OM OM0OAE (DMR, 50 km), OK OK0BDV (DMR, 275 km), OE OE3XSU (FM, 381 km) +1",
+    "frequency": 438925000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOM OM0OAE | Zilina, Hradisko, Slovakia, ilina Region | DMR | 50 km | TX 438.925000 MHz | CTCSS/CC CC1\nOK OK0BDV | Ceske Budejovice, Czech Republic, Jihocesky | DMR | 275 km | TX 438.925000 MHz | CTCSS/CC CC1\nOE OE3XSU | Rittmannsberg | FM | 381 km | TX 438.925000 MHz | CTCSS/CC \nDL DB0BP | Ludwigsburg, Germany, Baden-Wuerttemberg | DMR | 655 km | TX 438.925000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0OAL (DMR, 587 km), DL DB0LGH (DMR, 671 km)",
+    "frequency": 438937500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0OAL | Tegelberg, Germany, Bayern | DMR | 587 km | TX 438.937500 MHz | CTCSS/CC CC1\nDL DB0LGH | Langenhagen, Germany, Lower Saxony | DMR | 671 km | TX 438.937500 MHz | CTCSS/CC CC2"
+  },
+  {
+    "name": "SP SR6ACZ (FM, 190 km), OE OE1XUU (FM, 195 km), OE OE5XDO (FM, 336 km) +4",
+    "frequency": 438950000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR6ACZ | Wrocław, Lower Silesia | FM | 190 km | TX 438.950000 MHz | CTCSS/CC 103.5\nOE OE1XUU | Kahlenberg | FM | 195 km | TX 438.950000 MHz | CTCSS/CC 162.2\nOE OE5XDO | Pfarrkirchen Ort | FM | 336 km | TX 438.950000 MHz | CTCSS/CC \nDL DB0TU | TU Berlin, Germany, Berlin | DMR | 471 km | TX 438.950000 MHz | CTCSS/CC CC1\nDL DO0BRB | Brandenburg An Der Havel, Germany, Berlin / Brandenburg | DMR | 512 km | TX 438.950000 MHz | CTCSS/CC CC1\nDL DB0WAS | Frankenheim | FM | 587 km | TX 438.950000 MHz | CTCSS/CC \nDL DB0BOR | Borken, Germany, Nordrhein-Westfalen | DMR | 835 km | TX 438.950000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR3DZG (DMR, 323 km), DL DM0SC (DMR, 515 km)",
+    "frequency": 438962500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR3DZG | Zielona Gora, Poland, wielkopolskie | DMR | 323 km | TX 438.962500 MHz | CTCSS/CC CC1\nDL DM0SC | Schwabach, Germany, Bayern | DMR | 515 km | TX 438.962500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9DLI (DMR, 164 km), OE OE3XFW (FM, 221 km), OE OE2XNM (FM, 438 km) +2",
+    "frequency": 438975000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9DLI | Limanowa, Poland | DMR | 164 km | TX 438.975000 MHz | CTCSS/CC CC1\nOE OE3XFW | Jochgrabenberg | FM | 221 km | TX 438.975000 MHz | CTCSS/CC 162.2\nOE OE2XNM | Speiereck | FM | 438 km | TX 438.975000 MHz | CTCSS/CC \nDL DB0TDR | Satow, Germany, Mecklenburg-Vorpommern | DMR | 654 km | TX 438.975000 MHz | CTCSS/CC CC1\nDL DB0HER | Herrenberg, Germany, Baden-Wuerttemberg | DMR | 685 km | TX 438.975000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE3XMC (DMR, 200 km), DL DM0KR (FM, 843 km)",
+    "frequency": 438987500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XMC | Schwechat, Oesterreich/Austria, Niederoesterreich | DMR | 200 km | TX 438.987500 MHz | CTCSS/CC CC1\nDL DM0KR | Krefeld | FM | 843 km | TX 438.987500 MHz | CTCSS/CC 123.0"
+  },
+  {
+    "name": "OK OK0BK (DMR, 298 km), SP SR5WZ (DMR, 343 km), OE OE2XZR (D-STAR, 420 km) +2",
+    "frequency": 439000000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0BK | Kladno, Czech Republic, Stredocesky | DMR | 298 km | TX 439.000000 MHz | CTCSS/CC CC1\nSP SR5WZ | Moszna Parcela, Poland, Mazowieckie | DMR | 343 km | TX 439.000000 MHz | CTCSS/CC CC1\nOE OE2XZR | Gaisberg | D-STAR | 420 km | TX 439.000000 MHz | CTCSS/CC \nOE OE1XFU | Satzberg | FM | 430 km | TX 439.000000 MHz | CTCSS/CC 162.2\nOE OE2XSE | Mittersill, Austria, Salzburg | DMR | 489 km | TX 439.000000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR8AVB (DMR, 445 km), DL DB0FHA (DMR, 592 km), DL DB0HFD (DMR, 722 km) +1",
+    "frequency": 439012500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR8AVB | Biala Podlaska, Poland | DMR | 445 km | TX 439.012500 MHz | CTCSS/CC CC8\nDL DB0FHA | Aalen/Onatsfeld, Germany, Baden-Wuerttemberg | DMR | 592 km | TX 439.012500 MHz | CTCSS/CC CC1\nDL DB0HFD | Herford, Germany, Nordrhein-Westfalen | DMR | 722 km | TX 439.012500 MHz | CTCSS/CC CC1\nDL DM0GAP | Garmisch Partenkirch, Germany, Bayern | DMR | 1515 km | TX 439.012500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE3XLU (FM, 161 km), OE OE3XEU (FM, 222 km), OK OK0ND (DMR, 277 km) +1",
+    "frequency": 439025000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XLU | Gießhübel | FM | 161 km | TX 439.025000 MHz | CTCSS/CC \nOE OE3XEU | Frauenstaffel | FM | 222 km | TX 439.025000 MHz | CTCSS/CC \nOK OK0ND | Praha, Czech Republic, Hlavni mesto Praha | DMR | 277 km | TX 439.025000 MHz | CTCSS/CC CC1\nDL DB0QC | Bremerhaven, Germany, Niedersachsen, Bremen | FM | 796 km | TX 439.025000 MHz | CTCSS/CC "
+  },
+  {
+    "name": "DL DB0BLG (DMR, 731 km), DL DB0AUE (DMR, 772 km)",
+    "frequency": 439037500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0BLG | Blumberg, Germany, Baden-Wuerttemberg | DMR | 731 km | TX 439.037500 MHz | CTCSS/CC CC1\nDL DB0AUE | Wildeshausen, Germany | DMR | 772 km | TX 439.037500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9UW (DMR, 100 km), OK OK0BBK (DMR, 244 km), SP SR5OS (DMR, 458 km) +4",
+    "frequency": 439050000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9UW | Katowice, Poland | DMR | 100 km | TX 439.050000 MHz | CTCSS/CC CC9\nOK OK0BBK | Turnov, Czech Republic, Liberecky | DMR | 244 km | TX 439.050000 MHz | CTCSS/CC CC1\nSP SR5OS | Ostroleka, Poland, Mazowieckie | DMR | 458 km | TX 439.050000 MHz | CTCSS/CC CC5\nSP SR1WR | Ryman, Poland, zachodniopomorskie | DMR | 519 km | TX 439.050000 MHz | CTCSS/CC CC1\nOE OE3XEB | Troppberg | FM | 617 km | TX 439.050000 MHz | CTCSS/CC \nDL DB0MSK | Solhoehe/Langenprozel, Germany, Bayern | DMR | 618 km | TX 439.050000 MHz | CTCSS/CC CC1\nDL DB0VL | Thuine, Germany, Niedersachsen | DMR | 814 km | TX 439.050000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR7SAN (DMR, 271 km), DL DB0WAB (FM, 618 km), DL DB0ROB (DMR, 663 km) +1",
+    "frequency": 439062500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR7SAN | Koprzywnica, Poland, świętokrzyskie | DMR | 271 km | TX 439.062500 MHz | CTCSS/CC CC7\nDL DB0WAB | Waldenburg, Germany | FM | 618 km | TX 439.062500 MHz | CTCSS/CC \nDL DB0ROB | Reutlingen, Germany, Baden-Wuerttemberg | DMR | 663 km | TX 439.062500 MHz | CTCSS/CC CC1\nDL DO0ERK | Erkrath, Germany, Nordrhein-Westfalen | DMR | 818 km | TX 439.062500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OE OE3XWU (DMR, 276 km), OE OE3XWU (D-STAR, 279 km), OK OK0BPT (DMR, 308 km) +4",
+    "frequency": 439075000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOE OE3XWU | Hochwechsel, Oesterreich/Austria, Niederoesterreich | DMR | 276 km | TX 439.075000 MHz | CTCSS/CC CC1\nOE OE3XWU | Hochwechsel | D-STAR | 279 km | TX 439.075000 MHz | CTCSS/CC 162.2\nOK OK0BPT | Libin, Prachatice, Czech Republic, Jihocesky | DMR | 308 km | TX 439.075000 MHz | CTCSS/CC CC1\nOE OE7XBI | Rangger Koepfl, Austria, Tirol | DMR | 574 km | TX 439.075000 MHz | CTCSS/CC CC1\nDL DB0OHA | Herzberg am Harz, Germany | DMR | 599 km | TX 439.075000 MHz | CTCSS/CC CC1\nDL DB0SAB | Saarburg Hosteberg, Germany, Rheinland-Pfalz | DMR | 840 km | TX 439.075000 MHz | CTCSS/CC CC1\nDL DB0HEL | Helgoland, Germany, Schleswig-Holstein | DMR | 872 km | TX 439.075000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9UCZ (DMR, 155 km), OE OE2XSV (DMR, 158 km), DL DM0TT (DMR, 469 km)",
+    "frequency": 439087500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9UCZ | Czestochowa, Poland, Silesian Voivodeship | DMR | 155 km | TX 439.087500 MHz | CTCSS/CC CC1\nOE OE2XSV | Sonnblick, Oesterreich/Austria | DMR | 158 km | TX 439.087500 MHz | CTCSS/CC CC1\nDL DM0TT | Berlin, Germany, Berlin | DMR | 469 km | TX 439.087500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9SS (DMR, 104 km), OK OK0BLI (DMR, 311 km), DL DB0RP (DMR, 445 km) +1",
+    "frequency": 439100000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9SS | Siemianowice Slaskie, Poland | DMR | 104 km | TX 439.100000 MHz | CTCSS/CC CC1\nOK OK0BLI | Lipno, Blizna, Czech Republic, Jihocesky | DMR | 311 km | TX 439.100000 MHz | CTCSS/CC CC1\nDL DB0RP | Regensburg, Germany, Bayern | DMR | 445 km | TX 439.100000 MHz | CTCSS/CC CC1\nDL DB0ZT | Wasserturm Kaeshofen, Germany, Rheinland-Pfalz | DMR | 777 km | TX 439.100000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DM0ET (DMR, 526 km), DL DB0FAA (DMR, 588 km), DL DB0KLN (FM, 750 km)",
+    "frequency": 439112500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DM0ET | Frensdorf, Germany, Bayern | DMR | 526 km | TX 439.112500 MHz | CTCSS/CC CC1\nDL DB0FAA | Aalen/Braunenberg, Germany, Baden-Wuerttemberg | DMR | 588 km | TX 439.112500 MHz | CTCSS/CC CC1\nDL DB0KLN | Kaiserslautern | FM | 750 km | TX 439.112500 MHz | CTCSS/CC "
+  },
+  {
+    "name": "OM OM0OAF (DMR, 115 km), DL DB0YCC (DMR, 399 km), DL DB0GJ (DMR, 512 km)",
+    "frequency": 439125000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOM OM0OAF | Banska Bystrica, Slovakia, Banskobystricky | DMR | 115 km | TX 439.125000 MHz | CTCSS/CC CC1\nDL DB0YCC | Cham, Germany, Bayern | DMR | 399 km | TX 439.125000 MHz | CTCSS/CC CC2\nDL DB0GJ | Marloffstein, Germany, Bayern | DMR | 512 km | TX 439.125000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OM OM0OUA (DMR, 70 km), DL DO0KL (DMR, 848 km)",
+    "frequency": 439137500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOM OM0OUA | Martin, Slovakia, cnty | DMR | 70 km | TX 439.137500 MHz | CTCSS/CC CC1\nDL DO0KL | Kamp-Lintfort, Germany, Nordrhein-Westfalen | DMR | 848 km | TX 439.137500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9SZ (DMR, 110 km), OM OM0OUE (DMR, 243 km), OK OK0DJ (DMR, 262 km) +5",
+    "frequency": 439150000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9SZ | Bedzin, PL, Poland | DMR | 110 km | TX 439.150000 MHz | CTCSS/CC CC1\nOM OM0OUE | Kosice, Slovakia, Kosicky | DMR | 243 km | TX 439.150000 MHz | CTCSS/CC CC1\nOK OK0DJ | Jested, Czech Republic, Liberec Region | DMR | 262 km | TX 439.150000 MHz | CTCSS/CC CC1\nSP SR4MR | Mragowo/Mazury, Poland | DMR | 526 km | TX 439.150000 MHz | CTCSS/CC CC1\nDL DO0MGD | Magdeburg, Germany, Sachsen-Anhalt / Mecklenburg-Vorpommen | DMR | 541 km | TX 439.150000 MHz | CTCSS/CC CC1\nDL DB0VER | Verden, Germany | DMR | 725 km | TX 439.150000 MHz | CTCSS/CC CC1\nDL DB0VI | Marpingen, Germany, Saarland | DMR | 801 km | TX 439.150000 MHz | CTCSS/CC CC1\nDL DB0FWM | Bitburg, Germany, Rheinland-Pfalz / Saarland | DMR | 847 km | TX 439.150000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0RTA (DMR, 528 km), DL DB0SAR (DMR, 684 km)",
+    "frequency": 439162500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0RTA | Gilching, Germany, Bayern | DMR | 528 km | TX 439.162500 MHz | CTCSS/CC CC1\nDL DB0SAR | Hohenbostel, Germany, Niedersachsen | DMR | 684 km | TX 439.162500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9CZ (DMR, 155 km), SP SR9TR (DMR, 208 km), OK OK0EB (DMR, 292 km) +1",
+    "frequency": 439175000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9CZ | Czestochowa, Poland | DMR | 155 km | TX 439.175000 MHz | CTCSS/CC CC1\nSP SR9TR | Tarnow, Poland | DMR | 208 km | TX 439.175000 MHz | CTCSS/CC CC1\nOK OK0EB | Klet, Czech Republic, Jihocesky | DMR | 292 km | TX 439.175000 MHz | CTCSS/CC CC1\nDL DB0EWB | Oerel, Germany | DMR | 766 km | TX 439.175000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0ST (DMR, 660 km), DL DB0SLB (YSF/FM, 762 km), DL DB0DAM (DMR, 774 km)",
+    "frequency": 439187500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0ST | Stuttgart, Germany, Baden-Wuerttemberg | DMR | 660 km | TX 439.187500 MHz | CTCSS/CC CC1\nDL DB0SLB | Rothselberg | YSF/FM | 762 km | TX 439.187500 MHz | CTCSS/CC 77.0\nDL DB0DAM | Dammer Berge, Germany, Niedersachsen | DMR | 774 km | TX 439.187500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OK OK0KOP (DMR, 71 km), SP SR9SE (DMR, 110 km), OK OK0BRT (DMR, 256 km) +1",
+    "frequency": 439200000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0KOP | Kopanky, Czech Republic, Zlin Region | DMR | 71 km | TX 439.200000 MHz | CTCSS/CC CC1\nSP SR9SE | Bedzin, Poland | DMR | 110 km | TX 439.200000 MHz | CTCSS/CC CC1\nOK OK0BRT | V.Popovice, Czech Republic, Stredocesky | DMR | 256 km | TX 439.200000 MHz | CTCSS/CC CC1\nDL DB0QP | Wald bei Winhoering, Germany, Bayern | DMR | 425 km | TX 439.200000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OK OK0BEA (DMR, 368 km), DL DB0EH (DMR, 484 km), DL DO0WUG (DMR, 530 km) +2",
+    "frequency": 439212500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0BEA | Klasterec nad ohri, Czech Republic, Ustecky | DMR | 368 km | TX 439.212500 MHz | CTCSS/CC CC1\nDL DB0EH | Hersbruck, Germany, Bayern | DMR | 484 km | TX 439.212500 MHz | CTCSS/CC CC1\nDL DO0WUG | Langenaltheim, Germany, Bayern | DMR | 530 km | TX 439.212500 MHz | CTCSS/CC CC1\nDL DB0WTL | Loewenstein, Germany, Baden-Wuerttemberg | DMR | 636 km | TX 439.212500 MHz | CTCSS/CC CC1\nDL DB0NPR | Breitscheid, Germany, Rheinland-Pfalz / Saarland | DMR | 772 km | TX 439.212500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OK OK0PVD (DMR, 92 km), SP SR9NS (DMR, 184 km), SP SR1KG (DMR, 544 km) +2",
+    "frequency": 439225000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0PVD | Drahany, Czech Republic, Olomouc Region | DMR | 92 km | TX 439.225000 MHz | CTCSS/CC CC1\nSP SR9NS | Nowy Sacz, Poland | DMR | 184 km | TX 439.225000 MHz | CTCSS/CC CC1\nSP SR1KG | Kolobrzeg, Poland, zachodniopomorskie | DMR | 544 km | TX 439.225000 MHz | CTCSS/CC CC1\nDL DB0ANT | Wolfenbuettel, Germany, Niedersachsen | DMR | 608 km | TX 439.225000 MHz | CTCSS/CC CC1\nDL DB0PBG | Papenburg, Germany, Niedersachsen | DMR | 844 km | TX 439.225000 MHz | CTCSS/CC CC2"
+  },
+  {
+    "name": "SP SR9UVT (DMR, 119 km), DL DO0LH (DMR, 580 km), DL DO0LF (DMR, 688 km)",
+    "frequency": 439237500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9UVT | Gron-Lesnica, Poland, maeopolskie | DMR | 119 km | TX 439.237500 MHz | CTCSS/CC CC1\nDL DO0LH | Lauchheim, Germany, Baden-Wuerttemberg | DMR | 580 km | TX 439.237500 MHz | CTCSS/CC CC1\nDL DO0LF | Korbach/Goldhausen, Germany, Hessen | DMR | 688 km | TX 439.237500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0HHG (DMR, 621 km)",
+    "frequency": 439250000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0HHG | Goettingen, Germany, Niedersachsen | DMR | 621 km | TX 439.250000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR5OK (DMR, 468 km), DL DB0XP (DMR, 626 km), DL DB0RPL (DMR, 769 km)",
+    "frequency": 439262500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR5OK | Kadzidlo, Poland, Mazowieckie | DMR | 468 km | TX 439.262500 MHz | CTCSS/CC CC5\nDL DB0XP | Hessisch Lichtenau, Germany, Hessen | DMR | 626 km | TX 439.262500 MHz | CTCSS/CC CC1\nDL DB0RPL | Neuwied/Rhein, Germany, Rheinland-Pfalz | DMR | 769 km | TX 439.262500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9KR (DMR, 143 km), OK OK0DV (DMR, 190 km), OK OK0TES (DMR, 286 km) +5",
+    "frequency": 439275000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9KR | Krakow, Poland, maeopolskie | DMR | 143 km | TX 439.275000 MHz | CTCSS/CC CC1\nOK OK0DV | Hostovlice, Czech Republic, Stredocesky | DMR | 190 km | TX 439.275000 MHz | CTCSS/CC CC1\nOK OK0TES | Praha, Czech Republic, Hlavni mesto Praha | DMR | 286 km | TX 439.275000 MHz | CTCSS/CC CC1\nOK OK0PI | Jarnik hill, Czech Republic, Jihocesky | DMR | 288 km | TX 439.275000 MHz | CTCSS/CC CC1\nSP SR4KT | Ketrzyn, Poland, Warmian-Masurian Voi | DMR | 549 km | TX 439.275000 MHz | CTCSS/CC CC1\nDL DB0LBX | Ludwigsburg, Germany | FM | 656 km | TX 439.275000 MHz | CTCSS/CC \nDL DB0END | Ennepetal-Stueting, Germany, Nordrhein-Westfalen | DMR | 792 km | TX 439.275000 MHz | CTCSS/CC CC1\nDL DB0LZ | Tholey, Germany, Saarland | DMR | 803 km | TX 439.275000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR6LWS (FM, 173 km), SP SR7DSC (DMR, 303 km), SP SR2BC (DMR, 398 km) +2",
+    "frequency": 439287500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR6LWS |  | FM | 173 km | TX 439.287500 MHz | CTCSS/CC 94.8\nSP SR7DSC | Skierniewice, Poland, lodzkie | DMR | 303 km | TX 439.287500 MHz | CTCSS/CC CC1\nSP SR2BC | Bydgoszcz, Poland, Kujawsko-Pomorskie | DMR | 398 km | TX 439.287500 MHz | CTCSS/CC CC2\nDL DB0AMK | Tangermuende/Elbe, Germany, Sachsen-Anhalt, Mecklenburg-Vorpommen | DMR | 546 km | TX 439.287500 MHz | CTCSS/CC CC1\nDL DB0SIX | Seeheim-Jugenheim, Germany, Hessen | DMR | 685 km | TX 439.287500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0SPB (DMR, 290 km), DL DB0ADB (DMR, 525 km), DL DB0SDO (DMR, 629 km) +4",
+    "frequency": 439300000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0SPB | Oderwitz, Germany, Sachsen | DMR | 290 km | TX 439.300000 MHz | CTCSS/CC CC1\nDL DB0ADB | Bamberg, Germany, Bayern | DMR | 525 km | TX 439.300000 MHz | CTCSS/CC CC1\nDL DB0SDO | Urbach, Germany, Baden-Wuerttemberg | DMR | 629 km | TX 439.300000 MHz | CTCSS/CC CC1\nDL DM0KB | Konstanz, Germany, Baden-Wuerttemberg | DMR | 693 km | TX 439.300000 MHz | CTCSS/CC CC1\nDL DO0SMZ | Mainz, Germany, Rheinland-Pfalz | DMR | 711 km | TX 439.300000 MHz | CTCSS/CC CC1\nDL DB0OX | Norden JO33oo, Germany, West Virginia | DMR | 880 km | TX 439.300000 MHz | CTCSS/CC CC1\nOK OK0BL | Čerchov, Czech Republic, Pilsen Region | DMR | 1515 km | TX 439.300000 MHz | CTCSS/CC CC0"
+  },
+  {
+    "name": "SP SR9JSR (DMR, 55 km), DL DB0BLX (DMR, 468 km), DL DM0ESS (DMR, 623 km) +1",
+    "frequency": 439312500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9JSR | Jastrzebie Zdroj, Poland | DMR | 55 km | TX 439.312500 MHz | CTCSS/CC CC1\nDL DB0BLX | 10117 Berlin, Germany, Berlin / Brandenburg | DMR | 468 km | TX 439.312500 MHz | CTCSS/CC CC1\nDL DM0ESS | Sonthofen, Germany, Bayern | DMR | 623 km | TX 439.312500 MHz | CTCSS/CC CC1\nDL DB0II | Moenchengladbach, Germany, Nordrhein-Westfalen | DMR | 5776 km | TX 439.312500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR6OP (DMR, 126 km), OK OK0BAJ (DMR, 187 km), OK OK0DBY (DMR, 277 km) +1",
+    "frequency": 439325000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR6OP | Opole, Poland, dolnośląskie | DMR | 126 km | TX 439.325000 MHz | CTCSS/CC CC1\nOK OK0BAJ | Jihlava, Czech Republic, Vysocina Region | DMR | 187 km | TX 439.325000 MHz | CTCSS/CC CC1\nOK OK0DBY | Praha 6, Czech Republic, Hlavni mesto Praha | DMR | 277 km | TX 439.325000 MHz | CTCSS/CC CC1\nDL DB0FFS | Scharenstetten, Germany, Baden-Wuerttemberg | DMR | 617 km | TX 439.325000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR6MI (DMR, 241 km)",
+    "frequency": 439337500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR6MI | Miłkowice, Poland, dolnośląskie | DMR | 241 km | TX 439.337500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0VIP (DMR, 442 km), DL DB0HYT (DMR, 677 km), DL DB0PR (DMR, 753 km)",
+    "frequency": 439350000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0VIP | 15838 Am Mellensee, Germany, Berlin / Brandenburg | DMR | 442 km | TX 439.350000 MHz | CTCSS/CC CC1\nDL DB0HYT | Bad Muender, Germany, Niedersachsen | DMR | 677 km | TX 439.350000 MHz | CTCSS/CC CC1\nDL DB0PR | Armstedt, Germany, Niedersachsen | DMR | 753 km | TX 439.350000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR6WB (FM, 194 km), DL DB0GF (DMR, 625 km), DL DM0ZIR (DMR, 866 km) +1",
+    "frequency": 439362500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR6WB |  | FM | 194 km | TX 439.362500 MHz | CTCSS/CC 94.8\nDL DB0GF | Gifhorn, Germany, Niedersachsen, Bremen | DMR | 625 km | TX 439.362500 MHz | CTCSS/CC CC1\nDL DM0ZIR | Straelen, Germany, Nordrhein-Westfalen | DMR | 866 km | TX 439.362500 MHz | CTCSS/CC CC1\nDL DB0KEV | Kevelaer, Germany, Nordrhein-Westfalen | DMR | 870 km | TX 439.362500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0EIG (DMR, 605 km), DL DB0LC (DMR, 651 km)",
+    "frequency": 439375000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0EIG | Gieboldehausen, Germany | DMR | 605 km | TX 439.375000 MHz | CTCSS/CC CC1\nDL DB0LC | Scheidegg, Germany, Bayern | DMR | 651 km | TX 439.375000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR5PLZ (DMR, 349 km), DL DM0LC (DMR, 446 km), SP SR1UVX (DMR, 474 km) +2",
+    "frequency": 439387500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR5PLZ | Plock, Poland, Mazowieckie | DMR | 349 km | TX 439.387500 MHz | CTCSS/CC CC1\nDL DM0LC | Leipzig Suedost, Germany, Sachsen | DMR | 446 km | TX 439.387500 MHz | CTCSS/CC CC1\nSP SR1UVX | Stargard Szczecinski, Poland, zachodniopomorskie | DMR | 474 km | TX 439.387500 MHz | CTCSS/CC CC1\nDL DB0TPS | Altomuenster, Germany, Bayern | DMR | 520 km | TX 439.387500 MHz | CTCSS/CC CC1\nDL DB0KL | Kaiserslautern, Germany, Rheinland-Pfalz | DMR | 750 km | TX 439.387500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OK OK0Z (DMR, 33 km), SP SR9UVM (DMR, 145 km), DL DB0GRZ (DMR, 287 km) +2",
+    "frequency": 439400000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0Z | Kelcsky Javornik, Czech Republic, Zlinsky | DMR | 33 km | TX 439.400000 MHz | CTCSS/CC CC1\nSP SR9UVM | Krakow Choragwica, Poland, maeopolskie | DMR | 145 km | TX 439.400000 MHz | CTCSS/CC CC9\nDL DB0GRZ | Goerlitz, Germany, Sachsen | DMR | 287 km | TX 439.400000 MHz | CTCSS/CC CC1\nSP SR5KAB | Warszawa, Poland, mazowieckie | DMR | 357 km | TX 439.400000 MHz | CTCSS/CC CC1\nSP SR4OE | Olecko, Poland, Warminsko-Mazurskie,Podlaskie | DMR | 581 km | TX 439.400000 MHz | CTCSS/CC CC4"
+  },
+  {
+    "name": "DL DB0RV (DMR, 658 km)",
+    "frequency": 439412500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0RV | Ravensburg, Germany, Baden-Wuerttemberg | DMR | 658 km | TX 439.412500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9DCH (DMR, 79 km), OK OK0DHU (DMR, 201 km), SP SR4UBI (DMR, 527 km) +2",
+    "frequency": 439425000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9DCH | Orzesze, Poland | DMR | 79 km | TX 439.425000 MHz | CTCSS/CC CC9\nOK OK0DHU | Havluv Kopec, Czech Republic | DMR | 201 km | TX 439.425000 MHz | CTCSS/CC CC1\nSP SR4UBI | Bialystok, Poland, Podlaskie Voivodeship | DMR | 527 km | TX 439.425000 MHz | CTCSS/CC CC4\nDL DB0KB | Höxter | FM | 674 km | TX 439.425000 MHz | CTCSS/CC \nDL DB0HTV | Frankfurt, Germany, Hessen | DMR | 682 km | TX 439.425000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0ERZ (DMR, 400 km), DL DB0CJ (DMR, 454 km), DL DB0NJ (DMR, 505 km) +1",
+    "frequency": 439437500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0ERZ | Zwoenitz, Germany, Saxony | DMR | 400 km | TX 439.437500 MHz | CTCSS/CC CC1\nDL DB0CJ | Amberg, Germany, Bayern | DMR | 454 km | TX 439.437500 MHz | CTCSS/CC CC1\nDL DB0NJ | Muenchen, Germany, Bayern | DMR | 505 km | TX 439.437500 MHz | CTCSS/CC CC1\nDL DB0BRO | Brocken/Harz, Germany | DMR | 587 km | TX 439.437500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR7LDA (DMR, 266 km), DL DB0EHS (DMR, 380 km), DL DB0GC (DMR, 428 km) +4",
+    "frequency": 439450000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR7LDA | Łódź, Poland, łódzkie | DMR | 266 km | TX 439.450000 MHz | CTCSS/CC CC1\nDL DB0EHS | Eisenhuettenstadt, Germany | DMR | 380 km | TX 439.450000 MHz | CTCSS/CC CC1\nDL DB0GC | Glauchau-Schoenberg, Germany, Sachsen | DMR | 428 km | TX 439.450000 MHz | CTCSS/CC CC1\nDL DB0FX | Birkenwerder, Germany, Brandenburg | DMR | 487 km | TX 439.450000 MHz | CTCSS/CC CC1\nDL DB0FHC | Coburg, Germany, Bayern | DMR | 521 km | TX 439.450000 MHz | CTCSS/CC CC1\nDL DB0RVB | Ravensberg, Germany, Niedersachsen | DMR | 586 km | TX 439.450000 MHz | CTCSS/CC CC1\nDL DM0GRI | Griesingen, Germany, Baden-Wuerttemberg | DMR | 629 km | TX 439.450000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0WK (DMR, 597 km), DL DO0SZ (DMR, 619 km)",
+    "frequency": 439462500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0WK | Wasserkuppe, Germany, Hessen | DMR | 597 km | TX 439.462500 MHz | CTCSS/CC CC1\nDL DO0SZ | Salzgitter, Germany, Niedersachsen | DMR | 619 km | TX 439.462500 MHz | CTCSS/CC CC3"
+  },
+  {
+    "name": "DL DM0LEI (DMR, 454 km), DL DB0TA (DMR, 467 km), DL DB0DMR (DMR, 568 km) +2",
+    "frequency": 439475000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DM0LEI | Leipzig Nord-Ost, Germany, Sachsen | DMR | 454 km | TX 439.475000 MHz | CTCSS/CC CC1\nDL DB0TA | Birkholzaue, Germany, Brandenburg | DMR | 467 km | TX 439.475000 MHz | CTCSS/CC CC1\nDL DB0DMR | Feuchtwangen, Germany, Bayern | DMR | 568 km | TX 439.475000 MHz | CTCSS/CC CC1\nDL DB0WZ | Wuerzburg, Germany, Bayern | DMR | 592 km | TX 439.475000 MHz | CTCSS/CC CC1\nDL DB0LAM | Hildesheim/Achtum, Germany | DMR | 640 km | TX 439.475000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OK OK0POR (DMR, 255 km), OK OK0BSJ (DMR, 278 km), OK OK0DRB (DMR, 339 km) +9",
+    "frequency": 439487500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0POR | Vidovice, Czech Republic | DMR | 255 km | TX 439.487500 MHz | CTCSS/CC CC1\nOK OK0BSJ | Svaty Jan nad Malsi, Czech Republic, Jihocesky | DMR | 278 km | TX 439.487500 MHz | CTCSS/CC CC1\nOK OK0DRB | Plavec Jesenice, Czech Republic | DMR | 339 km | TX 439.487500 MHz | CTCSS/CC CC1\nDL DB0SPN | Cottbus, Germany, Brandenburg | DMR | 364 km | TX 439.487500 MHz | CTCSS/CC CC1\nDL DB0EA | Eisenach, Germany, Thuringia | DMR | 579 km | TX 439.487500 MHz | CTCSS/CC CC1\nDL DB0FAA | Aalen/Braunenberg, Germany, Baden-Wuerttemberg | DMR | 588 km | TX 439.487500 MHz | CTCSS/CC CC1\nDL DB0DLR | DLR Braunschweig, Germany, Niedersachsen | DMR | 614 km | TX 439.487500 MHz | CTCSS/CC CC1\nDL DB0USD | Uslar JO41TP, Germany | DMR | 644 km | TX 439.487500 MHz | CTCSS/CC CC1\nDL DB0SIF | Giessen, Germany, Hessen | DMR | 687 km | TX 439.487500 MHz | CTCSS/CC CC1\nDL DB0TIT | Titisee-Neustadt, Germany, Baden-Wuerttemberg | DMR | 754 km | TX 439.487500 MHz | CTCSS/CC CC1\nDL DB0CW | Gummersbach, Germany, NRW | DMR | 770 km | TX 439.487500 MHz | CTCSS/CC CC1\nDL DB0EG | Schoeppingen, Germany, Nordrhein-Westfalen | DMR | 815 km | TX 439.487500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0BAR (DMR, 429 km), SP SR4DX (DMR, 511 km), DL DB0NU (DMR, 536 km) +6",
+    "frequency": 439500000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0BAR | Baruth, Germany, Brandenburg | DMR | 429 km | TX 439.500000 MHz | CTCSS/CC CC1\nSP SR4DX | Paslek, Poland, warmińsko-mazurskie | DMR | 511 km | TX 439.500000 MHz | CTCSS/CC CC1\nDL DB0NU | Altenstein J050IE, Germany, Bayern | DMR | 536 km | TX 439.500000 MHz | CTCSS/CC CC1\nDL DB0XX | Helmstedt, Germany, Niedersachsen | DMR | 583 km | TX 439.500000 MHz | CTCSS/CC CC1\nDL DB0CWS | Steinau a.d. Strasse, Germany, Hessen | DMR | 628 km | TX 439.500000 MHz | CTCSS/CC CC1\nDL DB0SN | Hoher Hagen, Germany, Lower Saxony | DMR | 631 km | TX 439.500000 MHz | CTCSS/CC CC1\nDL DB0ABG | Ahrensburg, Germany, Schleswig-Holstein | DMR | 713 km | TX 439.500000 MHz | CTCSS/CC CC1\nDL DB0CI | Schramberg-Sulgen, Germany, Baden-Wuerttemberg | DMR | 727 km | TX 439.500000 MHz | CTCSS/CC CC1\nDL DB0OTV | Meerbusch, Germany, Nordrhein-Westfalen | DMR | 835 km | TX 439.500000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "SP SR9CSR (DMR, 91 km), DL DB0NLS (DMR, 357 km), DL DB0WBZ (DMR, 442 km) +3",
+    "frequency": 439512500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nSP SR9CSR | Osiek, Poland, Lesser Poland Voivodeship | DMR | 91 km | TX 439.512500 MHz | CTCSS/CC CC1\nDL DB0NLS | Lauta, Germany, Sachsen | DMR | 357 km | TX 439.512500 MHz | CTCSS/CC CC1\nDL DB0WBZ | Thalmaessing, Germany, Bayern | DMR | 442 km | TX 439.512500 MHz | CTCSS/CC CC1\nDL DB0HYT | Bad Muender, Germany, Niedersachsen | DMR | 677 km | TX 439.512500 MHz | CTCSS/CC CC1\nDL DB0HPA | Laegerdorf, Germany, Schleswig-Holstein | DMR | 762 km | TX 439.512500 MHz | CTCSS/CC CC1\nDL DB0BHN | Bremerhaven-Zentrum, Germany, Niedersachsen, Bremen | DMR | 797 km | TX 439.512500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OK OK0OMX (DMR, 275 km), DL DB0TUX (DMR, 498 km), DL DB0MIC (DMR, 507 km) +6",
+    "frequency": 439525000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0OMX | Praha, Czech Republic, ustu nad Labem Regio | DMR | 275 km | TX 439.525000 MHz | CTCSS/CC CC1\nDL DB0TUX | Berlin, Germany, Berlin / Brandenburg | DMR | 498 km | TX 439.525000 MHz | CTCSS/CC CC1\nDL DB0MIC | Muenchen, Germany, Bayern | DMR | 507 km | TX 439.525000 MHz | CTCSS/CC CC1\nDL DB0ONA | Dietramszell, Germany, Bayern | DMR | 518 km | TX 439.525000 MHz | CTCSS/CC CC1\nSP SR4DMR | Grajewo, Poland, Warminsko-Mazurskie,Podlaskie | DMR | 542 km | TX 439.525000 MHz | CTCSS/CC CC4\nDL DB0STB | Stocksberg, Germany, Baden-Wuerttemberg | DMR | 637 km | TX 439.525000 MHz | CTCSS/CC CC1\nDL DM0PX | Eschborn, Germany, Hessen | DMR | 690 km | TX 439.525000 MHz | CTCSS/CC CC1\nDL DB0HHO | Grosshansdorf, Germany, Schleswig-Holstein | DMR | 710 km | TX 439.525000 MHz | CTCSS/CC CC1\nDL DB0EW | Saarbruecken, Germany, Saarland | DMR | 808 km | TX 439.525000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0FLW (DMR, 455 km), DL DB0KK (DMR, 465 km), DL DB0ZRB (DMR, 667 km) +4",
+    "frequency": 439537500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0FLW | Leipzig JO61EH, Germany | DMR | 455 km | TX 439.537500 MHz | CTCSS/CC CC1\nDL DB0KK | Berlin-Lichtenberg, Germany, Berlin / Brandenburg | DMR | 465 km | TX 439.537500 MHz | CTCSS/CC CC1\nDL DB0ZRB | Gerlingen, Germany, Baden-Wuerttemberg | DMR | 667 km | TX 439.537500 MHz | CTCSS/CC CC1\nDL DB0OBO | Hameln Weserbergland, Germany, Niedersachsen, Bremen | DMR | 677 km | TX 439.537500 MHz | CTCSS/CC CC1\nDL DB0OBO | Bad Muender, Germany, Niedersachen,Bremen | DMR | 677 km | TX 439.537500 MHz | CTCSS/CC CC1\nDL DB0MDW | Meddewade, Germany, Schleswig-Holstein | DMR | 711 km | TX 439.537500 MHz | CTCSS/CC CC1\nDL DB0BLB | Bad Berleburg, Germany, Nordrhein-Westfalen | DMR | 712 km | TX 439.537500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0SEN (DMR, 793 km)",
+    "frequency": 439543700,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0SEN | Senden, Germany, Nordrhein-Westfalen | DMR | 793 km | TX 439.543700 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "OK OK0BRQ (DMR, 124 km), DL DB0AAT (DMR, 447 km), SP SR8UVC (DMR, 455 km) +6",
+    "frequency": 439550000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nOK OK0BRQ | Brno, Czech Republic, Jihomoravsky | DMR | 124 km | TX 439.550000 MHz | CTCSS/CC CC1\nDL DB0AAT | Hochberg/Traunstein, Germany, Bayern | DMR | 447 km | TX 439.550000 MHz | CTCSS/CC CC1\nSP SR8UVC | Chotylow, Poland, lubelskie | DMR | 455 km | TX 439.550000 MHz | CTCSS/CC CC1\nDL DB0WOL | Bad Freienwalde, Germany, cnty | DMR | 460 km | TX 439.550000 MHz | CTCSS/CC CC1\nDL DB0DES | Dessau-Rosslau, Germany | DMR | 487 km | TX 439.550000 MHz | CTCSS/CC CC1\nDL DB0LBX | Ludwigsburg, Germany | FM | 655 km | TX 439.550000 MHz | CTCSS/CC \nDL DB0WT | Stuehlingen, Germany, Baden-Wuerttemberg | DMR | 738 km | TX 439.550000 MHz | CTCSS/CC CC1\nDL DB0VL | Thuine, Germany, Niedersachsen | DMR | 814 km | TX 439.550000 MHz | CTCSS/CC CC1\nDL DB0VL | Thuine Lingen, Germany, Niedersachsen / Bremen | DMR | 814 km | TX 439.550000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0LDS (DMR, 442 km), DL DB0OHA (DMR, 599 km), DL DB0MGH (DMR, 605 km) +3",
+    "frequency": 439562500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0LDS | Wildau, Germany, Berlin, Brandenburg | DMR | 442 km | TX 439.562500 MHz | CTCSS/CC CC1\nDL DB0OHA | Herzberg am Harz, Germany, Niedersachsen | DMR | 599 km | TX 439.562500 MHz | CTCSS/CC CC1\nDL DB0MGH | Bad Mergentheim, Germany, Baden-Wuerttemberg | DMR | 605 km | TX 439.562500 MHz | CTCSS/CC CC1\nDL DB0FS | Hamburg, Germany | DMR | 723 km | TX 439.562500 MHz | CTCSS/CC CC1\nDL DM0DOS | Doerenberg, Germany, Niedersachsen | DMR | 767 km | TX 439.562500 MHz | CTCSS/CC CC1\nDL DB0FRB | Freiburg im Breisgau, Germany, Baden-Wuerttemberg | DMR/DSTAR | 775 km | TX 439.562500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0FEU (DMR, 568 km)",
+    "frequency": 439575000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0FEU | Feuchtwangen, Germany, Bayern | DMR | 568 km | TX 439.575000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0FIB (DMR, 385 km), DL DB0TTB (DMR, 561 km), DL DB0ULM (DMR, 610 km) +2",
+    "frequency": 439587500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0FIB | Fichtelbergstr.10, O, Germany, Sachsen | DMR | 385 km | TX 439.587500 MHz | CTCSS/CC CC1\nDL DB0TTB | Hohenpeissenberg, Germany, Bayern | DMR | 561 km | TX 439.587500 MHz | CTCSS/CC CC1\nDL DB0ULM | Ulm, Germany, Baden-Wuerttemberg | DMR | 610 km | TX 439.587500 MHz | CTCSS/CC CC1\nDL DB0TVH | Hannover/Stadt, Germany, Niedersachsen | DMR | 665 km | TX 439.587500 MHz | CTCSS/CC CC1\nDL DB0DB-B | Lörrach | D-STAR | 801 km | TX 439.587500 MHz | CTCSS/CC "
+  },
+  {
+    "name": "DL DB0BU (DMR, 579 km)",
+    "frequency": 439750000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0BU | Burgau, Germany, Bayern | DMR | 579 km | TX 439.750000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0MON (DMR, 835 km)",
+    "frequency": 439775000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0MON | Nordeifel/Kreis AC, Germany, Nordrhein-Westfalen | DMR | 835 km | TX 439.775000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0TVM (DMR, 507 km), DL DB0NEY (DMR, 888 km)",
+    "frequency": 439800000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0TVM | Muenchen, Germany | DMR | 507 km | TX 439.800000 MHz | CTCSS/CC CC1\nDL DB0NEY | Norderney, Germany, Niedersachsen / Bremen | DMR | 888 km | TX 439.800000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0MGH (DMR, 605 km), DL DB0HX (DMR, 666 km), DL DB0REI (DMR, 671 km) +3",
+    "frequency": 439812500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0MGH | Bad Mergentheim, Germany, Baden-Wuerttemberg | DMR | 605 km | TX 439.812500 MHz | CTCSS/CC CC1\nDL DB0HX | Hoexter Germany, Germany, Nordrhein-Westfalen | DMR | 666 km | TX 439.812500 MHz | CTCSS/CC CC1\nDL DB0REI | Reinhardshain, Germany, Hessen | DMR | 671 km | TX 439.812500 MHz | CTCSS/CC CC1\nDL DB0RB | Bruchsal, Germany, Baden-Wuerttemberg | DMR | 693 km | TX 439.812500 MHz | CTCSS/CC CC1\nDL DB0BHV | Bremerhaven, Germany, Bremen | DMR | 796 km | TX 439.812500 MHz | CTCSS/CC CC1\nDL DB0BHV | Bremerhaven, Germany, Bremen | YSF | 796 km | TX 439.812500 MHz | CTCSS/CC "
+  },
+  {
+    "name": "DL DO0AKW (DMR, 420 km), DL DB0AVH (DMR, 480 km), DL DM0RDT (DMR, 501 km) +10",
+    "frequency": 439825000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DO0AKW | Waldthurn, Germany, Bayern | DMR | 420 km | TX 439.825000 MHz | CTCSS/CC CC1\nDL DB0AVH | Flankenschanze 43, Germany, Berlin | DMR | 480 km | TX 439.825000 MHz | CTCSS/CC CC1\nDL DM0RDT | Karlskron, Germany, Bayern | DMR | 501 km | TX 439.825000 MHz | CTCSS/CC CC1\nDL DB0PME | Schliersee/Tegernsee, Germany, Bayern | DMR | 510 km | TX 439.825000 MHz | CTCSS/CC CC1\nDL DB0ABZ | Salzgitter-Druette, Germany | DMR | 613 km | TX 439.825000 MHz | CTCSS/CC CC1\nDL DB0RZ | Bussen, Germany, Baden-Wuerttemberg | DMR | 648 km | TX 439.825000 MHz | CTCSS/CC CC1\nDL DB0BI | Bielefeld, Germany, Nordrhein-Westfalen | DMR | 730 km | TX 439.825000 MHz | CTCSS/CC CC1\nDL DB0SGL | Siegen, Germany, Nordrhein-Westfalen | DMR | 736 km | TX 439.825000 MHz | CTCSS/CC CC1\nDL DB0LJ | Kruft/Mayen-Koblenz, Germany, Rheinland-Pfalz | DMR | 779 km | TX 439.825000 MHz | CTCSS/CC CC1\nDL DB0LJ | Kruft, Germany, Rheinland-Pfalz | DMR | 779 km | TX 439.825000 MHz | CTCSS/CC CC1\nDL DB0HAA | Hagen, Germany, NRW | DMR | 782 km | TX 439.825000 MHz | CTCSS/CC CC2\nDL DB0IGA | Pulheim, Germany, Nordrhein-Westfalen | DMR | 825 km | TX 439.825000 MHz | CTCSS/CC CC1\nDL DM0FL | Flensburg-Land, Germany | DMR | 828 km | TX 439.825000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0RHN (DMR, 591 km), DL DO0DAP (DMR, 702 km), DL DB0VS (DMR, 731 km) +1",
+    "frequency": 439837500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0RHN | Rhoen, Germany, Hessen | DMR | 591 km | TX 439.837500 MHz | CTCSS/CC CC1\nDL DO0DAP | Keltern, Germany, Baden-Wuerttemberg | DMR | 702 km | TX 439.837500 MHz | CTCSS/CC CC1\nDL DB0VS | Villingen, Germany, Baden-Wuerttemberg | DMR | 731 km | TX 439.837500 MHz | CTCSS/CC CC1\nDL DB0AVR | Stolberg/Aachen, Germany | DMR | 860 km | TX 439.837500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0KUB (DMR, 481 km), DL DB0FUE (DMR, 520 km), DL DB0DTV (DMR, 628 km) +5",
+    "frequency": 439850000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0KUB | Kulmbach, Germany, Bayern | DMR | 481 km | TX 439.850000 MHz | CTCSS/CC CC1\nDL DB0FUE | Fuerth, Germany, Bayern | DMR | 520 km | TX 439.850000 MHz | CTCSS/CC CC1\nDL DB0DTV | Steinau-Seidenroth, Germany, Hessen | DMR | 628 km | TX 439.850000 MHz | CTCSS/CC CC1\nDL DB0HBP | Peine, Germany, Lower Saxony | DMR | 634 km | TX 439.850000 MHz | CTCSS/CC CC1\nDL DB0ARH | Herrenberg AlterRain, Germany, Baden-Wuerttemberg | DMR | 683 km | TX 439.850000 MHz | CTCSS/CC CC1\nDL DB0DDS | Dortmund, Germany, Nordrhein-Westfalen | DMR | 779 km | TX 439.850000 MHz | CTCSS/CC CC1\nDL DB0UT | Kahlheid, Germany, Rheinland-Pfalz | DMR | 795 km | TX 439.850000 MHz | CTCSS/CC CC1\nDL DB0WTV | Wilhelmshaven, Germany, Niedersachsen | DMR | 823 km | TX 439.850000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DM0FOX (DMR, 499 km), DL DB0ANT (DMR, 607 km), DL DB0KT (DMR, 643 km) +2",
+    "frequency": 439862500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DM0FOX | Fuchsberg, Germany, Bayern | DMR | 499 km | TX 439.862500 MHz | CTCSS/CC CC1\nDL DB0ANT | Wolfenbuettel, Germany, Niedersachsen | DMR | 607 km | TX 439.862500 MHz | CTCSS/CC CC1\nDL DB0KT | Herchenhain JO40pl, Germany, Hessen | DMR | 643 km | TX 439.862500 MHz | CTCSS/CC CC1\nDL DB0KPG | Koeln-Porz-Grengel, Germany, Nordrhein-Westfalen | DMR | 797 km | TX 439.862500 MHz | CTCSS/CC CC1\nDL DB0DE | Kaarst, Germany, Nordrhein-Westfalen | DMR | 1412 km | TX 439.862500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0XY (DMR, 555 km), DL DB0MI (DMR, 640 km), DL DB0TN (DMR, 743 km) +1",
+    "frequency": 439875000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0XY | Bocksberg/ Harz, Germany, Niedersachsen | DMR | 555 km | TX 439.875000 MHz | CTCSS/CC CC1\nDL DB0MI | Moenchberg, Germany, Bayern | DMR | 640 km | TX 439.875000 MHz | CTCSS/CC CC1\nDL DB0TN | Brandenkopf, Germany, Baden-Wuerttemberg | DMR | 743 km | TX 439.875000 MHz | CTCSS/CC CC1\nDL DB0DOS | Doerenberg, Germany, Niedersachsen | DMR | 766 km | TX 439.875000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DM0RZ (DMR, 687 km), DL DB0UX (DMR, 704 km), DL DB0VR (DMR, 757 km) +1",
+    "frequency": 439887500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DM0RZ | Ratzeburg, Germany, Schleswig-Holstein | DMR | 687 km | TX 439.887500 MHz | CTCSS/CC CC1\nDL DB0UX | Karlsbad, Germany, Baden-Wuerttemberg | DMR | 704 km | TX 439.887500 MHz | CTCSS/CC CC1\nDL DB0VR | Nordhelle-Sauerland 70cm, Germany, Nordrhein-Westfalen | DMR | 757 km | TX 439.887500 MHz | CTCSS/CC CC1\nDL DB0FTN | Jo43hm, Germany | DMR | 796 km | TX 439.887500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0RWH (DMR, 442 km), DL DB0ABL (DMR, 448 km), DL DB0HOB (DMR, 478 km) +8",
+    "frequency": 439900000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0RWH | Thalmaessing, Germany, Bayern | DMR | 442 km | TX 439.900000 MHz | CTCSS/CC CC1\nDL DB0ABL | Meuselwitz, Germany, Thueringen | DMR | 448 km | TX 439.900000 MHz | CTCSS/CC CC1\nDL DB0HOB | Hochries JN67DR, Germany, Bayern | DMR | 478 km | TX 439.900000 MHz | CTCSS/CC CC1\nDL DB0HOB | Hochries, Germany, Bayern | DMR | 479 km | TX 439.900000 MHz | CTCSS/CC CC1\nDL DB0FEU | Feuchtwangen, Germany, Bayern | DMR | 568 km | TX 439.900000 MHz | CTCSS/CC CC1\nDL DB0TVH | Hannover/Stadt, Germany, Niedersachsen | DMR | 665 km | TX 439.900000 MHz | CTCSS/CC CC1\nDL DB0GV | Maintal, Germany, Hessen | DMR | 671 km | TX 439.900000 MHz | CTCSS/CC CC1\nDL DB0SKF | Freudenstadt, Germany, Baden-Wuerttemberg | DMR | 721 km | TX 439.900000 MHz | CTCSS/CC CC1\nDL DO0UN | Luenen, Germany, Nordrhein-Westfalen | DMR | 784 km | TX 439.900000 MHz | CTCSS/CC CC1\nDL DO0BKS | Graach an der Mosel, Germany, Rheinland-Pfalz / Saarland | DMR | 796 km | TX 439.900000 MHz | CTCSS/CC CC1\nDL DB0BHN | Bremerhaven-Zentrum, Germany, Bremen | DMR | 797 km | TX 439.900000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0OAL (DMR, 587 km), DL DB0RBB (DMR, 672 km)",
+    "frequency": 439912500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0OAL | Tegelberg, Germany, Bayern | DMR | 587 km | TX 439.912500 MHz | CTCSS/CC CC1\nDL DB0RBB | Boeblingen, Germany, Baden-Wuerttemberg | DMR | 672 km | TX 439.912500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0RDH (DMR, 391 km), DL DB0ODE (DMR, 656 km), DL DB0DWL (DMR, 703 km) +2",
+    "frequency": 439925000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0RDH | Grandsberg, Germany, Bayern | DMR | 391 km | TX 439.925000 MHz | CTCSS/CC CC1\nDL DB0ODE | Obrigheim, Germany, Baden-Wuerttemberg | DMR | 656 km | TX 439.925000 MHz | CTCSS/CC CC1\nDL DB0DWL | Luebeck, Germany, Schleswig-Holstein | DMR | 703 km | TX 439.925000 MHz | CTCSS/CC CC1\nDL DB0DEL | Delmenhorst, Germany, Niedersachsen | DMR | 767 km | TX 439.925000 MHz | CTCSS/CC CC2\nDL DB0BHN | Bremerhaven-Zentrum, Germany, Bremen | DMR | 797 km | TX 439.925000 MHz | CTCSS/CC CC2"
+  },
+  {
+    "name": "DL DB0OFI (DMR, 654 km), DL DB0GU (DMR, 662 km), DL DB0OHL (DMR, 811 km)",
+    "frequency": 439937500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0OFI | Ostfildern, Germany, Baden-Wuerttemberg | DMR | 654 km | TX 439.937500 MHz | CTCSS/CC CC1\nDL DB0GU | Klein-Umstadt, Germany, Hessen | DMR | 662 km | TX 439.937500 MHz | CTCSS/CC CC1\nDL DB0OHL | Gelsenkirchen, Germany, Nordrhein-Westfalen | DMR | 811 km | TX 439.937500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0JSF (DMR, 400 km), DL DB0PUC (DMR, 521 km), DL DM0ESS (DMR, 623 km) +6",
+    "frequency": 439950000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0JSF | Frankfurt/Oder, Germany, Brandenburg | DMR | 400 km | TX 439.950000 MHz | CTCSS/CC CC1\nDL DB0PUC | Puchheim, Germany, Bayern | DMR | 521 km | TX 439.950000 MHz | CTCSS/CC CC1\nDL DM0ESS | Sonthofen/Allgaeu, Germany, Bayern | DMR | 623 km | TX 439.950000 MHz | CTCSS/CC CC1\nDL DB0SDO | Urbach, Germany, Baden-Wuerttemberg | DMR | 629 km | TX 439.950000 MHz | CTCSS/CC CC1\nDL DB0KH | Hessen Knuell, Germany, Hessen | DMR | 640 km | TX 439.950000 MHz | CTCSS/CC CC1\nDL DB0HM | Pforzheim, Germany, Baden-Wuerttemberg | DMR | 690 km | TX 439.950000 MHz | CTCSS/CC CC1\nDL DM0DOS | Doerenberg-Osnabrueck, Germany, Niedersachsen / Bremen | DMR | 767 km | TX 439.950000 MHz | CTCSS/CC CC1\nDL DO0PD | Wittlich, Germany, Rheinland-Pfalz / Saarland | DMR | 810 km | TX 439.950000 MHz | CTCSS/CC CC1\nDL DB0WE | Essen/Ruhrgebiet, Germany, Nordrhein-Westfalen | DMR | 816 km | TX 439.950000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DB0TM (DMR, 656 km), DL DM0LUE (DMR, 692 km), DL DB0ORT (DMR, 739 km)",
+    "frequency": 439962500,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DB0TM | Habichtswald, Germany, Hessen | DMR | 656 km | TX 439.962500 MHz | CTCSS/CC CC1\nDL DM0LUE | Luedersdorf/MVP, Germany | DMR | 692 km | TX 439.962500 MHz | CTCSS/CC CC1\nDL DB0ORT | Kappelrodeck, Germany | DMR | 739 km | TX 439.962500 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "DL DO0SE (DMR, 487 km), DL DB0HAS (DMR, 545 km), DL DB0AFZ (DMR, 647 km) +7",
+    "frequency": 439975000,
+    "modulation": "nfm",
+    "description": "Zdroj: https://hearham.com/api/repeaters/v1; import 20261015. Pouze zaznamy oznacene jako provozni. NFM pro analogovy poslech; digitalni hlasove dekodery nejsou dostupne.\nDL DO0SE | Hennigsdorf, Germany, Brandenburg | DMR | 487 km | TX 439.975000 MHz | CTCSS/CC CC1\nDL DB0HAS | Zeil am Main, Germany, Bayern | DMR | 545 km | TX 439.975000 MHz | CTCSS/CC CC1\nDL DB0AFZ | Baunatal/DARC, Germany | DMR | 647 km | TX 439.975000 MHz | CTCSS/CC CC1\nDL DB0ATS | Hannover/Messe, Germany, Niedersachsen | DMR | 661 km | TX 439.975000 MHz | CTCSS/CC CC1\nDL DB0LR | Winterberg, Germany, Nordrhein-Westfalen | DMR | 706 km | TX 439.975000 MHz | CTCSS/CC CC2\nDL DB0RWP | Rottweil, Germany, Baden-Wuerttemberg | DMR | 714 km | TX 439.975000 MHz | CTCSS/CC CC1\nDL DB0DBN | Oelberg/Bonn, Germany | DMR | 795 km | TX 439.975000 MHz | CTCSS/CC CC1\nDL DB0DIT | Kronprinzenkoog, Germany, Schleswig-Holstein | DMR | 801 km | TX 439.975000 MHz | CTCSS/CC CC1\nDL DB0BS | Bochum, Germany, Nordrhein-Westfalen | DMR | 802 km | TX 439.975000 MHz | CTCSS/CC CC4\nDL DB0DRE | Recklinghausen, Germany, NRW | DMR | 806 km | TX 439.975000 MHz | CTCSS/CC CC1"
+  },
+  {
+    "name": "70cm FT8",
+    "frequency": 432174000,
+    "modulation": "ft8",
+    "description": "FT8 Activity: https://ft8activity.eu/rules/",
+    "scannable": false,
+    "underlying": "usb"
+  },
+  {
+    "name": "70cm FT4",
+    "frequency": 432170000,
+    "modulation": "ft4",
+    "description": "FT8 Activity: https://ft8activity.eu/rules/",
+    "scannable": false,
+    "underlying": "usb"
+  },
+  {
+    "name": "70cm MOON / EME Q65, JT65",
+    "frequency": 432065000,
+    "modulation": "q65",
+    "description": "EME centrum aktivity; JT65 lze zvolit rucne. https://wsjt.sourceforge.io/Operating_Procedures.pdf",
+    "scannable": false,
+    "underlying": "usb"
+  },
+  {
+    "name": "70cm Meteor scatter / MSK144",
+    "frequency": 432370000,
+    "modulation": "msk144",
+    "description": "Centrum aktivity meteor scatter dle IARU R1 VHF Handbook 10.02.",
+    "scannable": false,
+    "underlying": "usb"
+  },
+  {
+    "name": "70cm SSB / tropo DX",
+    "frequency": 432200000,
+    "modulation": "usb",
+    "description": "SSB centrum aktivity dle IARU R1.",
+    "scannable": false
+  },
+  {
+    "name": "70cm CW",
+    "frequency": 432050000,
+    "modulation": "cw",
+    "description": "Telegrafni centrum aktivity dle IARU R1.",
+    "scannable": false
+  },
+  {
+    "name": "70cm Microwave talkback",
+    "frequency": 432350000,
+    "modulation": "usb",
+    "description": "Koordinace mikrovlnnych spojeni dle IARU R1.",
+    "scannable": false
+  },
+  {
+    "name": "70cm FM simplex volani",
+    "frequency": 433500000,
+    "modulation": "nfm",
+    "description": "FM volaci frekvence dle IARU R1.",
+    "scannable": false
+  },
+  {
+    "name": "70cm APRS",
+    "frequency": 432500000,
+    "modulation": "nfm",
+    "description": "APRS frekvence dle IARU R1 VHF Handbook 10.02; pro dekodovani pouzij externi APRS dekoder.",
+    "scannable": false
+  }
+]

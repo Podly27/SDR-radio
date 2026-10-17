@@ -1,0 +1,18 @@
+[Unit]
+Description=Refresh Meteor orbit elements
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=radio-center
+Group=radio-center
+WorkingDirectory=/opt/radio-center
+ExecStart=/usr/bin/python3 /opt/radio-center/meteo_common.py --update-tle
+Environment=PYTHONDONTWRITEBYTECODE=1
+ProtectSystem=strict
+ReadWritePaths=/var/lib/radio-center
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+TimeoutStartSec=90

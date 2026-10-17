@@ -1,0 +1,12 @@
+[Unit]
+Description=Apply shared radio station settings to OpenWebRX
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/radio-center/station_sync.py
+ProtectSystem=strict
+ReadWritePaths=/var/lib/openwebrx /opt/radio-center/backups
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+NoNewPrivileges=true

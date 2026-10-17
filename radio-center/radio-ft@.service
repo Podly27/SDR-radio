@@ -1,0 +1,25 @@
+[Unit]
+Description=FT8/FT4 receiver (%i)
+Conflicts=openwebrx.service radio-ism.service radio-aprs.service radio-ft@2m-ft8.service radio-ft@70cm-ft8.service radio-ft@2m-ft4.service radio-ft@70cm-ft4.service radio-iss.service radio-meteo-rx.service
+After=openwebrx.service radio-ism.service radio-aprs.service radio-iss.service radio-meteo-rx.service
+
+[Service]
+Type=simple
+User=radio-center
+Group=radio-center
+SupplementaryGroups=plugdev
+WorkingDirectory=/opt/radio-center
+ExecStart=/usr/bin/python3 /opt/radio-center/ft_worker.py %i
+StateDirectory=radio-center
+Environment=PYTHONDONTWRITEBYTECODE=1
+Environment=OMP_NUM_THREADS=1
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+NoNewPrivileges=true
+Restart=no
+TimeoutStopSec=32
+Nice=5
+
+[Install]
+WantedBy=multi-user.target
