@@ -11,7 +11,7 @@ from sdr_calibration import SDR_PPM,SDR_DEVICE
 ANSI=re.compile(r'\x1b\[[0-9;]*m')
 def command(c,output,duration):
  pipeline='meteor_m2-x_lrpt'+('_80k' if c['symbolrate']==80000 else '')
- return ['/usr/bin/satdump','live',pipeline,str(output),'--source','rtlsdr',*(['--source_id',SDR_DEVICE] if SDR_DEVICE!='0' else []),'--samplerate','1000000','--frequency',str(c['frequency']),'--gain',str(c['gain']),'--ppm_correction',str(SDR_PPM),'--dc_block','--satellite_number',c['satellite'],'--timeout',str(duration),'--http_server','127.0.0.1:8092','--fill_missing','false','--rs_usecheck','true','--tle_override',str(common.DATA/'meteo-satdump'/'tle.txt')]
+ return ['/usr/bin/satdump','live',pipeline,str(output),'--source','rtlsdr',*(['--source_id',SDR_DEVICE] if SDR_DEVICE!='0' else []),'--samplerate','1000000','--frequency',str(c['frequency']),'--gain',str(c['gain']),'--ppm_correction',str(SDR_PPM),'--dc_block',*(['--pll_bw',str(common.LRPT_PLL_BW)] if c['symbolrate']==72000 else []),'--satellite_number',c['satellite'],'--timeout',str(duration),'--http_server','127.0.0.1:8092','--fill_missing','false','--rs_usecheck','true','--tle_override',str(common.DATA/'meteo-satdump'/'tle.txt')]
 
 def import_images(output,c,capture):
  directory=common.DATA/'meteo-images';directory.mkdir(parents=True,exist_ok=True);count=0
@@ -41,6 +41,10 @@ def metrics():
  except (OSError,ValueError):return None
 
 def main():
+ from meteo_diagnostics import selected_pass,run_pass
+ diagnostic=selected_pass()
+ if diagnostic:
+  run_pass(diagnostic);return
  common.DATA.mkdir(parents=True,exist_ok=True);job=json.loads((common.DATA/'meteo-run.json').read_text());c=common.validate(job['config']);duration=int(common.number(job['duration'],1,900));capture=datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')+'-'+uuid.uuid4().hex[:8];output=common.DATA/'meteo-work'/capture;output.mkdir(parents=True);logs=collections.deque(maxlen=25);stopping=False;process=None;last=0;status={};count=0;error=None
  def stop(*_):
   nonlocal stopping
@@ -75,9 +79,12 @@ def main():
    try:process.wait(timeout=20)
    except subprocess.TimeoutExpired:process.kill();process.wait()
   status.update(updated=time.time(),phase='importing',logs=list(logs));common.atomic('meteo-rx-state.json',status)
-  try:count=import_images(output,c,capture)
+  queued=False
+  try:
+   from meteo_processing import enqueue_cadu
+   count=import_images(output,c,capture);queued=enqueue_cadu(output,c,capture)
   except Exception as exc:error='Uložení snímků: '+str(exc)
   status.update(updated=time.time(),phase='stopped',session_count=count,error=error,logs=list(logs));common.atomic('meteo-rx-state.json',status)
   # Captures with no decoded imagery must not accumulate raw data indefinitely.
-  if not count:shutil.rmtree(output,ignore_errors=True)
+  if not count and not queued:shutil.rmtree(output,ignore_errors=True)
 if __name__=='__main__':main()

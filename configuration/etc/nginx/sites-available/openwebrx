@@ -21,6 +21,8 @@ server {
 	set $upstream 127.0.0.1:6081;
 
 
+    include /etc/nginx/snippets/radio-adsbx.conf;
+
     # Radio center routes: other OpenWebRX paths keep their existing proxy.
     location = / {
         allow 127.0.0.1;

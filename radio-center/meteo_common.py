@@ -8,7 +8,9 @@ import station_common
 DATA=Path(os.environ.get('RADIO_DATA','/var/lib/radio-center'))
 SATELLITES={'M2-4':59051,'M2-3':57166}
 ORBIT_SATELLITES={**SATELLITES,'ISS':25544}
-DEFAULT={'satellite':'M2-4','frequency':137100000,'symbolrate':72000,'minimum_elevation':10.0,'mode':'auto','gain':40.2,'duration':600}
+DEFAULT={'satellite':'M2-4','frequency':137900000,'symbolrate':72000,'minimum_elevation':10.0,'mode':'auto','gain':40.2,'duration':600}
+# Verified on real Meteor M2-4 IQ: default 0.002 failed; 0.008 recovered CADU and imagery.
+LRPT_PLL_BW=0.008
 PLAN_CACHE={};PLAN_LOCK=threading.Lock()
 def atomic(name,value):
  p=DATA/(name+'.'+uuid.uuid4().hex+'.tmp');p.write_text(json.dumps(value,ensure_ascii=False,allow_nan=False));os.replace(p,DATA/name)

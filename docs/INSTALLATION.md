@@ -79,6 +79,10 @@ zkopíruj do `radio-center/eme-native/eme-m65`. Podrobnosti a omezení:
 
 ## Ověření po instalaci
 
+Místní mapu ADSBexchange (tar1090) nainstaluj podle
+[ADSBEXCHANGE.md](../radio-center/ADSBEXCHANGE.md). Tento krok je nutný
+před použitím nového odkazu ADS-B v radiovém centru.
+
 ```bash
 sudo nginx -t
 sudo visudo -cf /etc/sudoers.d/radio-center

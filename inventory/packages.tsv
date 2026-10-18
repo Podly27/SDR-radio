@@ -20,7 +20,10 @@ avahi-daemon	0.8-16	arm64	ii
 base-files	13.8+deb13u7	arm64	ii 
 base-passwd	3.6.7	arm64	ii 
 bash	5.2.37-2+b10	arm64	ii 
+bash-builtins	5.2.37-2+b10	arm64	ii 
 bash-completion	1:2.16.0-7	all	ii 
+bind9-host	1:9.20.29-1~deb13u1	arm64	ii 
+bind9-libs:arm64	1:9.20.29-1~deb13u1	arm64	ii 
 binutils	2.44-3	arm64	ii 
 binutils-aarch64-linux-gnu	2.44-3	arm64	ii 
 binutils-common:arm64	2.44-3	arm64	ii 
@@ -123,6 +126,7 @@ fonts-font-awesome	5.0.10+really4.7.0~dfsg-4.1	all	ii
 fonts-noto-mono	20201225-2	all	ii 
 fonts-open-sans	1.11-2	all	ii 
 fonts-urw-base35	20200910-8	all	ii 
+fr24feed	1.0.57-1	arm64	ii 
 fuse3	3.17.2-3	arm64	ii 
 g++	4:14.2.0-1	arm64	ii 
 g++-14	14.2.0-19	arm64	ii 
@@ -190,6 +194,7 @@ iputils-ping	3:20240905-3	arm64	ii
 iso-codes	4.18.0-1	all	ii 
 iw	6.9-1+b1	arm64	ii 
 javascript-common	12+nmu1	all	ii 
+jq	1.7.1-6+deb13u4	arm64	ii 
 js8call	2.2.0+ds-5+b2	arm64	ii 
 kbd	2.7.1-2	arm64	ii 
 keyboard-configuration	1.242~deb13u1	all	ii 
@@ -340,6 +345,7 @@ liberror-perl	0.17030-1	all	ii
 libevdev2:arm64	1.13.4+dfsg-1	arm64	ii 
 libexif12:arm64	0.6.25-1+deb13u1	arm64	ii 
 libexpat1:arm64	2.8.3-1~deb13u1	arm64	ii 
+libexpat1-dev:arm64	2.8.3-1~deb13u1	arm64	ii 
 libext2fs2t64:arm64	1.47.2-3+b12	arm64	ii 
 libfaad2:arm64	2.11.2-1	arm64	ii 
 libfakeroot:arm64	1.37.1.1-1	arm64	ii 
@@ -368,6 +374,7 @@ libfontconfig1:arm64	2.15.0-2.3	arm64	ii
 libfontenc1:arm64	1:1.1.8-1+b2	arm64	ii 
 libfreetype6:arm64	2.13.3+dfsg-1+deb13u1	arm64	ii 
 libfribidi0:arm64	1.0.16-1	arm64	ii 
+libfstrm0:arm64	0.6.1-1+b3	arm64	ii 
 libftdi1-2:arm64	1.5-10	arm64	ii 
 libfuse3-4:arm64	3.17.2-3	arm64	ii 
 libgbm1:arm64	26.2.2-1~bpo13+0~rpt1	arm64	ii 
@@ -471,6 +478,7 @@ libjbig2dec0:arm64	0.20-1+deb13u1	arm64	ii
 libjemalloc2:arm64	5.3.0-3	arm64	ii 
 libjim0.83:arm64	0.83-2	arm64	ii 
 libjpeg62-turbo:arm64	1:2.1.5-4	arm64	ii 
+libjq1:arm64	1.7.1-6+deb13u4	arm64	ii 
 libjs-events	3.3.0+~3.0.0-3	all	ii 
 libjs-inherits	2.0.4-6	all	ii 
 libjs-is-typedarray	1.0.0-4	all	ii 
@@ -505,6 +513,7 @@ liblgpio1:arm64	0.2.2-1~rpt1+trixie	arm64	ii
 liblimesuite23.11-1:arm64	23.11.0+dfsg-3+b2	arm64	ii 
 libliquid1:arm64	1.7.0-1	arm64	ii 
 libllvm19:arm64	1:19.1.7-3+b1	arm64	ii 
+liblmdb0:arm64	0.9.31-1+b2	arm64	ii 
 liblocale-gettext-perl	1.07-7+b1	arm64	ii 
 liblqr-1-0:arm64	0.4.2-2.1+b2	arm64	ii 
 liblsan0:arm64	14.2.0-19	arm64	ii 
@@ -525,6 +534,7 @@ libmagickcore-7.q16-10-extra:arm64	8:7.1.1.43+dfsg1-1+deb13u12	arm64	ii
 libmagickwand-7.q16-10:arm64	8:7.1.1.43+dfsg1-1+deb13u12	arm64	ii 
 libmailtools-perl	2.22-1	all	ii 
 libmatroska7:arm64	1.7.1-1+b2	arm64	ii 
+libmaxminddb0:arm64	1.12.2-1	arm64	ii 
 libmbedcrypto16:arm64	3.6.6-0.1~deb13u1	arm64	ii 
 libmbedtls21:arm64	3.6.6-0.1~deb13u1	arm64	ii 
 libmbedx509-7:arm64	3.6.6-0.1~deb13u1	arm64	ii 
@@ -541,6 +551,7 @@ libmtdev1t64:arm64	1.1.7-1	arm64	ii
 libmtp-common	1.1.22-1	all	ii 
 libmtp-runtime	1.1.22-1	arm64	ii 
 libmtp9t64:arm64	1.1.22-1	arm64	ii 
+libncurses-dev:arm64	6.5+20250216-2	arm64	ii 
 libncurses6:arm64	6.5+20250216-2	arm64	ii 
 libncursesw6:arm64	6.5+20250216-2	arm64	ii 
 libndp0:arm64	1.9-1+b1	arm64	ii 
@@ -577,6 +588,7 @@ libntfs-3g89t64:arm64	1:2022.10.3-5+deb13u3	arm64	ii
 libnuma1:arm64	2.0.19-1	arm64	ii 
 libnvme1t64	1.13-2	arm64	ii 
 libogg0:arm64	1.3.5-3+b2	arm64	ii 
+libonig5:arm64	6.9.9-1+b1	arm64	ii 
 libopenexr-3-1-30:arm64	3.1.13-2	arm64	ii 
 libopengl0:arm64	1.7.0-1+b2	arm64	ii 
 libopenjp2-7:arm64	2.5.3-2.1~deb13u2	arm64	ii 
@@ -610,18 +622,22 @@ libpipeline1:arm64	1.5.8-1	arm64	ii
 libpisp-common	1.7.0-1	all	ii 
 libpisp1:arm64	1.7.0-1	arm64	ii 
 libpixman-1-0:arm64	0.46.4-1+rpt1	arm64	ii 
+libpkgconf3:arm64	1.8.1-4	arm64	ii 
 libpng16-16t64:arm64	1.6.48-1+deb13u6	arm64	ii 
 libpolkit-agent-1-0:arm64	126-2	arm64	ii 
 libpolkit-gobject-1-0:arm64	126-2	arm64	ii 
 libpopt0:arm64	1.19+dfsg-2	arm64	ii 
 libportaudio2:arm64	19.6.0-1.2+b3	arm64	ii 
 libproc2-0:arm64	2:4.0.4-9	arm64	ii 
+libprotobuf-c1:arm64	1.5.1-1	arm64	ii 
 libprotobuf32t64:arm64	3.21.12-11+deb13u1	arm64	ii 
 libpsl5t64:arm64	0.21.2-1.1+b1	arm64	ii 
 libpugixml1v5:arm64	1.14-2	arm64	ii 
 libpulse0:arm64	17.0+dfsg1-2+rpt1	arm64	ii 
+libpython3-dev:arm64	3.13.5-1	arm64	ii 
 libpython3-stdlib:arm64	3.13.5-1	arm64	ii 
 libpython3.13:arm64	3.13.5-2+deb13u5	arm64	ii 
+libpython3.13-dev:arm64	3.13.5-2+deb13u5	arm64	ii 
 libpython3.13-minimal:arm64	3.13.5-2+deb13u5	arm64	ii 
 libpython3.13-stdlib:arm64	3.13.5-2+deb13u5	arm64	ii 
 libqcustomplot2.1:arm64	2.1.0+dfsg1-3.1+b5	arm64	ii 
@@ -719,6 +735,7 @@ libudev1:arm64	257.13-1~deb13u1	arm64	ii
 libudisks2-0:arm64	2.10.1-12.1+deb13u2	arm64	ii 
 libuhd4.8.0:arm64	4.8.0.0+ds1-2	arm64	ii 
 libunistring5:arm64	1.3-2	arm64	ii 
+liburcu8t64:arm64	0.15.2-2	arm64	ii 
 liburi-perl	5.30-1	all	ii 
 libusb-1.0-0:arm64	2:1.0.28-1	arm64	ii 
 libusb-1.0-doc	2:1.0.28-1	all	ii 
@@ -809,6 +826,7 @@ libxxhash0:arm64	0.8.3-2	arm64	ii
 libyaml-0-2:arm64	0.2.5-2	arm64	ii 
 libyuv0:arm64	0.0.1904.20250204-1	arm64	ii 
 libz3-4:arm64	4.13.3-1	arm64	ii 
+libzstd-dev:arm64	1.5.7+dfsg-1	arm64	ii 
 libzstd1:arm64	1.5.7+dfsg-1	arm64	ii 
 limesuite-udev	23.11.0+dfsg-3	all	ii 
 linux-base	4.12.1	all	ii 
@@ -1275,6 +1293,9 @@ perl-base	5.40.1-6+deb13u1	arm64	ii
 perl-modules-5.40	5.40.1-6+deb13u1	all	ii 
 perl-openssl-defaults:arm64	7+b2	arm64	ii 
 pinentry-curses	1.3.1-2	arm64	ii 
+pkg-config:arm64	1.8.1-4	arm64	ii 
+pkgconf:arm64	1.8.1-4	arm64	ii 
+pkgconf-bin	1.8.1-4	arm64	ii 
 polkitd	126-2	arm64	ii 
 poppler-data	0.4.12-1	all	ii 
 ppp	2.5.2-1+1	arm64	ii 
@@ -1307,6 +1328,7 @@ python3-dateutil	2.9.0-4	all	ii
 python3-dbus-fast	2.44.1-1	arm64	ii 
 python3-debconf	1.5.91	all	ii 
 python3-decorator	5.2.1-2	all	ii 
+python3-dev	3.13.5-1	arm64	ii 
 python3-digiham	0.6.11	arm64	ii 
 python3-distro	1.9.0-1	all	ii 
 python3-distutils-extra	3.1	all	ii 
@@ -1375,6 +1397,7 @@ python3-webcolors	1.13-1	all	ii
 python3-yaml	6.0.2-1+b2	arm64	ii 
 python3-zipp	3.21.0-1	all	ii 
 python3.13	3.13.5-2+deb13u5	arm64	ii 
+python3.13-dev	3.13.5-2+deb13u5	arm64	ii 
 python3.13-minimal	3.13.5-2+deb13u5	arm64	ii 
 python3.13-venv	3.13.5-2+deb13u5	arm64	ii 
 qt5-gtk-platformtheme:arm64	5.15.15+dfsg-6+deb13u1	arm64	ii 
@@ -1437,6 +1460,7 @@ soapysdr0.8-module-rfspace:arm64	0.2.5-8+b5	arm64	ii
 soapysdr0.8-module-rtlsdr:arm64	0.3.3-1+b4	arm64	ii 
 soapysdr0.8-module-sdrplay3:arm64	0.8.11	arm64	hi 
 soapysdr0.8-module-uhd:arm64	0.4.1-5	arm64	ii 
+socat	1.8.0.3-1+deb13u1	arm64	ii 
 sonde-decoders	1.8.1	arm64	ii 
 sqv	1.3.0-3+b2	arm64	ii 
 ssh	1:10.0p1-7+deb13u4	all	ii 
@@ -1462,6 +1486,7 @@ usbutils	1:018-2	arm64	ii
 userconf-pi	0.19	all	ii 
 util-linux	2.41.5-0+deb13u1	arm64	ii 
 uuid	1.6.4-1	arm64	ii 
+uuid-runtime	2.41.5-0+deb13u1	arm64	ii 
 v4l-utils	1.30.1-1	arm64	ii 
 varnish	7.7.0-3+deb13u1	arm64	ii 
 vim	2:9.1.1230-2	arm64	ii 
@@ -1493,5 +1518,6 @@ xz-utils	5.8.1-1+deb13u2	arm64	ii
 zabbix-agent2	1:7.0.22+dfsg-1~deb13u1	arm64	ii 
 zip	3.0-15+deb13u1	arm64	ii 
 zlib1g:arm64	1:1.3.dfsg+really1.3.1-1+b1	arm64	ii 
+zlib1g-dev:arm64	1:1.3.dfsg+really1.3.1-1+b1	arm64	ii 
 zstd	1.5.7+dfsg-1	arm64	ii 
 zutty	0.16.2.20241020+dfsg1-1	arm64	ii 

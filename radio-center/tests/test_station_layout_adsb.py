@@ -35,7 +35,7 @@ class SharedSettings(unittest.TestCase):
   for raw in [{'order':['ft','ft']},{'order':['shell']},{'order':[],'hidden':['invalid']},{'order':'ft'}]:
    with self.assertRaises(ValueError):layout.validate(raw)
  def test_native_receive_command(self):
-  cmd=adsb.command(FIXTURE);self.assertEqual(cmd[cmd.index('--device')+1],'00000001');self.assertEqual(cmd[cmd.index('--ppm')+1],'-7');self.assertNotIn('--net',cmd);self.assertIn('--lat',cmd)
+  cmd=adsb.command(FIXTURE);self.assertEqual(cmd[cmd.index('--device')+1],'00000001');self.assertEqual(cmd[cmd.index('--ppm')+1],'-7');self.assertIn('--net',cmd);self.assertEqual(cmd[cmd.index('--net-bind-address')+1],'127.0.0.1');self.assertEqual(cmd[cmd.index('--net-bo-port')+1],'30005');self.assertIn('--lat',cmd)
  def test_ingest_deduplicates_counts_and_handles_reset(self):
   station.atomic('station.json',FIXTURE)
   with adsb.connect() as db:

@@ -70,3 +70,16 @@ pro diagnostiku, nikdy pro automatické obnovení cizí/ukončené relace.
 Ponech správné vlastníky, aplikuj `daemon-reload`, ověř služby a nginx.
 
 Záloha obsahuje citlivé soubory; i pracovní adresář obnovy nastav na režim 700.
+
+## Aktualizace 18. 10. 2026 — ADS-B
+
+Veřejná záloha obsahuje tar1090 integraci, instalátory feederů, webové sdílení
+s bezpečnou změnou FR24 klíče a nastavení MLAT z globálních údajů. Soubor
+`configuration/feeders.json` exportuje pouze povolené provozní hodnoty;
+sharing key FR24 a UUID přijímače se do Gitu neexportují.
+
+Soukromý archiv navíc obsahuje `/etc/fr24feed.ini`, konfigurace ADSBexchange,
+tar1090 a jejich instalované soubory i systemd jednotky. Je určený pro obnovu
+původního stanoviště; FR24 klíč nepoužívej souběžně na druhém přijímači.
+Statistický balíček ADSBexchange je v záloze pouze tehdy, pokud byl skutečně
+nainstalován. Jeho připravený instalační skript neznamená aktivní odesílání.

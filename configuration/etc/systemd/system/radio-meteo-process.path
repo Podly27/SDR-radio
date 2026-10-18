@@ -1,0 +1,9 @@
+[Unit]
+Description=Watch completed Meteor captures for image processing
+
+[Path]
+DirectoryNotEmpty=/var/lib/radio-center/meteo-process
+Unit=radio-meteo-process.service
+
+[Install]
+WantedBy=multi-user.target

@@ -79,3 +79,30 @@ spuštěny všechny profily; každá cesta otevřela skutečný RTL-SDR, poskytl
 PCM audio a aktuální Doppler podle TLE bez chyby. Nominální frekvence
 a režimy odpovídaly profilům. Pak byl obnoven předchozí ADS-B a monitor ISS.
 Žádná tato zkouška nepotvrzuje příjem komunikace skutečně vyslané z ISS.
+
+## Ověřený skutečný paketový příjem 18. 10. 2026
+
+Během ranního přeletu byla původní volba `packet-vhf` 145,825 MHz bez
+paketů. Aktuální ARISS stav (stránka datovaná 7. 10.) uvádí aktivní APRS
+na 437,825 MHz. Za běžícího přeletu byl profil změněn na `packet-uhf`
+se zapnutým Dopplerem; následoval platný paket RS0ISS s textem
+ARISS-International Space Station. Nejde o syntetický test.
+
+Profily Dire Wolf A, A+ a B+ na stejném zachyceném audiu obnovily
+totožný paket. Profil A+ zůstává. Dire Wolf hlásil audio level 150;
+snížení amplitudy pouze před paketovým dekodérem na třetinu poskytlo
+level 50 a totožný platný rámec bez oprav CRC. Změna se projeví při
+dalším spuštění ISS příjmu; neovlivňuje SSTV ani hlasový poslech.
+
+Stav provozu je nutné ověřovat na
+https://www.ariss.org/current-status-of-iss-stations.html .
+Volba profilu `packet-uhf` je uložená pro další přelety, nejde o
+předpoklad, že ISS bude na této frekvenci vysílat trvale.
+
+Pro časově omezenou diagnostiku lze vytvořit `iss-diagnostic-plan.json`
+s UTC epoch `expires` nejvýše 30 minut dopředu. Jen v paketovém režimu
+a při volném místě nad 1 GiB se při startu ukládá původní IQ do
+`iss-diagnostics/<UTC>/iq.cu8`, se samplerate/ppm/frekvencí v metadata.json.
+Záznam je omezen časem plánu a velikostí maximálně 600 s. Po vypršení
+se při příštím startu nic nenahrává. Samotná existence neaktivního
+plánu nespouští příjem a nemění vlastnictví SDR.

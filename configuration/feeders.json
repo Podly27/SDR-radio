@@ -1,0 +1,19 @@
+{
+  "fr24": {
+    "receiver": "beast-tcp",
+    "host": "127.0.0.1:30005",
+    "bs": "no",
+    "raw": "no",
+    "mlat": "no",
+    "mlat-without-gps": "no",
+    "bind-interface": "127.0.0.1"
+  },
+  "adsbx": {
+    "INPUT": "127.0.0.1:30005",
+    "USER": "OK2IKT-Lichnov",
+    "LATITUDE": "49.5625",
+    "LONGITUDE": "18.125",
+    "ALTITUDE": "380.0m",
+    "PRIVACY": "--privacy"
+  }
+}

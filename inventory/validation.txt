@@ -1,8 +1,5 @@
-Validation of backup snapshot, 2026-10-17 UTC
-Python unittest discovery: 56 tests, PASS.
-Node: test_dashboard_controls.js, test_settings_controls.js, test_iss_ui.js, test_adsb_ui.js: PASS.
-Bash syntax: install.sh and all deploy-*.sh: PASS.
-Backup script Python syntax: PASS.
-All runtime SQLite databases: backup API and PRAGMA integrity_check: PASS during backup.
-Physical clean-system restoration: NOT performed.
-RF reception: see docs/VALIDATION.md; synthetic decoding is not proof of live reception.
+Validated 2026-10-18
+Python: 67 tests passed (isolated RADIO_DATA).
+Node: dashboard controls passed; ADS-B UI passed.
+JavaScript syntax: adsb-sharing.js passed.
+Public snapshot checked against live FR24 sharing key and receiver UUID: neither present.

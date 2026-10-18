@@ -21,6 +21,7 @@ import iss_auto
 import station_common
 import dashboard_layout
 import adsb_worker
+import feeder_control
 
 def eme_status():
     result={}
@@ -33,9 +34,10 @@ def eme_status():
 
 def meteo_status():
     result={'config':meteo_common.load_config(),'runtime':None,'receiver':None,'orbit':None}
-    for key,name in (('runtime','meteo-state.json'),('receiver','meteo-rx-state.json')):
+    for key,name in (('runtime','meteo-state.json'),('receiver','meteo-rx-state.json'),('diagnostic_plan','meteo-diagnostic-plan.json'),('diagnostic_summary','meteo-diagnostic-summary.json')):
         try:result[key]=json.loads((DATA/name).read_text())
         except (OSError,ValueError):pass
+    result['processing_pending']=len(list((DATA/'meteo-process').glob('*.json')))
     try:result['orbit']=meteo_common.position_and_passes(result['config'])
     except (OSError,ValueError,KeyError) as e:result['error']=str(e)
     return result
@@ -244,6 +246,13 @@ def iss_history(query):
     except (OSError,ValueError):pass
     return result
 
+def feeder_request(payload):
+    result=subprocess.run(['/usr/bin/sudo','-n','/usr/bin/python3','/opt/radio-center/feeder_control.py'],input=json.dumps(payload),capture_output=True,text=True,timeout=90)
+    try:data=json.loads(result.stdout)
+    except ValueError:raise ValueError('Správa sdílení dat není dostupná')
+    if result.returncode:raise ValueError(data.get('error','Změna selhala'))
+    return data
+
 class Handler(BaseHTTPRequestHandler):
     def respond(self, code, data, mime='application/json; charset=utf-8'):
         body = json.dumps(data, ensure_ascii=False).encode() if mime.startswith('application/json') else data
@@ -257,6 +266,20 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         path=urlsplit(self.path).path
+        if path in ('/control/adsb', '/control/adsb/'):
+            self.send_response(302)
+            self.send_header('Location', '/adsbx/')
+            self.send_header('Cache-Control', 'no-store')
+            self.send_header('Content-Length', '0')
+            self.end_headers()
+            return
+        if path=='/control/api/adsb/feeders':
+            try:
+                data=feeder_control.status()
+                data['can_edit']=Path('/opt/radio-center/feeder-edit-enabled').is_file()
+                self.respond(200,data)
+            except (ValueError,subprocess.TimeoutExpired):self.respond(503,{'error':'Stav sdílení dat není dostupný'})
+            return
         if path=='/control/api/iss/audio':
             try:
                 audio=Path('/run/radio-iss/audio.bin')
@@ -304,7 +327,7 @@ class Handler(BaseHTTPRequestHandler):
             except ValueError:self.respond(400,{'error':'Neplatný filtr.'})
             except (OSError,sqlite3.Error):self.respond(503,{'error':'Historie není dostupná.'})
             return
-        files={'/control/settings/':('settings.html','text/html; charset=utf-8'), '/control/settings.js':('settings.js','text/javascript; charset=utf-8'), '/control/shared.js':('shared.js','text/javascript; charset=utf-8'), '/control/adsb/':('adsb.html','text/html; charset=utf-8'), '/control/adsb.js':('adsb.js','text/javascript; charset=utf-8'), '/control/meteo.js':('meteo.js','text/javascript; charset=utf-8'), '/control/meteo/':('meteo.html','text/html; charset=utf-8'), '/control/iss.js':('iss.js','text/javascript; charset=utf-8'), '/control/iss/':('iss.html','text/html; charset=utf-8'), '/control/eme/':('eme.html','text/html; charset=utf-8'), '/control/eme.js':('eme.js','text/javascript; charset=utf-8'), '/control/weak/':('eme.html','text/html; charset=utf-8'), '/control/sonde/':('sonde.html','text/html; charset=utf-8'), '/control/sonde.js':('sonde.js','text/javascript; charset=utf-8'), '/control/vdl2/':('vdl2.html','text/html; charset=utf-8'), '/control/vdl2.js':('vdl2.js','text/javascript; charset=utf-8'), '/control/lora/':('lora.html','text/html; charset=utf-8'), '/control/msk/':('msk.html','text/html; charset=utf-8'), '/control/ft/':('ft.html','text/html; charset=utf-8'), '/control/ft.js':('ft.js','text/javascript; charset=utf-8'), '/control/aprs/':('aprs.html','text/html; charset=utf-8'), '/control/aprs.js':('aprs.js','text/javascript; charset=utf-8'), '/control/leaflet.js':('leaflet.js','text/javascript; charset=utf-8'), '/control/leaflet.css':('leaflet.css','text/css; charset=utf-8'), '/control/ism/':('ism.html','text/html; charset=utf-8'), '/control/ism.js':('ism.js','text/javascript; charset=utf-8'), '/' :('index.html','text/html; charset=utf-8'), '/control/':('index.html','text/html; charset=utf-8'),
+        files={'/control/adsb/sharing/':('adsb-sharing.html','text/html; charset=utf-8'), '/control/adsb-sharing.js':('adsb-sharing.js','text/javascript; charset=utf-8'), '/control/settings/':('settings.html','text/html; charset=utf-8'), '/control/settings.js':('settings.js','text/javascript; charset=utf-8'), '/control/shared.js':('shared.js','text/javascript; charset=utf-8'), '/control/adsb/receiver/':('adsb.html','text/html; charset=utf-8'), '/control/adsb.js':('adsb.js','text/javascript; charset=utf-8'), '/control/meteo.js':('meteo.js','text/javascript; charset=utf-8'), '/control/meteo/':('meteo.html','text/html; charset=utf-8'), '/control/iss.js':('iss.js','text/javascript; charset=utf-8'), '/control/iss/':('iss.html','text/html; charset=utf-8'), '/control/eme/':('eme.html','text/html; charset=utf-8'), '/control/eme.js':('eme.js','text/javascript; charset=utf-8'), '/control/weak/':('eme.html','text/html; charset=utf-8'), '/control/sonde/':('sonde.html','text/html; charset=utf-8'), '/control/sonde.js':('sonde.js','text/javascript; charset=utf-8'), '/control/vdl2/':('vdl2.html','text/html; charset=utf-8'), '/control/vdl2.js':('vdl2.js','text/javascript; charset=utf-8'), '/control/lora/':('lora.html','text/html; charset=utf-8'), '/control/msk/':('msk.html','text/html; charset=utf-8'), '/control/ft/':('ft.html','text/html; charset=utf-8'), '/control/ft.js':('ft.js','text/javascript; charset=utf-8'), '/control/aprs/':('aprs.html','text/html; charset=utf-8'), '/control/aprs.js':('aprs.js','text/javascript; charset=utf-8'), '/control/leaflet.js':('leaflet.js','text/javascript; charset=utf-8'), '/control/leaflet.css':('leaflet.css','text/css; charset=utf-8'), '/control/ism/':('ism.html','text/html; charset=utf-8'), '/control/ism.js':('ism.js','text/javascript; charset=utf-8'), '/' :('index.html','text/html; charset=utf-8'), '/control/':('index.html','text/html; charset=utf-8'),
                '/control/app.js':('app.js','text/javascript; charset=utf-8'), '/control/style.css':('style.css','text/css; charset=utf-8')}
         if path not in files:
             self.respond(404,{'error':'Stránka neexistuje.'});return
@@ -312,7 +335,7 @@ class Handler(BaseHTTPRequestHandler):
         self.respond(200,(ROOT/name).read_bytes(),mime)
 
     def do_POST(self):
-        if self.path not in ('/control/api/adsb/config','/control/api/station','/control/api/layout','/control/api/iss-auto/config','/control/api/meteo/config','/control/api/service','/control/api/eme/config','/control/api/eme/clear','/control/api/weak/clear','/control/api/ft/clear','/control/api/msk/clear','/control/api/vdl2/clear','/control/api/sonde/clear'):self.respond(404,{'error':'Neznámá akce.'});return
+        if self.path not in ('/control/api/adsb/feeders','/control/api/adsb/config','/control/api/station','/control/api/layout','/control/api/iss-auto/config','/control/api/meteo/config','/control/api/service','/control/api/eme/config','/control/api/eme/clear','/control/api/weak/clear','/control/api/ft/clear','/control/api/msk/clear','/control/api/vdl2/clear','/control/api/sonde/clear'):self.respond(404,{'error':'Neznámá akce.'});return
         origin=self.headers.get('Origin')
         host=self.headers.get('Host','')
         if (origin and urlsplit(origin).netloc!=host) or self.headers.get('Sec-Fetch-Site')=='cross-site' or not secrets.compare_digest(self.headers.get('X-Control-Token',''),TOKEN):
@@ -321,6 +344,15 @@ class Handler(BaseHTTPRequestHandler):
             length=int(self.headers.get('Content-Length','0'))
             if not 0<length<=4096:raise ValueError()
             payload=json.loads(self.rfile.read(length))
+            if self.path=='/control/api/adsb/feeders':
+                if not LOCK.acquire(blocking=False):self.respond(409,{'error':'Probíhá jiná změna'});return
+                try:
+                    if not isinstance(payload,dict):raise ValueError('Neplatné nastavení')
+                    self.respond(200,feeder_request({**payload,'action':'save'}))
+                except ValueError as error:self.respond(400,{'error':str(error)})
+                except subprocess.TimeoutExpired:self.respond(503,{'error':'Změna nedokončena; obnovte stav'})
+                finally:LOCK.release()
+                return
             if self.path=='/control/api/adsb/config':
                 config=adsb_worker.validate_config(payload)
                 if not LOCK.acquire(blocking=False):self.respond(409,{'error':'Probíhá jiná změna'});return

@@ -4,7 +4,7 @@ Webové řídicí centrum pro Raspberry Pi a RTL-SDR. Sdružuje OpenWebRX,
 samostatné rádiové dekodéry, historii zpráv, mapy a automatický příjem při
 přeletech družic nebo vhodné elevaci Měsíce. Projekt je určený **pouze pro příjem**.
 
-Záloha stanice OK2IKT, Lichnov, stav k 17. 10. 2026. Jde o existující projekt
+Záloha stanice OK2IKT, Lichnov, stav k 18. 10. 2026. Jde o existující projekt
 pro Debian 13 arm64 s OpenWebRX+, nikoli o obraz celé SD karty ani univerzální
 instalační balíček pro libovolný systém.
 
@@ -20,7 +20,7 @@ instalační balíček pro libovolný systém.
 | ISM | rtl_433 pro 433,92 nebo 868 MHz, měření čidel a historie |
 | Radiosondy | Dekódování podporovaných sond, telemetrie a mapa |
 | VDL2 | Letecké datové zprávy a mapa dostupných poloh |
-| ADS-B | Místní příjem 1090 MHz, mapa, přehled letadel a RF statistiky |
+| ADS-B | Místní příjem 1090 MHz, mapa tar1090, volitelné sdílení ADSBexchange a Flightradar24 |
 | ISS receiving | SSTV VHF/UHF, hlas, AFSK 1200 packet, Doppler a předpověď přeletů |
 | Meteosatelity | Meteor LRPT, plánování přeletů a galerie dekódovaných snímků |
 

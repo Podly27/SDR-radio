@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Local dump1090-fa integration. No network feeds or RF transmissions."""
+"""Local dump1090-fa integration. Loopback Beast output for network feeders; no RF transmissions."""
 import datetime,json,math,os,signal,sqlite3,subprocess,time
 from pathlib import Path
 from contextlib import closing
@@ -52,6 +52,7 @@ def connect():
 def command(c,config=None):
  config=load_config() if config is None else validate_config(config)
  cmd=['/usr/bin/dump1090-fa','--device-type','rtlsdr','--device',c['device'],'--gain',str(c['gain'] if config['gain'] is None else config['gain']),'--ppm',str(c['ppm']),'--freq','1090000000','--quiet','--write-json',str(RUN),'--write-json-every','1','--json-location-accuracy','2','--json-stats-every','5','--fix']
+ cmd+=['--net','--net-bind-address','127.0.0.1','--net-bo-port','30005','--net-bi-port','0','--net-ri-port','0','--net-ro-port','0','--net-sbs-port','0']
  if config['gain_mode']=='adaptive':cmd+=['--adaptive-range','--adaptive-min-gain','20.7','--adaptive-max-gain','49.6','--adaptive-duty-cycle','20']
  if c['latitude'] is not None:cmd+=['--lat',str(c['latitude']),'--lon',str(c['longitude'])]
  return cmd

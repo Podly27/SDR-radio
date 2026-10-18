@@ -93,3 +93,63 @@ monitor cleanly. Native RSS was about 312 MiB and CPU about 59% of one core duri
 the noise/no-lock test. Production image count remained zero and ISM was restored.
 Automatic monitoring was separately started with ISM active and waited without
 taking the SDR. These tests do not prove weak-signal performance during a pass.
+
+## Diagnostika přeletů a oprava dokončovací fáze (18. 10. 2026)
+
+Živý profil SatDump 1.2.2 `meteor_m2-x_lrpt` zpracovává demodulaci a CADU,
+ale bez dalšího kroku nevytváří produkty MSU-MR. Pracovní proces nyní
+zachová neprázdné CADU a předá je do `meteo-process/`. Jednotka
+`radio-meteo-process.path` spouští samostatný přijímačům nekonfliktní
+`radio-meteo-process.service`, který offline vytvoří obrázky a importuje je
+do galerie. SDR se mezitím může vrátit původní aplikaci.
+
+Pro tři vyžádané přelety 18. 10. je v `meteo-diagnostic-plan.json` časově
+omezený plán. Používá stejný mechanismus vlastnictví SDR jako normální Meteor:
+probíhající jiný automatický příjem nepřeruší a ruční volby respektuje.
+Místo trvalého živého dekódování se během těchto oken pořídí nejvýše devět
+12sekundových úseků na přelet, se středem 137,5 MHz a 2,048 MS/s, takže
+zahrnují současně 137,1 i 137,9 MHz. Zisky 29,7 / 40,2 / 49,6 dB se střídají;
+proto je nutné při porovnání zohlednit různou polohu družice.
+Každý záznam se frekvenčně posune, filtruje a převzorkuje na 256 kS/s pro
+porovnání 72k a 80k nativním SatDump. Vzniká PSD a orientační poměr výkonu
+v kanálu vůči okolí; není to kalibrované SNR ani potvrzení LRPT.
+
+Pořízené originály a podrobné výsledky jsou v `/var/lib/radio-center/meteo-diagnostics/`
+a `meteo-reports/`. Souhrn `meteo-diagnostic-summary.json` se zobrazuje v aplikaci.
+Při rezervě menší než 2 GiB se další záznamy nepořizují. Originály se automaticky
+nesmažou; plán po posledním okně vyprší a další přelety použijí běžný živý příjem.
+Frekvence/režim se mohou automaticky změnit pouze na základě skutečně vytvořených
+obrázků a jen pokud uživatel mezitím nezměnil původní profil. Globální zisk se
+samotným experimentem nemění.
+
+Nasazení bez přerušení ostatních přijímačů:
+`sudo bash radio-center/deploy-meteo-diagnostics.sh`. Skript odmítne nasazení
+během aktivního příjmu Meteoru. Plán konkrétní noci není součástí výchozí instalace.
+
+Ověření před reálným přeletem: 60 Python testů,
+syntetický šum nevytvořil rámce ani obrázky; známý kontrolní CADU vytvořil tři
+obrázky. Syntetický OQPSK soubor vytvořený z kontrolních CADU prošel
+demodulací/Viterbi/RS a vytvořil 100 rámců a tři obrázky. Tyto laboratorní testy jsou
+v odděleném adresáři a nejsou skutečným příjmem družice.
+
+Kontrolní data: https://github.com/ktauchathuranga/lrpt-encoder ,
+`meteor_m2-x_lrpt.cadu` SHA256
+`9748bd4446f48aabfe3cb50a19a68b835fa8e0f3f85248870d7d400698b97482`.
+Oficiální chování živé fáze:
+https://github.com/SatDump/SatDump/blob/1.2.2/src-cli/live.cpp .
+
+### Skutečný příjem obnoven při následné analýze 18. 10.
+
+Z reálného IQ při 137,9 MHz se změnou PLL z 0,002 na 0,008 podařilo
+obnovit 38 CADU a tři částečné obrázky MSU-MR (1568 × 32). Stejný
+signál po našem převzorkování poskytl 36 CADU a tři proužky; převzorkování
+tedy signál nezničilo. OQPSK a NRZ-M jsou potvrzené obnovenými daty.
+Společná konstanta `meteo_common.LRPT_PLL_BW=0.008` se používá pro 72k
+živý příjem i offline processing. Parametry 80k nebyly touto změnou upravené.
+Celý následující živý přelet s novým nastavením zatím ověřený není.
+Detaily a grafy jsou v `analysis/meteor-20261018/` pracovního projektu.
+
+Po dokončení replay devíti záznamů se ziskem 49,6 dB: celkem 59 CADU a
+šest skutečných proužků ze dvou přeletů (38 + 21 rámců). Uložené originály
+zůstávají zachované, příjem dalšího celého přeletu s PLL 0,008 je nutné
+ověřit samostatně.

@@ -32,7 +32,7 @@ class MeteoTest(unittest.TestCase):
  def test_config_and_native_arguments(self):
   for key,value in [('satellite',[]),('frequency',144800000),('symbolrate',12345),('gain',None),('minimum_elevation',float('nan'))]:
    with self.assertRaises(ValueError):c.validate(dict(c.DEFAULT,**{key:value}))
-  cmd=command(c.DEFAULT,Path('/tmp/out'),60);self.assertIn('meteor_m2-x_lrpt',cmd);self.assertIn('--ppm_correction',cmd);self.assertEqual(cmd[cmd.index('--ppm_correction')+1],'-7');self.assertIn('M2-4',cmd)
+  cmd=command(c.DEFAULT,Path('/tmp/out'),60);self.assertIn('meteor_m2-x_lrpt',cmd);self.assertIn('--ppm_correction',cmd);self.assertEqual(cmd[cmd.index('--ppm_correction')+1],'-7');self.assertIn('M2-4',cmd);self.assertEqual(cmd[cmd.index('--pll_bw')+1],'0.008')
  def test_image_import_and_empty_capture(self):
   with tempfile.TemporaryDirectory() as td,patch.object(c,'DATA',Path(td)):
    out=Path(td,'capture');(out/'MSU-MR').mkdir(parents=True)

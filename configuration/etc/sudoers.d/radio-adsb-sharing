@@ -1,0 +1,1 @@
+radio-center ALL=(root) NOPASSWD: /usr/bin/python3 /opt/radio-center/feeder_control.py

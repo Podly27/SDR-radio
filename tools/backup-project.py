@@ -21,7 +21,7 @@ CONFIGS = ('station.json', 'dashboard-layout.json', 'eme-config.json',
            'ism-tuning.json', 'ft-tuning.json', 'msk-tuning.json', 'sonde-tuning.json')
 SECRET_KEYS = {'magic_key', 'receiver_keys', 'receiver_admin', 'google_maps_api_key',
                'openweathermap_api_key', 'password', 'passwd', 'token', 'secret',
-               'api_key', 'access_token', 'private_key'}
+               'api_key', 'access_token', 'private_key', 'fr24key'}
 
 def clean(value):
     if isinstance(value, dict):
@@ -81,15 +81,28 @@ def main():
         if source.is_file() and not source.is_symlink():
             copy_file(source, config/'etc/systemd/system'/source.name)
     for source in (Path('/etc/nginx/sites-available/openwebrx'),
-                   Path('/etc/sudoers.d/radio-center')):
+                   Path('/etc/nginx/snippets/radio-adsbx.conf'),
+                   Path('/etc/sudoers.d/radio-center'),
+                   Path('/etc/sudoers.d/radio-adsb-sharing')):
         if source.exists():
             copy_file(source, config/source.relative_to('/'))
+    # Public feeder export is an allowlist: never copy sharing keys or UUIDs.
+    import re
+    feeders = {}
+    for name, filename, allowed in (
+        ('fr24', '/etc/fr24feed.ini', {'receiver', 'host', 'bs', 'raw', 'mlat', 'mlat-without-gps', 'bind-interface'}),
+        ('adsbx', '/etc/default/adsbexchange', {'INPUT', 'LATITUDE', 'LONGITUDE', 'ALTITUDE', 'USER', 'PRIVACY'})):
+        path = Path(filename)
+        if path.exists():
+            fields = dict(re.findall(r'^([\w-]+)\s*=\s*"?([^"\n]*)"?\s*$', path.read_text(), re.M))
+            feeders[name] = {k: v for k, v in fields.items() if k in allowed}
+    json_file(config/'feeders.json', feeders)
     inventory = public/'inventory'
     inventory.mkdir(exist_ok=True)
     (inventory/'packages.tsv').write_text(output(['dpkg-query', '-W',
         '-f=${binary:Package}\t${Version}\t${Architecture}\t${db:Status-Abbrev}\n']))
     (inventory/'radio-services.json').write_text(output(['systemctl', 'list-unit-files',
-        'radio-*', 'openwebrx.service', '--output=json']))
+        'radio-*', 'openwebrx.service', 'adsbexchange-*', 'fr24feed.service', 'tar1090*', '--output=json']))
     json_file(inventory/'system.json', {'captured_utc': stamp,
         'architecture': output(['dpkg', '--print-architecture']).strip(),
         'kernel': output(['uname', '-srmo']).strip(),
@@ -98,7 +111,7 @@ def main():
                  if Path('/proc/device-tree/model').exists() else None})
     # Private archive: live SQLite backup API includes committed WAL data and
     # does not stop receivers. Raw state is for diagnosis, not automatic restore.
-    with tempfile.TemporaryDirectory(prefix='radio-private-') as temporary:
+    with tempfile.TemporaryDirectory(prefix='.radio-private-', dir=private) as temporary:
         staging = Path(temporary)
         for base in ('/var/lib/radio-center', '/var/lib/openwebrx'):
             source = Path(base)
@@ -106,7 +119,7 @@ def main():
             if source.exists():
                 shutil.copytree(source, target, ignore=shutil.ignore_patterns(
                     '*.sqlite', '*.sqlite-wal', '*.sqlite-shm', '*.lock',
-                    'meteo-work', 'meteo-native-check'))
+                    'meteo-work', 'meteo-native-check', '*.cu8', '*.uc8', '*.iq', '*.cs16', '*.cadu', '*.soft'))
                 for db in source.glob('*.sqlite'):
                     origin = sqlite3.connect('file:'+str(db)+'?mode=ro', uri=True, timeout=10)
                     destination = sqlite3.connect(target/db.name)
@@ -118,7 +131,9 @@ def main():
                         destination.close()
                         origin.close()
         for base in ('/opt/radio-center', '/etc/openwebrx', '/etc/nginx',
-                     '/etc/udev/rules.d', '/etc/modprobe.d', '/etc/apt/sources.list.d'):
+                     '/etc/udev/rules.d', '/etc/modprobe.d', '/etc/apt/sources.list.d',
+                     '/usr/local/share/adsbexchange', '/usr/local/share/adsbexchange-stats',
+                     '/usr/local/share/tar1090'):
             source = Path(base)
             if source.exists():
                 shutil.copytree(source, staging/source.relative_to('/'), symlinks=True,
@@ -127,6 +142,20 @@ def main():
             if source.is_file() and not source.is_symlink():
                 copy_file(source, staging/source.relative_to('/'))
         copy_file(Path('/etc/sudoers.d/radio-center'), staging/'etc/sudoers.d/radio-center')
+        for filename in ('/etc/fr24feed.ini', '/etc/default/adsbexchange',
+                         '/etc/default/adsbexchange-stats', '/etc/default/tar1090-adsbx',
+                         '/etc/sudoers.d/radio-adsb-sharing'):
+            path = Path(filename)
+            if path.exists():
+                copy_file(path, staging/path.relative_to('/'))
+        for directory in ('/etc/systemd/system', '/usr/lib/systemd/system'):
+            for pattern in ('adsbexchange-*', 'fr24feed*', 'tar1090*'):
+                for path in Path(directory).glob(pattern):
+                    target = staging/path.relative_to('/')
+                    if path.is_dir():
+                        shutil.copytree(path, target, dirs_exist_ok=True, symlinks=True)
+                    elif path.is_file() and not path.is_symlink():
+                        copy_file(path, target)
         archive = private/('radio-center-private-'+stamp+'.tar.gz')
         with tarfile.open(archive, 'w:gz') as tar:
             for entry in staging.iterdir():

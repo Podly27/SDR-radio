@@ -1,6 +1,6 @@
 # Ověření a známá omezení
 
-Záloha zachycuje existující projekt k 17. 10. 2026. Testy používají oddělené
+Záloha zachycuje existující projekt k 18. 10. 2026. Testy používají oddělené
 dočasné databáze; syntetické zprávy se nevkládají do produkční historie.
 Výsledek testů v tomto exportu je v `inventory/validation.txt`.
 
@@ -32,3 +32,12 @@ Výsledek testů v tomto exportu je v `inventory/validation.txt`.
   předpovědi potřebují čerstvá TLE a digitální režimy synchronizovaný čas.
 - Obnova zatím nebyla provedena na nové čisté SD kartě. Dokumentace uvádí
   předpoklady a odděluje opakované nasazení od plného bootstrapu OS.
+
+## Aktualizace ADS-B 18. 10. 2026
+
+Nasazena místní mapa tar1090, odesílání ADSBexchange a FR24 a přehled
+`/control/adsb/sharing/`. API filtruje klíč FR24 a vrací pouze jeho přítomnost;
+změny používají omezený root helper s pevnými službami. Spojení obou feederů
+bylo ověřeno. MLAT ADSBexchange používá potvrzené globální souřadnice a výšku
+380 m; samotný aktivní proces nepotvrzuje synchronizaci s dalšími přijímači.
+Instalátor statistik je připravený; skutečné nainstalování ověř v inventáři.

@@ -1,0 +1,20 @@
+[Unit]
+Description=Meteor offline products and diagnostic IQ replay (no SDR)
+
+[Service]
+Type=oneshot
+User=radio-center
+Group=radio-center
+WorkingDirectory=/opt/radio-center
+ExecStart=/usr/bin/python3 /opt/radio-center/meteo_processing.py
+Environment=PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1
+ProtectSystem=strict
+ReadWritePaths=/var/lib/radio-center
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+NoNewPrivileges=true
+Nice=15
+CPUQuota=100%
+MemoryMax=400M
+TimeoutStartSec=3h

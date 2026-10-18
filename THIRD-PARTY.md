@@ -14,6 +14,9 @@ vložených komponent.
 | dxlAPRS / LoRa | https://github.com/oe5hpm/dxlAPRS |
 | SatDump | https://github.com/SatDump/SatDump |
 | dump1090-fa | https://github.com/flightaware/dump1090 |
+| ADSBexchange feed client | https://github.com/ADSBexchange/feedclient |
+| Flightradar24 feeder (instalovaný proprietární klient) | https://www.flightradar24.com/share-your-data/ |
+| tar1090 (instalované místní rozhraní ADSBexchange) | https://github.com/wiedehopf/tar1090 |
 | dumpvdl2 | https://github.com/szpajder/dumpvdl2 |
 | Dekodéry radiosond | https://github.com/rs1729/RS |
 | pycsdr | https://github.com/luarvique/pycsdr |

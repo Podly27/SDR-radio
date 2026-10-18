@@ -1,13 +1,13 @@
 {
   "order": [
     "openwebrx",
-    "ft",
+    "adsb",
     "weak",
     "meteo",
     "iss",
+    "ft",
     "msk",
     "ism",
-    "adsb",
     "sonde",
     "aprs",
     "vdl2",

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Receive ISS SSTV, AFSK packet or voice; native DSP, no transmitting path."""
-import collections,json,os,selectors,signal,struct,subprocess,time
+import collections,json,os,selectors,signal,struct,subprocess,time,shutil
 from pathlib import Path
 import numpy as np
 import aprs_worker
@@ -20,7 +20,12 @@ class AudioWindow:
 def packet_command(config):
  return ['/usr/bin/stdbuf','-oL','-eL','/usr/bin/direwolf','-c',str(config),'-r','24000','-n','1','-b','16','-t','0','-']
 def main():
- DATA.mkdir(parents=True,exist_ok=True);RUN.mkdir(parents=True,exist_ok=True);c=settings.load_config();p=settings.PROFILES[c['profile']];frames=Frames(frequency=c['frequency']);decoder=None;packet=None;db=None;radio=None;dsp=None;stopping=False;count=0;last=None;logs=collections.deque(maxlen=15);audio_rms=None;tuning=settings.tuning(c);buffers={};raw_pending=b'';last_state=0;last_tuning=0;last_cleanup=time.monotonic();window=AudioWindow()
+ DATA.mkdir(parents=True,exist_ok=True);RUN.mkdir(parents=True,exist_ok=True);c=settings.load_config();p=settings.PROFILES[c['profile']];frames=Frames(frequency=c['frequency']);decoder=None;packet=None;db=None;radio=None;dsp=None;stopping=False;count=0;last=None;logs=collections.deque(maxlen=15);audio_rms=None;tuning=settings.tuning(c);buffers={};raw_pending=b'';last_state=0;last_tuning=0;last_cleanup=time.monotonic();window=AudioWindow();iq_record=None;record_until=0
+ try:
+  plan=json.loads((DATA/'iss-diagnostic-plan.json').read_text());record_until=float(plan['expires'])
+  if time.time()<record_until<time.time()+1800 and p['kind']=='packet' and shutil.disk_usage(DATA).free>1024**3:
+   folder=DATA/'iss-diagnostics'/time.strftime('%Y%m%dT%H%M%SZ',time.gmtime());folder.mkdir(parents=True,exist_ok=True);iq_record=(folder/'iq.cu8').open('wb');(folder/'metadata.json').write_text(json.dumps({'started':time.time(),'config':c,'samplerate':RATE,'gain':SDR_GAIN,'ppm':SDR_PPM,'device':SDR_DEVICE}))
+ except (OSError,ValueError,KeyError,TypeError):pass
  def stop(*_):
   nonlocal stopping
   stopping=True
@@ -37,7 +42,10 @@ def main():
     audio_rms=float(np.sqrt(np.mean(np.frombuffer(pcm,dtype='<i2').astype(np.float32)**2)));window.feed(pcm)
     if decoder:decoder.feed(pcm)
     if packet:
-     remaining=memoryview(pcm)
+     # Dire Wolf reported level 150 on real ISS audio; /3 gives level 50
+     # while preserving the same valid AX.25 frame in replay.
+     packet_pcm=(np.frombuffer(pcm,dtype='<i2').astype(np.float32)/3).astype('<i2').tobytes()
+     remaining=memoryview(packet_pcm)
      while remaining:
       size=packet.stdin.write(remaining)
       if not size:raise RuntimeError('Packet audio input ended')
@@ -54,6 +62,9 @@ def main():
      if stopping:break
      raise RuntimeError('ISS receiver stream ended')
     if key.fileobj is radio.stdout:
+     if iq_record:
+      if time.time()<record_until and iq_record.tell()<RATE*2*600:iq_record.write(chunk)
+      else:iq_record.close();iq_record=None
      raw_pending+=chunk;n=len(raw_pending)//2*2
      if n:dsp.feed(raw_pending[:n]);raw_pending=raw_pending[n:]
     else:
@@ -74,6 +85,7 @@ def main():
     state['logs']=list(logs)+list(frames.logs);atomic(DATA,state);last_state=time.monotonic()
  except Exception as exc:logs.append(str(exc));raise
  finally:
+  if iq_record:iq_record.close()
   if radio and radio.poll() is None:
    radio.terminate()
    try:radio.wait(timeout=3)
